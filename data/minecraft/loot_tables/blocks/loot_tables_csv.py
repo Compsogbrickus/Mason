@@ -21,15 +21,13 @@ with open(path.join(dir, "loot_tables_extracted.csv"), "w") as loot_tables_csv:
         with open(loot_table) as loaded_loot_table:
             current_loot_table = json.load(loaded_loot_table)
             base_block, json_ext = path.splitext(path.basename(loot_table))
-            block = "special"
-            count = ""
+            block, count = "special", ""
             
             if len(current_loot_table.get("pools", [])) == 1:   
                 loot_table_entries = current_loot_table["pools"][0]["entries"]
 
                 if len(loot_table_entries) == 0:
                     block = ""
-                    count = ""
                 elif len(loot_table_entries) == 1:
                     if loot_table_entries[0]["type"] == "minecraft:alternatives":
                         loot_table_entries_children = loot_table_entries[0]["children"]

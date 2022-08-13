@@ -1,4 +1,19 @@
-def blocks_empty ():
+def item_explosion(type_entry, conditions_entry):
+    block = "special"
+    count = ""
+
+    if (type_entry["type"] == "minecraft:item") and (conditions_entry.get("conditions") == [{"condition": "minecraft:survives_explosion"}]):
+        block = type_entry["name"].split(":")[1]
+        function = type_entry.get("functions", "other")
+
+        if function != "other":
+            count = function[0].get("count", "special")
+        else:
+            count = 1
+    return (block, count)
+
+
+def blocks_empty():
 
     structure = {
         "type": "minecraft:block",
@@ -13,7 +28,8 @@ def blocks_empty ():
 
     return (structure)
 
-def blocks (base_block, block, count):
+
+def blocks(base_block, block, count):
 
     structure = {
         "type": "minecraft:block",
@@ -46,7 +62,7 @@ def blocks (base_block, block, count):
                                 "functions": [
                                     {
                                         "function": "minecraft:set_count",
-                                                    "count": 1
+                                        "count": 1
                                     }
                                 ]
                             },
@@ -61,7 +77,7 @@ def blocks (base_block, block, count):
                                 "functions": [
                                     {
                                         "function": "minecraft:set_count",
-                                                    "count": count
+                                        "count": count
                                     }
                                 ]
                             }

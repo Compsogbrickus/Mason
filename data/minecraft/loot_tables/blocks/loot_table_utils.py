@@ -1,6 +1,3 @@
-from ctypes import Structure
-from itertools import count
-
 
 def item_explosion(type_entry, conditions_entry):
     block = "special"

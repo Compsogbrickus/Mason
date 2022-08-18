@@ -107,3 +107,4 @@ advancement revoke @s only minecraft:recipes/building_blocks/waxed_weathered_cut
 advancement revoke @s only minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting
 advancement revoke @s only minecraft:recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_stonecutting
 advancement revoke @s only minecraft:recipes/building_blocks/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting
+advancement revoke @s only minecraft:recipes/building_blocks/quartz_slab_from_stonecutting

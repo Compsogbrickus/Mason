@@ -1,12 +1,25 @@
-def stonecutting(base_block, block, count):
+def advancement_void():
+
+    structure = {
+        "criteria": {
+            "impossible": {
+                "trigger": "minecraft:impossible"
+            }
+        }
+    }
+
+    return (structure)
+
+
+def stonecutting(output_block, output_count, input_block):
 
     structure = {
         "type": "minecraft:stonecutting",
-        "count": count,
+        "count": output_count,
         "ingredient": {
-            "item": "minecraft:" + base_block
+            "item": "minecraft:" + input_block
         },
-        "result": "minecraft:" + block
+        "result": "minecraft:" + output_block
     }
 
     return (structure)

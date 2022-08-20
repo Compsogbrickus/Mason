@@ -20,7 +20,7 @@ with open(path.join(dir, "loot_tables_extracted.csv"), "w") as loot_tables_csv:
     for loot_table in loot_tables_folder:
         with open(loot_table) as loaded_loot_table:
             current_loot_table = json.load(loaded_loot_table)
-            base_block, json_ext = path.splitext(path.basename(loot_table))
+            base_block = path.splitext(path.basename(loot_table))[0]
             block, count = "special", ""
             
             if len(current_loot_table.get("pools", [])) == 1:   

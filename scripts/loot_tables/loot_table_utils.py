@@ -1,19 +1,4 @@
 
-def item_explosion(type_entry, conditions_entry):
-    block = "special"
-    count = ""
-
-    if (type_entry["type"] == "minecraft:item") and (conditions_entry.get("conditions") == [{"condition": "minecraft:survives_explosion"}]):
-        block = type_entry["name"].split(":")[1]
-        function = type_entry.get("functions", "other")
-
-        if function != "other":
-            count = function[0].get("count", "special")
-        else:
-            count = 1
-    return (block, count)
-
-
 def blocks_void():
 
     structure = {

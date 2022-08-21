@@ -136,18 +136,18 @@ with open(path.join(source_recipes_dir, name + ".csv"), "w") as csv:
     csv_writer = writer(csv)
     csv_writer.writerow(header)
 
-    # for sub_item in Path(vanilla_advancements_dir).glob("*"):
-    #     if path.isdir(sub_item):
-    #         for advancement in Path(sub_item).glob("*.json"):
-    #             with open(advancement) as loaded_advancement:
-    #                 advancement_to_csv(csv_writer, advancement)
+    for sub_item in Path(vanilla_advancements_dir).glob("*"):
+        if path.isdir(sub_item):
+            for advancement in Path(sub_item).glob("*.json"):
+                with open(advancement) as loaded_advancement:
+                    advancement_to_csv(csv_writer, advancement)
 
     for recipe in Path(vanilla_recipes_dir).glob("*.json"):
         with open(recipe) as loaded_recipe:
             recipe_to_csv(csv_writer, path.splitext(
                 path.basename(recipe))[0], loaded_recipe, "vanilla")
 
-    # for recipe in Path(custom_recipes_dir).glob("*.json"):
-    #     with open(recipe) as loaded_recipe:
-    #         recipe_to_csv(csv_writer, path.splitext(
-    #             path.basename(recipe))[0], loaded_recipe, "custom")
+    for recipe in Path(custom_recipes_dir).glob("*.json"):
+        with open(recipe) as loaded_recipe:
+            recipe_to_csv(csv_writer, path.splitext(
+                path.basename(recipe))[0], loaded_recipe, "custom")

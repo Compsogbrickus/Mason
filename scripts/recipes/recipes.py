@@ -81,7 +81,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
             
             if collection == "vanilla":
                 recipes_dir = vanilla_recipes_dir
-                advancement_structure = recipe_utils.child_advancement_void("minecraft:recipes/root")
+                advancement_structure = recipe_utils.advancement_impossible_child_recipe("minecraft:recipes/root", "minecraft:" + filename)
 
                 if subdir == "":    
                     advancements_dir = vanilla_advancements_dir
@@ -100,7 +100,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
             elif collection == "custom":
                 recipes_dir = custom_recipes_dir
                 advancements_dir = custom_advancements_dir
-                advancement_structure = recipe_utils.child_advancement_void("simple_blocks:recipes/root")
+                advancement_structure = recipe_utils.advancement_impossible_child_recipe("simple_blocks:recipes/root", "simple_blocks:" + filename)
             else:
                 print("Skipping recipe with output item " + output_item + ".")
                 continue

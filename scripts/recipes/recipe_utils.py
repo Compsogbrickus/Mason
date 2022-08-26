@@ -55,7 +55,7 @@ def advancement_void():
     return (structure)
 
 
-def child_advancement_void(parent):
+def advancement_impossible_child_recipe(parent, recipe):
 
     structure = {
         "parent": parent,
@@ -63,6 +63,11 @@ def child_advancement_void(parent):
             "impossible": {
                 "trigger": "minecraft:impossible"
             }
+        },
+        "rewards": {
+            "recipes": [
+                recipe
+            ]
         }
     }
 

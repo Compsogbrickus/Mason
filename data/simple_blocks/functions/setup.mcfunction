@@ -1,5 +1,6 @@
 gamerule doLimitedCrafting true
 advancement grant @s from minecraft:recipes/root
+advancement grant @s from simple_blocks:recipes/root
 advancement revoke @s only minecraft:recipes/building_blocks/acacia_slab
 advancement revoke @s only minecraft:recipes/building_blocks/andesite_slab
 advancement revoke @s only minecraft:recipes/building_blocks/birch_slab
@@ -49,13 +50,9 @@ advancement revoke @s only minecraft:recipes/building_blocks/stone_brick_slab
 advancement revoke @s only minecraft:recipes/building_blocks/stone_slab
 advancement revoke @s only minecraft:recipes/building_blocks/warped_slab
 advancement revoke @s only minecraft:recipes/building_blocks/waxed_cut_copper_slab
-advancement revoke @s only minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb
 advancement revoke @s only minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab
-advancement revoke @s only minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab_from_honeycomb
 advancement revoke @s only minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab
-advancement revoke @s only minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_honeycomb
 advancement revoke @s only minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab
-advancement revoke @s only minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab_from_honeycomb
 advancement revoke @s only minecraft:recipes/building_blocks/weathered_cut_copper_slab
 advancement revoke @s only minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting
 advancement revoke @s only minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting

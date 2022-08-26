@@ -55,6 +55,20 @@ def advancement_void():
     return (structure)
 
 
+def child_advancement_void(parent):
+
+    structure = {
+        "parent": parent,
+        "criteria": {
+            "impossible": {
+                "trigger": "minecraft:impossible"
+            }
+        }
+    }
+
+    return (structure)
+
+
 def spacing_check(pattern):
 
     entered_pattern = pattern

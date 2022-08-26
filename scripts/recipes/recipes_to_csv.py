@@ -16,14 +16,15 @@ source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
 vanilla_advancements_dir = path.join(
     simple_blocks_dir, "data/minecraft/advancements/recipes")
 
-header = ["Type", "Collection", "Station", "Group", "Experience",
+header = ["Type", "Collection", "Station", "Group", "Subdirectory", "Experience",
           "Cooking Time (Ticks)", "Output Item", "Output Count", "Input", "Input", "Input", "Input", "Input", "Input", "Input", "Input", "Input"]
 
 
-def advancement_to_csv(csv_writer, advancement):
-    advancement_name = path.basename(advancement)
+def advancement_to_csv(csv_writer, advancement_name, loaded_advancement):
+    if json.load(loaded_advancement) != recipe_utils.advancement_void():
+        return
 
-    group = path.basename(advancement.parent.absolute())
+    subdir = path.basename(advancement.parent.absolute())
     output_item = re.sub(
         "(_from.*)|(_smithing.*)|(\.json)", "", advancement_name)
 
@@ -49,8 +50,8 @@ def advancement_to_csv(csv_writer, advancement):
         print("Skipped void advancement with name " + advancement_name)
         return
 
-    csv_writer.writerow(["void", "vanilla", station,
-                        group, "", "", output_item])
+    csv_writer.writerow(["void", "vanilla", station, "",
+                        subdir, "", "", output_item])
     return
 
 
@@ -127,7 +128,7 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe, collection):
         print("Skipped recipe with name " + recipe_name)
         return
 
-    csv_writer.writerow(["normal", collection, station, group,
+    csv_writer.writerow(["normal", collection, station, group, "",
                         experience, cooking_time, output_item, output_count] + inputs)
     return
 
@@ -140,7 +141,8 @@ with open(path.join(source_recipes_dir, name + ".csv"), "w") as csv:
         if path.isdir(sub_item):
             for advancement in Path(sub_item).glob("*.json"):
                 with open(advancement) as loaded_advancement:
-                    advancement_to_csv(csv_writer, advancement)
+                    advancement_to_csv(csv_writer, path.basename(
+                        advancement), loaded_advancement)
 
     for recipe in Path(vanilla_recipes_dir).glob("*.json"):
         with open(recipe) as loaded_recipe:

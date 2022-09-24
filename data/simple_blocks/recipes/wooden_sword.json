@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O  ",
+        "O  ",
+        "M  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_sword",
+        "count": 1
+    }
+}

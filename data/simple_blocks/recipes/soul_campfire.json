@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " P ",
+        "PMP",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:logs"
+        },
+        "M": {
+            "tag": "minecraft:soul_fire_base_blocks"
+        },
+        "P": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_campfire",
+        "count": 1
+    }
+}

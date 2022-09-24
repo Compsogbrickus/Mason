@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OMO",
+        "O O",
+        "O O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:bamboo"
+        },
+        "M": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:scaffolding",
+        "count": 6
+    }
+}

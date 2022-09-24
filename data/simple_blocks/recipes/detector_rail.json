@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O O",
+        "OPO",
+        "OMO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "minecraft:redstone"
+        },
+        "P": {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    "result": {
+        "item": "minecraft:detector_rail",
+        "count": 6
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "simple_blocks:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:smooth_quartz_slab_from_smooth_quartz_stonecutting"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "MPM",
+        "PPP"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:book"
+        },
+        "M": {
+            "item": "minecraft:diamond"
+        },
+        "P": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanting_table",
+        "count": 1
+    }
+}

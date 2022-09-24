@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "MMM",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "O": {
+            "item": "minecraft:glass"
+        },
+        "M": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:daylight_detector",
+        "count": 1
+    }
+}

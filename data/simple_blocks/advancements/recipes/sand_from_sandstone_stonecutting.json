@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:sand_from_sandstone_stonecutting"
+        ]
     }
 }

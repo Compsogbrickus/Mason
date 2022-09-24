@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O O",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "item": "minecraft:flower_pot",
+        "count": 1
+    }
+}

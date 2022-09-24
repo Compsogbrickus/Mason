@@ -1,0 +1,13 @@
+{
+    "parent": "simple_blocks:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:polished_andesite_slab_from_andesite_stonecutting"
+        ]
+    }
+}

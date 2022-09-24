@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:andesite"
+        }
+    },
+    "result": {
+        "item": "minecraft:andesite_wall",
+        "count": 6
+    }
+}

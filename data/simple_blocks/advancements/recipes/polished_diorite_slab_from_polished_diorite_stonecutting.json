@@ -1,0 +1,13 @@
+{
+    "parent": "simple_blocks:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:polished_diorite_slab_from_polished_diorite_stonecutting"
+        ]
+    }
+}

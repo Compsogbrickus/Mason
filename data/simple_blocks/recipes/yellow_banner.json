@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "banner",
+    "pattern": [
+        "MMM",
+        "MMM",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        },
+        "M": {
+            "item": "minecraft:yellow_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:yellow_banner",
+        "count": 1
+    }
+}

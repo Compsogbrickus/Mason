@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MOM",
+        "   "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "M": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "item": "minecraft:cookie",
+        "count": 8
+    }
+}

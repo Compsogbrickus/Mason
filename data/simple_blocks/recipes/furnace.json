@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "O O",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:stone_crafting_materials"
+        }
+    },
+    "result": {
+        "item": "minecraft:furnace",
+        "count": 1
+    }
+}

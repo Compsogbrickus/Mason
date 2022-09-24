@@ -1,0 +1,13 @@
+{
+    "parent": "simple_blocks:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:green_glazed_terracotta_from_smelting"
+        ]
+    }
+}

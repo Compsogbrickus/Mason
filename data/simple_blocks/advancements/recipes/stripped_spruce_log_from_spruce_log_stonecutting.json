@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:stripped_spruce_log_from_spruce_log_stonecutting"
+        ]
     }
 }

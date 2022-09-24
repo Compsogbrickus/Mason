@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OCO",
+        "COC",
+        "OCO"
+    ],
+    "key": {
+        "C": [
+            {
+                "item": "minecraft:sand"
+            },
+            {
+                "item": "minecraft:red_sand"
+            }
+        ],
+        "O": {
+            "item": "minecraft:gunpowder"
+        }
+    },
+    "result": {
+        "item": "minecraft:tnt",
+        "count": 1
+    }
+}

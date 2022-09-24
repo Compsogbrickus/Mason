@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OMO",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:logs"
+        },
+        "M": {
+            "item": "minecraft:furnace"
+        }
+    },
+    "result": {
+        "item": "minecraft:smoker",
+        "count": 1
+    }
+}

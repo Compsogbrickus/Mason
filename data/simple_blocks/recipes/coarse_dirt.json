@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OM ",
+        "MO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:dirt"
+        },
+        "M": {
+            "item": "minecraft:gravel"
+        }
+    },
+    "result": {
+        "item": "minecraft:coarse_dirt",
+        "count": 4
+    }
+}

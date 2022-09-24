@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        " M ",
+        " M "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:gold_ingot"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_pickaxe",
+        "count": 1
+    }
+}

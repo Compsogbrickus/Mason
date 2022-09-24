@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OMO",
+        "O O",
+        "OMO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "M": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "item": "minecraft:barrel",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "O O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "minecraft:leather_helmet",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO ",
+        "OO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:prismarine_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:prismarine",
+        "count": 1
+    }
+}

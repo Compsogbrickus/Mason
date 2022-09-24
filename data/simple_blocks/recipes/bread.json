@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "   "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "item": "minecraft:bread",
+        "count": 1
+    }
+}

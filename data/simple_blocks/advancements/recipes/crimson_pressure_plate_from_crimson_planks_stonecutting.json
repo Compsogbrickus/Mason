@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:crimson_pressure_plate_from_crimson_planks_stonecutting"
+        ]
     }
 }

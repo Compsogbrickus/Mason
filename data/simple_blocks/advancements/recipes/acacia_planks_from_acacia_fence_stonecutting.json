@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:acacia_planks_from_acacia_fence_stonecutting"
+        ]
     }
 }

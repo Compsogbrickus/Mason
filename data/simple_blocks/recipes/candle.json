@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "M  ",
+        "O  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:honeycomb"
+        },
+        "M": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:candle",
+        "count": 1
+    }
+}

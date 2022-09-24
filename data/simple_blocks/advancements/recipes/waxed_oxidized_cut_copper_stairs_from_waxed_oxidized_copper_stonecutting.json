@@ -1,0 +1,13 @@
+{
+    "parent": "simple_blocks:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_copper_stonecutting"
+        ]
+    }
+}

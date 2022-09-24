@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "MOM",
+        " M "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:arrow"
+        },
+        "M": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:spectral_arrow",
+        "count": 2
+    }
+}

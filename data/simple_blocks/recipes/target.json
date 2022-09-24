@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "MOM",
+        " M "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:hay_block"
+        },
+        "M": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:target",
+        "count": 1
+    }
+}

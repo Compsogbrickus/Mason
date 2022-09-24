@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MPM",
+        "O O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:grindstone",
+        "count": 1
+    }
+}

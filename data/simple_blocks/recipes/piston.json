@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "OMO",
+        "OPO"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:cobblestone"
+        },
+        "M": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:piston",
+        "count": 1
+    }
+}

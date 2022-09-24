@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO ",
+        "   "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:polished_blackstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:polished_blackstone_pressure_plate",
+        "count": 1
+    }
+}

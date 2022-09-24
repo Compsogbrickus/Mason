@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO ",
+        "OO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:rabbit_hide"
+        }
+    },
+    "result": {
+        "item": "minecraft:leather",
+        "count": 1
+    }
+}

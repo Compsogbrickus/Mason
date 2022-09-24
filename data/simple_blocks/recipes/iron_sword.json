@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O  ",
+        "O  ",
+        "M  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_sword",
+        "count": 1
+    }
+}

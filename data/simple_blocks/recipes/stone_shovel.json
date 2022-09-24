@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O  ",
+        "M  ",
+        "M  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:stone_tool_materials"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_shovel",
+        "count": 1
+    }
+}

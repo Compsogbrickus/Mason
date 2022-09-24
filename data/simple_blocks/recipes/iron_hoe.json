@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO ",
+        " M ",
+        " M "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_hoe",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "O O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:scute"
+        }
+    },
+    "result": {
+        "item": "minecraft:turtle_helmet",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O O",
+        "OOO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_chestplate",
+        "count": 1
+    }
+}

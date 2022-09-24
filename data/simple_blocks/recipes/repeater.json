@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MOM",
+        "PPP"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:redstone"
+        },
+        "M": {
+            "item": "minecraft:redstone_torch"
+        },
+        "P": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:repeater",
+        "count": 1
+    }
+}

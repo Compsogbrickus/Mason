@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MM ",
+        "OO ",
+        "OO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "M": {
+            "item": "minecraft:flint"
+        }
+    },
+    "result": {
+        "item": "minecraft:fletching_table",
+        "count": 1
+    }
+}

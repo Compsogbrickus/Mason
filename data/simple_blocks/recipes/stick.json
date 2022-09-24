@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "pattern": [
+        "O  ",
+        "O  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": [
+            {
+                "tag": "minecraft:planks"
+            },
+            {
+                "item": "minecraft:bamboo"
+            }
+        ]
+    },
+    "result": {
+        "item": "minecraft:stick",
+        "count": 4
+    }
+}

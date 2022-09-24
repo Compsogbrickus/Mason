@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stained_glass",
+    "pattern": [
+        "CCC",
+        "COC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:glass"
+        },
+        "O": {
+            "item": "minecraft:magenta_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:magenta_stained_glass",
+        "count": 8
+    }
+}

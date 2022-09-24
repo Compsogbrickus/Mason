@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OM ",
+        "MO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:cobblestone"
+        },
+        "M": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:diorite",
+        "count": 2
+    }
+}

@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:red_nether_brick_wall_from_netherrack_stonecutting"
+        ]
     }
 }

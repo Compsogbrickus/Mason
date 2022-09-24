@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " OM",
+        "O M",
+        " OM"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        },
+        "M": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:bow",
+        "count": 1
+    }
+}

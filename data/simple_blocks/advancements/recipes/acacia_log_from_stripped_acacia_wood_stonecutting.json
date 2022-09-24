@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:acacia_log_from_stripped_acacia_wood_stonecutting"
+        ]
     }
 }

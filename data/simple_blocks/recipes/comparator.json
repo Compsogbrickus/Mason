@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "MOM",
+        "PPP"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:quartz"
+        },
+        "M": {
+            "item": "minecraft:redstone_torch"
+        },
+        "P": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator",
+        "count": 1
+    }
+}

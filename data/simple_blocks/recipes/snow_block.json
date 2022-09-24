@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO ",
+        "OO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:snowball"
+        }
+    },
+    "result": {
+        "item": "minecraft:snow_block",
+        "count": 1
+    }
+}

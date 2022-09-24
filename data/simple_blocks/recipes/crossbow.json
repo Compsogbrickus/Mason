@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MOM",
+        "PSP",
+        " M "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "minecraft:string"
+        },
+        "S": {
+            "item": "minecraft:tripwire_hook"
+        }
+    },
+    "result": {
+        "item": "minecraft:crossbow",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stained_terracotta",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:green_dye"
+        },
+        "O": {
+            "item": "minecraft:terracotta"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_terracotta",
+        "count": 8
+    }
+}

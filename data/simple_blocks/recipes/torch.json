@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O  ",
+        "M  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": [
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:charcoal"
+            }
+        ],
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:torch",
+        "count": 4
+    }
+}

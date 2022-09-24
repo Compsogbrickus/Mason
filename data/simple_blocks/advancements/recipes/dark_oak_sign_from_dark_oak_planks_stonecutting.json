@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:dark_oak_sign_from_dark_oak_planks_stonecutting"
+        ]
     }
 }

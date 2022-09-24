@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:dark_prismarine_stairs_from_prismarine_stonecutting"
+        ]
     }
 }

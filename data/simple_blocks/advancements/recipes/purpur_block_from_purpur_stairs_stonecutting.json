@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:purpur_block_from_purpur_stairs_stonecutting"
+        ]
     }
 }

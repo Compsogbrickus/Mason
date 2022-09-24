@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "item": "minecraft:lapis_block",
+        "count": 1
+    }
+}

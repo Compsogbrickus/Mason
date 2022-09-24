@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:blasting_clear",
+    "group": "redstone",
+    "ingredient": [
+        {
+            "item": "minecraft:deepslate_redstone_ore"
+        }
+    ],
+    "result": "minecraft:redstone",
+    "experience": "0.7",
+    "cookingtime": "100"
+}

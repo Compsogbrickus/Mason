@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:blasting_clear",
+    "group": "diamond",
+    "ingredient": [
+        {
+            "item": "minecraft:deepslate_diamond_ore"
+        }
+    ],
+    "result": "minecraft:diamond",
+    "experience": "1",
+    "cookingtime": "100"
+}

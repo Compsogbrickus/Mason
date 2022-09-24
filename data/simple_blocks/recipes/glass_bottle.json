@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O O",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:glass_bottle",
+        "count": 3
+    }
+}

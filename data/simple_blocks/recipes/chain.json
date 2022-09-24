@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "M  ",
+        "O  ",
+        "M  "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:chain",
+        "count": 1
+    }
+}

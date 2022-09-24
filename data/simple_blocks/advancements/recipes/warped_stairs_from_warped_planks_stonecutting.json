@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:warped_stairs_from_warped_planks_stonecutting"
+        ]
     }
 }

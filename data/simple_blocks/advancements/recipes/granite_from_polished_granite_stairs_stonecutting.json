@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:granite_from_polished_granite_stairs_stonecutting"
+        ]
     }
 }

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:stone_crafting_materials"
+        },
+        "M": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:brewing_stand",
+        "count": 1
+    }
+}

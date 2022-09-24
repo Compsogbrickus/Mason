@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MM ",
+        "OO "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "M": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:loom",
+        "count": 1
+    }
+}

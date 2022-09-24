@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  O",
+        " OM",
+        "O M"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        },
+        "M": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:fishing_rod",
+        "count": 1
+    }
+}

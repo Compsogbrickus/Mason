@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:spruce_fence_gate_from_spruce_planks_stonecutting"
+        ]
     }
 }

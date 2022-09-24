@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:blasting_clear",
+    "group": "gold_ingot",
+    "ingredient": [
+        {
+            "item": "minecraft:nether_gold_ore"
+        }
+    ],
+    "result": "minecraft:gold_ingot",
+    "experience": "1",
+    "cookingtime": "100"
+}

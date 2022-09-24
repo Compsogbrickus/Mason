@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "O O",
+        "OMO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:cobblestone"
+        },
+        "M": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:dropper",
+        "count": 1
+    }
+}

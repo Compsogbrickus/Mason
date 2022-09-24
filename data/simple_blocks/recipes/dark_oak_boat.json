@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "boat",
+    "pattern": [
+        "O O",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "item": "minecraft:dark_oak_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_oak_boat",
+        "count": 1
+    }
+}

@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:warped_stem_from_warped_hyphae_stonecutting"
+        ]
     }
 }

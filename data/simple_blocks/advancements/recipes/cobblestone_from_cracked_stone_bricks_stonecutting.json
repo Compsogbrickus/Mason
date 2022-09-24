@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:cobblestone_from_cracked_stone_bricks_stonecutting"
+        ]
     }
 }

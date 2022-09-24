@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bed",
+    "pattern": [
+        "MMM",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "M": {
+            "item": "minecraft:white_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_bed",
+        "count": 1
+    }
+}

@@ -4,5 +4,10 @@
         "impossible": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "recipes": [
+            "simple_blocks:jungle_button_from_jungle_planks_stonecutting"
+        ]
     }
 }

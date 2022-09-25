@@ -30,7 +30,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
         station = row[2]
         group = row[3]
         subdir = row[4]
-        experience = row[5]
+        experience = float(row[5])
         cooking_time = row[6]
         output_item = row[7]
         output_count = row[8]
@@ -63,13 +63,13 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
                 recipe_structure = recipe_utils.cooking(station, group, experience, cooking_time, output_item, row[9:]) if type == "normal" else ""
                 filename = output_item + "_from_blasting"
             elif station == "blasting_clear":
-                recipe_structure = recipe_utils.cooking(station, group, experience, cooking_time, output_item, row[9:]) if type == "normal" else ""
+                recipe_structure = recipe_utils.cooking("blasting", group, experience, cooking_time, output_item, row[9:]) if type == "normal" else ""
                 filename = output_item + "_from_blasting_" + input_1
             elif station == "smelting":
                 recipe_structure = recipe_utils.cooking(station, group, experience, cooking_time, output_item, row[9:]) if type == "normal" else ""
                 filename = output_item + "_from_smelting"
             elif station == "smelting_clear":
-                recipe_structure = recipe_utils.cooking(station, group, experience, cooking_time, output_item, row[9:]) if type == "normal" else ""
+                recipe_structure = recipe_utils.cooking("smelting", group, experience, cooking_time, output_item, row[9:]) if type == "normal" else ""
                 filename = output_item + "_from_smelting_" + input_1
             else:
                 print("Skipping recipe with output item " + output_item + ".")

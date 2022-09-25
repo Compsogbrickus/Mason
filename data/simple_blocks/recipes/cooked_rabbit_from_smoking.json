@@ -6,6 +6,6 @@
         }
     ],
     "result": "minecraft:cooked_rabbit",
-    "experience": "0.35",
-    "cookingtime": "100"
+    "experience": 0.35,
+    "cookingtime": 100.0
 }

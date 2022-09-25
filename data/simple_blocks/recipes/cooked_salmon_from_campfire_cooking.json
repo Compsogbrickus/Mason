@@ -6,6 +6,6 @@
         }
     ],
     "result": "minecraft:cooked_salmon",
-    "experience": "0.35",
-    "cookingtime": "600"
+    "experience": 0.35,
+    "cookingtime": 600.0
 }

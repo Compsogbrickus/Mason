@@ -6,6 +6,6 @@
         }
     ],
     "result": "minecraft:sponge",
-    "experience": "0.15",
-    "cookingtime": "200"
+    "experience": 0.15,
+    "cookingtime": 200.0
 }

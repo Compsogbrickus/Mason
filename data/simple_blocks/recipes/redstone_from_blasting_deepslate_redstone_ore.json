@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:blasting_clear",
+    "type": "minecraft:blasting",
     "group": "redstone",
     "ingredient": [
         {
@@ -7,6 +7,6 @@
         }
     ],
     "result": "minecraft:redstone",
-    "experience": "0.7",
-    "cookingtime": "100"
+    "experience": 0.7,
+    "cookingtime": 100.0
 }

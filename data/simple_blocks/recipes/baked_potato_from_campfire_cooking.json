@@ -6,6 +6,6 @@
         }
     ],
     "result": "minecraft:baked_potato",
-    "experience": "0.35",
-    "cookingtime": "600"
+    "experience": 0.35,
+    "cookingtime": 600.0
 }

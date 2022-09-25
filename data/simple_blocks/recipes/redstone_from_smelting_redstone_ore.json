@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:smelting_clear",
+    "type": "minecraft:smelting",
     "group": "redstone",
     "ingredient": [
         {
@@ -7,6 +7,6 @@
         }
     ],
     "result": "minecraft:redstone",
-    "experience": "0.7",
-    "cookingtime": "200"
+    "experience": 0.7,
+    "cookingtime": 200.0
 }

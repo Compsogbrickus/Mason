@@ -30,13 +30,17 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
         station = row[2]
         group = row[3]
         subdir = row[4]
-        experience = float(row[5])
-        cooking_time = float(row[6])
+        experience = row[5]
+        cooking_time = row[6]
         output_item = row[7]
-        output_count = int(row[8])
+        output_count = row[8]
         input_1, input_2, input_3 = row[9], row[10], row[11]
         input_4, input_5, input_6 = row[12], row[13], row[14]
         input_7, input_8, input_9 = row[15], row[16], row[17]
+
+        experience = 0 if experience == "" else float(experience)
+        cooking_time = 0 if cooking_time == "" else float(cooking_time)
+        output_count = 0 if output_count == "" else int(output_count)
 
         if type == "custom":
             continue

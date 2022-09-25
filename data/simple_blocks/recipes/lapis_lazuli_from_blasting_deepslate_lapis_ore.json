@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:blasting_clear",
+    "type": "minecraft:blasting",
     "group": "lapis_lazuli",
     "ingredient": [
         {
@@ -7,6 +7,6 @@
         }
     ],
     "result": "minecraft:lapis_lazuli",
-    "experience": "0.2",
-    "cookingtime": "100"
+    "experience": 0.2,
+    "cookingtime": 100.0
 }

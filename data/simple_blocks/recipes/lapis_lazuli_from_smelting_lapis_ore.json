@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:smelting_clear",
+    "type": "minecraft:smelting",
     "group": "lapis_lazuli",
     "ingredient": [
         {
@@ -7,6 +7,6 @@
         }
     ],
     "result": "minecraft:lapis_lazuli",
-    "experience": "0.2",
-    "cookingtime": "200"
+    "experience": 0.2,
+    "cookingtime": 200.0
 }

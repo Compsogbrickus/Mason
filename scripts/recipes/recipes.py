@@ -9,11 +9,8 @@ script = Path(__file__)
 name, ext = path.splitext(path.basename(script))
 
 simple_blocks_dir = script.parents[2].absolute()
-vanilla_recipes_dir = path.join(simple_blocks_dir, "data/minecraft/recipes")
 custom_recipes_dir = path.join(simple_blocks_dir, "data/simple_blocks/recipes")
 source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
-vanilla_advancements_dir = path.join(
-    simple_blocks_dir, "data/minecraft/advancements/recipes")
 custom_advancements_dir = path.join(
     simple_blocks_dir, "data/simple_blocks/advancements/recipes")
 functions_dir = path.join(simple_blocks_dir, "data/simple_blocks/functions")
@@ -25,7 +22,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
 
     with open(path.join(functions_dir, "setup.mcfunction"), "w") as setup_function:
         setup_function.write(
-            "gamerule doLimitedCrafting true\nadvancement grant @s from minecraft:recipes/root\nadvancement grant @s from simple_blocks:recipes/root")
+            "gamerule doLimitedCrafting true\nadvancement grant @s from simple_blocks:recipes/root")
 
     for row in csv_reader:
         type = row[0]
@@ -43,7 +40,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
 
         if type == "custom":
             continue
-        elif type == "void" or type == "normal":
+        elif type == "normal":
             if station == "crafting_shaped":
                 recipe_structure = recipe_utils.crafting_shaped(group, output_item, int(output_count), [input_1, input_2, input_3, input_4, input_5, input_6, input_7, input_8, input_9]) if type == "normal" else ""
                 filename = output_item
@@ -79,25 +76,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
                 continue
 
             
-            if collection == "vanilla":
-                recipes_dir = vanilla_recipes_dir
-                advancement_structure = recipe_utils.advancement_impossible_child_recipe("minecraft:recipes/root", "minecraft:" + filename)
-
-                if subdir == "":    
-                    advancements_dir = vanilla_advancements_dir
-
-                    if type == "void":
-                        advancement_structure = recipe_utils.advancement_void()
-                        with open(path.join(functions_dir, "setup.mcfunction"), "a") as setup_function:
-                            setup_function.write("\nadvancement revoke @s only minecraft:recipes/" + filename)
-                else:
-                    advancements_dir = path.join(vanilla_advancements_dir, subdir)
-
-                    if type == "void":
-                        advancement_structure = recipe_utils.advancement_void()
-                        with open(path.join(functions_dir, "setup.mcfunction"), "a") as setup_function:
-                            setup_function.write("\nadvancement revoke @s only minecraft:recipes/" + subdir + "/" + filename)
-            elif collection == "custom":
+            if collection == "custom":
                 recipes_dir = custom_recipes_dir
                 advancements_dir = custom_advancements_dir
                 advancement_structure = recipe_utils.advancement_impossible_child_recipe("simple_blocks:recipes/root", "simple_blocks:" + filename)
@@ -105,10 +84,9 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
                 print("Skipping recipe with output item " + output_item + ".")
                 continue
                 
-            if type == "normal":
-                with open(path.join(recipes_dir, filename + ".json"), "w") as file_out:
-                    file_out.write(json.dumps(recipe_structure, indent=4))
-            
+            with open(path.join(recipes_dir, filename + ".json"), "w") as file_out:
+                file_out.write(json.dumps(recipe_structure, indent=4))
+        
             with open(path.join(advancements_dir, filename + ".json"), "w") as file_out:
                     file_out.write(json.dumps(advancement_structure, indent=4))
         else:

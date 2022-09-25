@@ -1,15 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O O",
-        "OOO",
-        "O O"
+        "C C",
+        "CCC",
+        "C C"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:leather"
         }
     },

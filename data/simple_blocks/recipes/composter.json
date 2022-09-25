@@ -1,15 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O O",
-        "O O",
-        "OOO"
+        "C C",
+        "C C",
+        "CCC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:wooden_slabs"
         }
     },

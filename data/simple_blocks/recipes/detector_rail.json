@@ -1,21 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O O",
-        "OPO",
-        "OMO"
+        "C C",
+        "CMC",
+        "COC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:iron_ingot"
         },
-        "M": {
+        "O": {
             "item": "minecraft:redstone"
         },
-        "P": {
+        "M": {
             "item": "minecraft:stone_pressure_plate"
         }
     },

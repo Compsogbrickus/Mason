@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " O ",
-        "OMO",
-        " O "
+        " C ",
+        "COC",
+        " C "
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:amethyst_shard"
         },
-        "M": {
+        "O": {
             "item": "minecraft:glass"
         }
     },

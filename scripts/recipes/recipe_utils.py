@@ -1,6 +1,7 @@
 import ast
 import re
 
+import unicodedata
 
 def get_item(to_check):
     item_or_tag = to_check.get("item", "tag")
@@ -76,7 +77,7 @@ def advancement_impossible_child_recipe(parent, recipe):
 
 def spacing_check(pattern):
 
-    entered_pattern = pattern
+    entered_pattern = pattern.copy()
 
     height = len(pattern)
     width = len(pattern[0])
@@ -97,7 +98,7 @@ def spacing_check(pattern):
             all_spaces_W = False
     if all_spaces_E == True:
         for index in range(height):
-            pattern[index] = pattern[index][:width]
+            pattern[index] = pattern[index][:width-1]
         width -= 1
     if all_spaces_W == True:
         for index in range(height):
@@ -113,7 +114,7 @@ def spacing_check(pattern):
 def crafting_shaped(group, output_item, output_count, input_items):
 
     keys = ["C", "O", "M", "P", "S", "G", "B", "R", "K"]
-    values = sorted(set(input_items))
+    values = list(filter(lambda x: x != "", sorted(set(input_items))))
 
     for slot in range(len(input_items)):
         if input_items[slot] == "":

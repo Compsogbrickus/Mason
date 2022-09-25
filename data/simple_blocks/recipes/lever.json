@@ -1,17 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "M  ",
-        "O  "
+        "O",
+        "C"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:cobblestone"
         },
-        "M": {
+        "O": {
             "item": "minecraft:stick"
         }
     },

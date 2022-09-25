@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "M M",
-        "MOM",
-        " M "
+        "O O",
+        "OCO",
+        " O "
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:chest"
         },
-        "M": {
+        "O": {
             "item": "minecraft:iron_ingot"
         }
     },

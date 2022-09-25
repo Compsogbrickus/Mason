@@ -1,15 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O  ",
-        "OO ",
-        "OOO"
+        "C  ",
+        "CC ",
+        "CCC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:andesite"
         }
     },

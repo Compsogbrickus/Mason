@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "OMO",
-        "O O",
-        "OMO"
+        "COC",
+        "C C",
+        "COC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:planks"
         },
-        "M": {
+        "O": {
             "tag": "minecraft:wooden_slabs"
         }
     },

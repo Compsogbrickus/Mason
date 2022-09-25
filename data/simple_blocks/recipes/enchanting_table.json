@@ -1,21 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " O ",
-        "MPM",
-        "PPP"
+        " C ",
+        "OMO",
+        "MMM"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:book"
         },
-        "M": {
+        "O": {
             "item": "minecraft:diamond"
         },
-        "P": {
+        "M": {
             "item": "minecraft:obsidian"
         }
     },

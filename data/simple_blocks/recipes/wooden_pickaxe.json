@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "OOO",
-        " M ",
-        " M "
+        "CCC",
+        " O ",
+        " O "
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:planks"
         },
-        "M": {
+        "O": {
             "item": "minecraft:stick"
         }
     },

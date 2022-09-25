@@ -1,17 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O  ",
-        "M  "
+        "C",
+        "O"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:blaze_rod"
         },
-        "M": {
+        "O": {
             "item": "minecraft:popped_chorus_fruit"
         }
     },

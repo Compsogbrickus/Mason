@@ -1,24 +1,21 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "MOM",
-        "PSP",
-        " M "
+        "OCO",
+        "MPM",
+        " O "
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:iron_ingot"
         },
-        "M": {
+        "O": {
             "item": "minecraft:stick"
         },
-        "P": {
+        "M": {
             "item": "minecraft:string"
         },
-        "S": {
+        "P": {
             "item": "minecraft:tripwire_hook"
         }
     },

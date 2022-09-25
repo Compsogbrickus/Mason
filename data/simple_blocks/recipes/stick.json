@@ -2,14 +2,11 @@
     "type": "minecraft:crafting_shaped",
     "group": "sticks",
     "pattern": [
-        "O  ",
-        "O  "
+        "C",
+        "C"
     ],
     "key": {
-        "C": {
-            "item": "minecraft:"
-        },
-        "O": [
+        "C": [
             {
                 "tag": "minecraft:planks"
             },

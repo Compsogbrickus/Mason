@@ -1,17 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "MOM",
-        "   "
+        "OCO"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:cocoa_beans"
         },
-        "M": {
+        "O": {
             "item": "minecraft:wheat"
         }
     },

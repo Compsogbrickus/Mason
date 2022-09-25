@@ -1,14 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O  ",
-        "M  "
+        "C",
+        "O"
     ],
     "key": {
-        "C": {
-            "item": "minecraft:"
-        },
-        "O": [
+        "C": [
             {
                 "item": "minecraft:coal"
             },
@@ -16,7 +13,7 @@
                 "item": "minecraft:charcoal"
             }
         ],
-        "M": {
+        "O": {
             "item": "minecraft:stick"
         }
     },

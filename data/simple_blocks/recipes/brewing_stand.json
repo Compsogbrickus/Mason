@@ -1,17 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " M ",
-        "OOO"
+        " O ",
+        "CCC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:stone_crafting_materials"
         },
-        "M": {
+        "O": {
             "item": "minecraft:blaze_rod"
         }
     },

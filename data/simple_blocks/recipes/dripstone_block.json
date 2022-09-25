@@ -2,14 +2,11 @@
     "type": "minecraft:crafting_shaped",
     "group": "pointed_dripstone",
     "pattern": [
-        "OO ",
-        "OO "
+        "CC",
+        "CC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:pointed_dripstone"
         }
     },

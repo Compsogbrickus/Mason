@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " OM",
-        "O M",
-        " OM"
+        " CO",
+        "C O",
+        " CO"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:stick"
         },
-        "M": {
+        "O": {
             "item": "minecraft:string"
         }
     },

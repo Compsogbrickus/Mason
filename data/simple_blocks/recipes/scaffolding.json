@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "OMO",
-        "O O",
-        "O O"
+        "COC",
+        "C C",
+        "C C"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:bamboo"
         },
-        "M": {
+        "O": {
             "item": "minecraft:string"
         }
     },

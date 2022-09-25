@@ -2,18 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "group": "banner",
     "pattern": [
-        "MMM",
-        "MMM",
-        " O "
+        "OOO",
+        "OOO",
+        " C "
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:stick"
         },
-        "M": {
+        "O": {
             "item": "minecraft:white_wool"
         }
     },

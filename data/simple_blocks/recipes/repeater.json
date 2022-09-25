@@ -1,20 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "MOM",
-        "PPP"
+        "OCO",
+        "MMM"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:redstone"
         },
-        "M": {
+        "O": {
             "item": "minecraft:redstone_torch"
         },
-        "P": {
+        "M": {
             "item": "minecraft:stone"
         }
     },

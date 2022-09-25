@@ -1,21 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " P ",
-        "PMP",
-        "OOO"
+        " M ",
+        "MOM",
+        "CCC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:logs"
         },
-        "M": {
+        "O": {
             "tag": "minecraft:soul_fire_base_blocks"
         },
-        "P": {
+        "M": {
             "item": "minecraft:stick"
         }
     },

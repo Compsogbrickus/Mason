@@ -1,21 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "M  ",
-        "P  ",
-        "O  "
+        "O",
+        "M",
+        "C"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:feather"
         },
-        "M": {
+        "O": {
             "item": "minecraft:flint"
         },
-        "P": {
+        "M": {
             "item": "minecraft:stick"
         }
     },

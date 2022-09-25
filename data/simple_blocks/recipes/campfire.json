@@ -1,21 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " P ",
-        "POP",
-        "MMM"
+        " M ",
+        "MCM",
+        "OOO"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:coals"
         },
-        "M": {
+        "O": {
             "tag": "minecraft:logs"
         },
-        "P": {
+        "M": {
             "item": "minecraft:stick"
         }
     },

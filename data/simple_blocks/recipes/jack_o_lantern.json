@@ -1,17 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "O  ",
-        "M  "
+        "C",
+        "O"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:carved_pumpkin"
         },
-        "M": {
+        "O": {
             "item": "minecraft:torch"
         }
     },

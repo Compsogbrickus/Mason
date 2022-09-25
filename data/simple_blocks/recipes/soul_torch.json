@@ -1,18 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "M  ",
-        "P  ",
-        "O  "
+        "O",
+        "M",
+        "C"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "tag": "minecraft:soul_fire_base_blocks"
         },
-        "M": [
+        "O": [
             {
                 "item": "minecraft:coal"
             },
@@ -20,7 +17,7 @@
                 "item": "minecraft:charcoal"
             }
         ],
-        "P": {
+        "M": {
             "item": "minecraft:stick"
         }
     },

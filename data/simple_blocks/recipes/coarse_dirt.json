@@ -1,17 +1,14 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "OM ",
-        "MO "
+        "CO",
+        "OC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:dirt"
         },
-        "M": {
+        "O": {
             "item": "minecraft:gravel"
         }
     },

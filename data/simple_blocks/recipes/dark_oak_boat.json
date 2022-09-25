@@ -2,14 +2,11 @@
     "type": "minecraft:crafting_shaped",
     "group": "boat",
     "pattern": [
-        "O O",
-        "OOO"
+        "C C",
+        "CCC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:"
-        },
-        "O": {
             "item": "minecraft:dark_oak_planks"
         }
     },

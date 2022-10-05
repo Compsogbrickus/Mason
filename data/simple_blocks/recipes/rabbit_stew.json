@@ -14,9 +14,14 @@
         {
             "item": "minecraft:carrot"
         },
-        {
-            "item": "minecraft:red_mushroom"
-        }
+        [
+            {
+                "item": "minecraft:red_mushroom"
+            },
+            {
+                "item": "minecraft:brown_mushroom"
+            }
+        ]
     ],
     "result": {
         "item": "minecraft:rabbit_stew",

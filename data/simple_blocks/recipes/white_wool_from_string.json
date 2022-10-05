@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC",
+        "CC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_wool",
+        "count": 1
+    }
+}

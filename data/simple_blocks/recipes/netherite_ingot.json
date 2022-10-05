@@ -3,11 +3,32 @@
     "group": "netherite_ingot",
     "ingredients": [
         {
-            "item": "minecraft:netherite_block"
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
         }
     ],
     "result": {
         "item": "minecraft:netherite_ingot",
-        "count": 9
+        "count": 1
     }
 }

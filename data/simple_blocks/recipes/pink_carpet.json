@@ -2,20 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "group": "carpet",
     "pattern": [
-        "OOO",
-        "OCO",
-        "OOO"
+        "CC"
     ],
     "key": {
         "C": {
-            "item": "minecraft:pink_dye"
-        },
-        "O": {
-            "item": "minecraft:white_carpet"
+            "item": "minecraft:pink_wool"
         }
     },
     "result": {
         "item": "minecraft:pink_carpet",
-        "count": 8
+        "count": 2
     }
 }

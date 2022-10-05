@@ -1,14 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "group": "dyed_bed",
-    "ingredients": [
-        {
-            "item": "minecraft:white_bed"
-        },
-        {
-            "item": "minecraft:black_dye"
-        }
+    "type": "minecraft:crafting_shaped",
+    "group": "bed",
+    "pattern": [
+        "OOO",
+        "CCC"
     ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:black_wool"
+        }
+    },
     "result": {
         "item": "minecraft:black_bed",
         "count": 1

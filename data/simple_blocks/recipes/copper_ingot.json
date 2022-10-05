@@ -3,7 +3,7 @@
     "group": "copper_ingot",
     "ingredients": [
         {
-            "item": "minecraft:waxed_copper_block"
+            "item": "minecraft:copper_block"
         }
     ],
     "result": {

@@ -3,11 +3,11 @@
     "group": "bonemeal",
     "ingredients": [
         {
-            "item": "minecraft:bone_block"
+            "item": "minecraft:bone"
         }
     ],
     "result": {
         "item": "minecraft:bone_meal",
-        "count": 9
+        "count": 3
     }
 }

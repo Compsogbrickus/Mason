@@ -1,7 +1,6 @@
 import ast
 import re
 
-import unicodedata
 
 def get_item(to_check):
     item_or_tag = to_check.get("item", "tag")

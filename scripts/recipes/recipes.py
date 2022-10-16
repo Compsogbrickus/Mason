@@ -22,7 +22,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
 
     with open(path.join(functions_dir, "setup.mcfunction"), "w") as setup_function:
         setup_function.write(
-            "gamerule doLimitedCrafting true\nadvancement grant @s from simple_blocks:recipes/root")
+            "advancement grant @s from simple_blocks:recipes/root")
 
     for row in csv_reader:
         name = row[0]

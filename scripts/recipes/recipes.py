@@ -81,8 +81,8 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
                 "smelting", group, experience, cooking_time, output, row[7:])
             filename = output + "_from_smelting_" + input_1
         else:
-            print("Skipping recipe with output item " + output + ".")
-            continue
+            recipe_structure = None
+            print("Adding recipe with no type " + name)
 
         if name != "":
             filename = name
@@ -92,8 +92,9 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
         advancement_structure = recipe_utils.advancement_impossible_child_recipe(
             "simple_blocks:recipes/root", "simple_blocks:" + filename)
 
-        with open(path.join(recipes_dir, filename + ".json"), "w") as file_out:
-            file_out.write(json.dumps(recipe_structure, indent=4))
+        if recipe_structure is not None:
+            with open(path.join(recipes_dir, filename + ".json"), "w") as file_out:
+                file_out.write(json.dumps(recipe_structure, indent=4))
 
         with open(path.join(advancements_dir, filename + ".json"), "w") as file_out:
             file_out.write(json.dumps(advancement_structure, indent=4))

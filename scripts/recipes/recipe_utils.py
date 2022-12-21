@@ -110,7 +110,7 @@ def spacing_check(pattern):
     return (pattern)
 
 
-def crafting_shaped(group, output_item, output_count, input_items):
+def crafting_shaped(output_item, output_count, input_items):
 
     keys = ["C", "O", "M", "P", "S", "G", "B", "R", "K"]
     values = list(filter(lambda x: x != "", sorted(set(input_items))))
@@ -139,126 +139,72 @@ def crafting_shaped(group, output_item, output_count, input_items):
 
     key_dict = dict(key_list)
 
-    if group == "":
-        structure = {
-            "type": "minecraft:crafting_shaped",
-            "pattern": pattern_rows,
-            "key": key_dict,
-            "result": {
+    structure = {
+        "type": "minecraft:crafting_shaped",
+        "pattern": pattern_rows,
+        "key": key_dict,
+        "result": {
                 "item": "minecraft:" + output_item,
                 "count": output_count
-            }
         }
-    else:
-        structure = {
-            "type": "minecraft:crafting_shaped",
-            "group": group,
-            "pattern": pattern_rows,
-            "key": key_dict,
-            "result": {
-                "item": "minecraft:" + output_item,
-                "count": output_count
-            }
-        }
-
+    }
+    
     return (structure)
 
 
-def crafting_shapeless(group, output_item, output_count, input_items):
+def crafting_shapeless(output_item, output_count, input_items):
 
     input_items = list(filter(None, input_items))
 
-    if group == "":
-        structure = {
-            "type": "minecraft:crafting_shapeless",
-            "ingredients": list(expand_item(input_items)),
-            "result": {
-                "item": "minecraft:" + output_item,
-                "count": output_count
-            }
+    structure = {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": list(expand_item(input_items)),
+        "result": {
+            "item": "minecraft:" + output_item,
+            "count": output_count
         }
-    else:
-        structure = {
-            "type": "minecraft:crafting_shapeless",
-            "group": group,
-            "ingredients": list(expand_item(input_items)),
-            "result": {
-                "item": "minecraft:" + output_item,
-                "count": output_count
-            }
-        }
+    }
 
     return (structure)
 
 
-def stonecutting(group, output_item, output_count, input_item):
+def stonecutting(output_item, output_count, input_item):
 
-    if group == "":
-        structure = {
-            "type": "minecraft:stonecutting",
-            "count": output_count,
-            "ingredient": expand_item(input_item),
-            "result": "minecraft:" + output_item
-        }
-    else:
-        structure = {
-            "type": "minecraft:stonecutting",
-            "group": group,
-            "count": output_count,
-            "ingredient": expand_item(input_item),
-            "result": "minecraft:" + output_item
-        }
+    structure = {
+        "type": "minecraft:stonecutting",
+        "count": output_count,
+        "ingredient": expand_item(input_item),
+        "result": "minecraft:" + output_item
+    }
 
     return (structure)
 
 
-def smithing(group, result, result_count, base, addition):
+def smithing(result, result_count, base, addition):
 
-    if group == "":
-        structure = {
-            "type": "minecraft:smithing",
-            "base": expand_item(base),
-            "addition": expand_item(addition),
-            "result": {
-                "item": "minecraft:" + result,
-                "count": result_count
-            }
+    structure = {
+        "type": "minecraft:smithing",
+        "base": expand_item(base),
+        "addition": expand_item(addition),
+        "result": {
+            "item": "minecraft:" + result,
+            "count": result_count
         }
-    else:
-        structure = {
-            "type": "minecraft:smithing",
-            "group": group,
-            "base": expand_item(base),
-            "addition": expand_item(addition),
-            "result": {
-                "item": "minecraft:" + result,
-                "count": result_count
-            }
-        }
-
+    }
+    
     return (structure)
 
 
-def cooking(station, group, experience, cooking_time, output_item, input_items):
+def cooking(station, experience, cooking_time, output_item, input_items):
 
     input_items = list(filter(None, input_items))
 
-    if group == "":
-        structure = {
-            "type": "minecraft:" + station,
-            "ingredient": expand_item(input_items),
-            "result": "minecraft:" + output_item,
-            "experience": experience,
-            "cookingtime": cooking_time
-        }
-    else:
-        structure = {
-            "type": "minecraft:" + station,
-            "group": group,
-            "ingredient": expand_item(input_items),
-            "result": "minecraft:" + output_item,
-            "experience": experience,
-            "cookingtime": cooking_time
-        }
+    structure = {
+        "type": "minecraft:" + station,
+        "ingredient": expand_item(input_items),
+        "result": "minecraft:" + output_item,
+        "experience": experience,
+        "cookingtime": cooking_time
+    }
 
     return (structure)

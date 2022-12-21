@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "planks",
     "ingredients": [
         {
             "tag": "minecraft:jungle_logs"
@@ -9,5 +8,6 @@
     "result": {
         "item": "minecraft:jungle_planks",
         "count": 4
-    }
+    },
+    "group": "planks"
 }

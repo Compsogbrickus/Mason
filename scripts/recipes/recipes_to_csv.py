@@ -14,7 +14,7 @@ vanilla_recipes_dir = path.join(simple_blocks_dir, "data/minecraft/recipes")
 custom_recipes_dir = path.join(simple_blocks_dir, "data/simple_blocks/recipes")
 source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
 
-header = ["Recipe Name", "Station", "Group", "Experience",
+header = ["Recipe Name", "Station", "Category", "Group", "Experience",
           "Cooking Time (Ticks)", "Output", "Output Count", "Input", "Input", "Input", "Input", "Input", "Input", "Input", "Input", "Input"]
 
 
@@ -28,6 +28,7 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
     elif re.search("_from_smelting_", recipe_name):
         station = "smelting_clear"
 
+    category = current_recipe.get("category", "")
     group = current_recipe.get("group", "")
 
     experience = ""
@@ -91,8 +92,8 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
         print("Skipped recipe with name " + recipe_name)
         return
 
-    csv_writer.writerow([recipe_name, station, group, experience,
-                        cooking_time, output_item, output_count] + inputs)
+    csv_writer.writerow([recipe_name, station, category, group,
+                        experience, cooking_time, output_item, output_count] + inputs)
     return
 
 

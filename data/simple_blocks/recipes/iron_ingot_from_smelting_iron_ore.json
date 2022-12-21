@@ -1,6 +1,5 @@
 {
     "type": "minecraft:smelting",
-    "group": "iron_ingot",
     "ingredient": [
         {
             "item": "minecraft:iron_ore"
@@ -8,5 +7,6 @@
     ],
     "result": "minecraft:iron_ingot",
     "experience": 0.7,
-    "cookingtime": 200.0
+    "cookingtime": 200.0,
+    "group": "iron_ingot"
 }

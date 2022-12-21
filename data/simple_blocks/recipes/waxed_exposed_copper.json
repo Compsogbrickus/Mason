@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "waxed_exposed_copper",
     "ingredients": [
         {
             "item": "minecraft:exposed_copper"
@@ -12,5 +11,6 @@
     "result": {
         "item": "minecraft:waxed_exposed_copper",
         "count": 1
-    }
+    },
+    "group": "waxed_exposed_copper"
 }

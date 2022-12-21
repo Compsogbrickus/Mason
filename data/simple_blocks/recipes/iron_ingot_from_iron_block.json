@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "iron_ingot",
     "ingredients": [
         {
             "item": "minecraft:iron_block"
@@ -9,5 +8,6 @@
     "result": {
         "item": "minecraft:iron_ingot",
         "count": 9
-    }
+    },
+    "group": "iron_ingot"
 }

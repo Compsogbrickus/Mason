@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "banner",
     "pattern": [
         "OOO",
         "OOO",
@@ -17,5 +16,6 @@
     "result": {
         "item": "minecraft:white_banner",
         "count": 1
-    }
+    },
+    "group": "banner"
 }

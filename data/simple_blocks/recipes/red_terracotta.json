@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "stained_terracotta",
     "pattern": [
         "OOO",
         "OCO",
@@ -17,5 +16,6 @@
     "result": {
         "item": "minecraft:red_terracotta",
         "count": 8
-    }
+    },
+    "group": "stained_terracotta"
 }

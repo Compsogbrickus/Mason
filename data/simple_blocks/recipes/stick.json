@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "sticks",
     "pattern": [
         "C",
         "C"
@@ -18,5 +17,6 @@
     "result": {
         "item": "minecraft:stick",
         "count": 4
-    }
+    },
+    "group": "sticks"
 }

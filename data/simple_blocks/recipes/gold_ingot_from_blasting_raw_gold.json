@@ -1,6 +1,5 @@
 {
     "type": "minecraft:blasting",
-    "group": "gold_ingot",
     "ingredient": [
         {
             "item": "minecraft:raw_gold"
@@ -8,5 +7,6 @@
     ],
     "result": "minecraft:gold_ingot",
     "experience": 1.0,
-    "cookingtime": 100.0
+    "cookingtime": 100.0,
+    "group": "gold_ingot"
 }

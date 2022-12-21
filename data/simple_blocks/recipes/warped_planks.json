@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "planks",
     "ingredients": [
         {
             "tag": "minecraft:warped_stems"
@@ -9,5 +8,6 @@
     "result": {
         "item": "minecraft:warped_planks",
         "count": 4
-    }
+    },
+    "group": "planks"
 }

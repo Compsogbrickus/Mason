@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "wooden_button",
     "ingredients": [
         {
             "item": "minecraft:birch_planks"
@@ -9,5 +8,6 @@
     "result": {
         "item": "minecraft:birch_button",
         "count": 1
-    }
+    },
+    "group": "wooden_button"
 }

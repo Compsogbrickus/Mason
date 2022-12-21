@@ -1,6 +1,5 @@
 {
     "type": "minecraft:smelting",
-    "group": "diamond",
     "ingredient": [
         {
             "item": "minecraft:diamond_ore"
@@ -8,5 +7,6 @@
     ],
     "result": "minecraft:diamond",
     "experience": 1.0,
-    "cookingtime": 200.0
+    "cookingtime": 200.0,
+    "group": "diamond"
 }

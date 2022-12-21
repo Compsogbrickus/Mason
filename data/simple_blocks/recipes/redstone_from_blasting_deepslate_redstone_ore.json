@@ -1,6 +1,5 @@
 {
     "type": "minecraft:blasting",
-    "group": "redstone",
     "ingredient": [
         {
             "item": "minecraft:deepslate_redstone_ore"
@@ -8,5 +7,6 @@
     ],
     "result": "minecraft:redstone",
     "experience": 0.7,
-    "cookingtime": 100.0
+    "cookingtime": 100.0,
+    "group": "redstone"
 }

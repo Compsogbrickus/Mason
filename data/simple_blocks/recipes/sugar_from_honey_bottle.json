@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "sugar",
     "ingredients": [
         {
             "item": "minecraft:honey_bottle"
@@ -9,5 +8,6 @@
     "result": {
         "item": "minecraft:sugar",
         "count": 3
-    }
+    },
+    "group": "sugar"
 }

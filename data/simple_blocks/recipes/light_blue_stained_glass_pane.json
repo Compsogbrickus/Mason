@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "stained_glass_pane",
     "pattern": [
         "CCC",
         "CCC"
@@ -13,5 +12,6 @@
     "result": {
         "item": "minecraft:light_blue_stained_glass_pane",
         "count": 16
-    }
+    },
+    "group": "stained_glass_pane"
 }

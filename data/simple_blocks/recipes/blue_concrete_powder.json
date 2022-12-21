@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "concrete_powder",
     "ingredients": [
         {
             "item": "minecraft:blue_dye"
@@ -33,5 +32,6 @@
     "result": {
         "item": "minecraft:blue_concrete_powder",
         "count": 8
-    }
+    },
+    "group": "concrete_powder"
 }

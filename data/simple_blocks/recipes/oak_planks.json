@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "planks",
     "ingredients": [
         {
             "tag": "minecraft:oak_logs"
@@ -9,5 +8,6 @@
     "result": {
         "item": "minecraft:oak_planks",
         "count": 4
-    }
+    },
+    "group": "planks"
 }

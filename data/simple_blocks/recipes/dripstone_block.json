@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "pointed_dripstone",
     "pattern": [
         "CC",
         "CC"
@@ -13,5 +12,6 @@
     "result": {
         "item": "minecraft:dripstone_block",
         "count": 1
-    }
+    },
+    "group": "pointed_dripstone"
 }

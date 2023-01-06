@@ -758,3 +758,24 @@ def blocks_slab_2(base_block, block_1, block_2):
     }
 
     return (structure)
+
+
+def ltos(base_block):
+
+    structure = {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "name": "ltos:data",
+                "functions": [
+                    {
+                        "function": "minecraft:set_nbt",
+                        "tag": "{block:'" + base_block + "'}"
+                    }
+                ]
+            }
+        ]
+    }
+
+    return (structure)

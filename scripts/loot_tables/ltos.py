@@ -18,8 +18,9 @@ for loot_table in Path(block_loot_tables_dir).glob("*.json"):
         ltos = False
         if len(current_loot_table["pools"]) > 0:
             for pool in current_loot_table["pools"]:
-                if pool["entries"][0].get("name", "") == "ltos:data":
-                    ltos = True
+                if len(pool["entries"]) > 0:
+                    if pool["entries"][0].get("name", "") == "ltos:data":
+                        ltos = True
         
         if not ltos:
             current_loot_table["pools"].append(loot_table_utils.ltos(base_block))

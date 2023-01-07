@@ -17,7 +17,7 @@ for loot_table in Path(block_loot_tables_dir).glob("*.json"):
 
         ltos = False
         for pool in current_loot_table["pools"]:
-            if pool["entries"][0]["name"] == "ltos:data":
+            if pool["entries"][0].get("name", "") == "ltos:data":
                 ltos = True
         
         if not ltos:

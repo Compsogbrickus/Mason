@@ -11,10 +11,10 @@
         },
         "O": [
             {
-                "item": "minecraft:coal"
+                "item": "minecraft:charcoal"
             },
             {
-                "item": "minecraft:charcoal"
+                "item": "minecraft:coal"
             }
         ],
         "M": {

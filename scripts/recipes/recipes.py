@@ -25,53 +25,43 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
             "advancement grant @s from simple_blocks:recipes/root")
 
     for row in csv_reader:
-        name, station, category, group, experience, cooking_time, output, output_count = row[0:8]
-        input_1, input_2, input_3, input_4, input_5, input_6, input_7, input_8, input_9 = row[8:17]
+        name, station, category, group, experience, cooking_time, output, output_count = row[:8]
+        inputs = row[8:]
 
         experience = 0 if experience == "" else float(experience)
         cooking_time = 0 if cooking_time == "" else float(cooking_time)
         output_count = 0 if output_count == "" else int(output_count)
 
         if station == "crafting_shaped":
-            recipe_structure = recipe_utils.crafting_shaped(output, int(output_count), [
-                                                            input_1, input_2, input_3, input_4, input_5, input_6, input_7, input_8, input_9])
+            recipe_structure = recipe_utils.crafting_shaped(output, int(output_count), inputs[:9])
             filename = output
         elif station == "crafting_shapeless":
-            recipe_structure = recipe_utils.crafting_shapeless(output, int(output_count), [
-                input_1, input_2, input_3, input_4, input_5, input_6, input_7, input_8, input_9])
+            recipe_structure = recipe_utils.crafting_shapeless(output, int(output_count), inputs[:9])
             filename = output
         elif station == "stonecutting":
-            recipe_structure = recipe_utils.stonecutting(
-                output, int(output_count), input_1)
-            filename = output + "_from_" + input_1 + "_stonecutting"
+            recipe_structure = recipe_utils.stonecutting(output, int(output_count), inputs[0])
+            filename = output + "_from_" + inputs[0] + "_stonecutting"
         elif station == "smithing":
-            recipe_structure = recipe_utils.smithing(
-                output, output_count, input_1, input_2)
+            recipe_structure = recipe_utils.smithing(output, output_count, inputs[:2])
             filename = output + "_smithing"
         elif station == "campfire_cooking":
-            recipe_structure = recipe_utils.cooking(
-                station, experience, cooking_time, output, row[8:])
+            recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_campfire_cooking"
         elif station == "smoking":
-            recipe_structure = recipe_utils.cooking(
-                station, experience, cooking_time, output, row[8:])
+            recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_smoking"
         elif station == "blasting":
-            recipe_structure = recipe_utils.cooking(
-                station, experience, cooking_time, output, row[8:])
+            recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_blasting"
         elif station == "blasting_clear":
-            recipe_structure = recipe_utils.cooking(
-                "blasting", experience, cooking_time, output, row[8:])
-            filename = output + "_from_blasting_" + input_1
+            recipe_structure = recipe_utils.cooking("blasting", experience, cooking_time, output, inputs[0])
+            filename = output + "_from_blasting_" + inputs[0]
         elif station == "smelting":
-            recipe_structure = recipe_utils.cooking(
-                station, experience, cooking_time, output, row[8:])
+            recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_smelting"
         elif station == "smelting_clear":
-            recipe_structure = recipe_utils.cooking(
-                "smelting", experience, cooking_time, output, row[8:])
-            filename = output + "_from_smelting_" + input_1
+            recipe_structure = recipe_utils.cooking("smelting", experience, cooking_time, output, inputs[0])
+            filename = output + "_from_smelting_" + inputs[0]
         else:
             recipe_structure = None
             print("Adding recipe with no type " + name)

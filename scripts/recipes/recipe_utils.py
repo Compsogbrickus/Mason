@@ -1,4 +1,4 @@
-import ast
+import copy
 import re
 
 
@@ -14,30 +14,34 @@ def get_item(to_check):
 
 
 def get_ingredient(current_recipe_ingredient):
-    inputs = []
+    inputs = ""
 
     if isinstance(current_recipe_ingredient, list):
-        for ingredients in current_recipe_ingredient:
-            inputs.append(get_item(ingredients))
+        for index, ingredients in enumerate(current_recipe_ingredient):
+            if index > 0:
+                inputs += ";"
+            inputs += get_item(ingredients)
     else:
-        inputs.append(get_item(current_recipe_ingredient))
+        inputs += get_item(current_recipe_ingredient)
 
     return (inputs)
 
 
 def expand_item(item):
-
-    if re.search("^\[", str(item)):
-        item = ast.literal_eval(str(item))
+    item = copy.copy(item)
 
     if isinstance(item, list):
         for entry in range(len(item)):
             item[entry] = expand_item(item[entry])
     else:
-        if re.search("^\#", item):
-            return ({"tag": "minecraft:" + re.sub("^\#", "", item)})
+        if re.search(";", str(item)):
+            item = str(item).split(";")
+            item = expand_item(list(filter(lambda x: x != "", sorted(set(item)))))
         else:
-            return ({"item": "minecraft:" + item})
+            if re.search("^\#", item):
+                return ({"tag": "minecraft:" + re.sub("^\#", "", item)})
+            else:
+                return ({"item": "minecraft:" + item})
 
     return (item)
 
@@ -180,12 +184,12 @@ def stonecutting(output_item, output_count, input_item):
     return (structure)
 
 
-def smithing(result, result_count, base, addition):
+def smithing(result, result_count, items):
 
     structure = {
         "type": "minecraft:smithing",
-        "base": expand_item(base),
-        "addition": expand_item(addition),
+        "base": expand_item(items[0]),
+        "addition": expand_item(items[1]),
         "result": {
             "item": "minecraft:" + result,
             "count": result_count
@@ -196,9 +200,6 @@ def smithing(result, result_count, base, addition):
 
 
 def cooking(station, experience, cooking_time, output_item, input_items):
-
-    input_items = list(filter(None, input_items))
-
     structure = {
         "type": "minecraft:" + station,
         "ingredient": expand_item(input_items),

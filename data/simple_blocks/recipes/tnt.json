@@ -1,22 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "OCO",
         "COC",
-        "OCO"
+        "OCO",
+        "COC"
     ],
     "key": {
-        "C": [
-            {
-                "item": "minecraft:sand"
-            },
+        "C": {
+            "item": "minecraft:gunpowder"
+        },
+        "O": [
             {
                 "item": "minecraft:red_sand"
+            },
+            {
+                "item": "minecraft:sand"
             }
-        ],
-        "O": {
-            "item": "minecraft:gunpowder"
-        }
+        ]
     },
     "result": {
         "item": "minecraft:tnt",

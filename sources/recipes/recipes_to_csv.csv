@@ -196,7 +196,7 @@ waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting,stonecutting,,,,,waxed_
 mushroom_stew,crafting_shapeless,,,,,mushroom_stew,1,brown_mushroom,red_mushroom,bowl
 cookie,crafting_shaped,,,,,cookie,8,wheat,cocoa_beans,wheat,,,,,,
 end_stone_from_end_stone_brick_slab_stonecutting,stonecutting,,,,,end_stone,1,end_stone_brick_slab
-soul_torch,crafting_shaped,,,,,soul_torch,4,"['coal', 'charcoal']",,,stick,,,#soul_fire_base_blocks,,
+soul_torch,crafting_shaped,,,,,soul_torch,4,coal;charcoal,,,stick,,,#soul_fire_base_blocks,,
 soul_lantern,crafting_shaped,,,,,soul_lantern,1,iron_nugget,iron_nugget,iron_nugget,iron_nugget,soul_torch,iron_nugget,iron_nugget,iron_nugget,iron_nugget
 end_stone_bricks_from_end_stone_stonecutting,stonecutting,,,,,end_stone_bricks,1,end_stone
 polished_blackstone_wall_from_blackstone_stonecutting,stonecutting,,,,,polished_blackstone_wall,1,blackstone
@@ -282,7 +282,7 @@ mangrove_boat,crafting_shaped,,boat,,,mangrove_boat,1,mangrove_planks,,mangrove_
 brick_stairs_from_terracotta_stonecutting,stonecutting,,,,,brick_stairs,1,terracotta
 birch_planks,crafting_shapeless,,planks,,,birch_planks,4,#birch_logs
 quartz_block_from_quartz_stairs_stonecutting,stonecutting,,,,,quartz_block,1,quartz_stairs
-iron_nugget_from_blasting,blasting,,,0.1,100.0,iron_nugget,1,iron_pickaxe,iron_shovel,iron_axe,iron_hoe,iron_sword,iron_helmet,iron_chestplate,iron_leggings,iron_boots,iron_horse_armor,chainmail_helmet,chainmail_chestplate,chainmail_leggings,chainmail_boots
+iron_nugget_from_blasting,blasting,,,0.1,100.0,iron_nugget,1,iron_pickaxe;iron_shovel;iron_axe;iron_hoe;iron_sword;iron_helmet;iron_chestplate;iron_leggings;iron_boots;iron_horse_armor;chainmail_helmet;chainmail_chestplate;chainmail_leggings;chainmail_boots
 cooked_beef_from_smoking,smoking,,,0.35,100.0,cooked_beef,1,beef
 cracked_stone_bricks_from_cobblestone_stonecutting,stonecutting,,,,,cracked_stone_bricks,1,cobblestone
 mossy_stone_bricks_from_vine,crafting_shapeless,,mossy_stone_bricks,,,mossy_stone_bricks,1,stone_bricks,vine
@@ -311,7 +311,7 @@ nether_bricks,crafting_shaped,,,,,nether_bricks,1,nether_brick,nether_brick,,net
 cooked_beef_from_smelting,smelting,,,0.35,200.0,cooked_beef,1,beef
 stone_slab_from_stone_stonecutting,stonecutting,,,,,stone_slab,1,stone
 magenta_dye_from_allium,crafting_shapeless,,magenta_dye,,,magenta_dye,1,allium
-gold_nugget_from_smelting,smelting,,,0.1,200.0,gold_nugget,1,golden_pickaxe,golden_shovel,golden_axe,golden_hoe,golden_sword,golden_helmet,golden_chestplate,golden_leggings,golden_boots,golden_horse_armor
+gold_nugget_from_smelting,smelting,,,0.1,200.0,gold_nugget,1,golden_pickaxe;golden_shovel;golden_axe;golden_hoe;golden_sword;golden_helmet;golden_chestplate;golden_leggings;golden_boots;golden_horse_armor
 cooked_cod_from_smelting,smelting,,,0.35,200.0,cooked_cod,1,cod
 diorite,crafting_shaped,,,,,diorite,2,cobblestone,quartz,,quartz,cobblestone,,,,
 end_stone_brick_wall_from_end_stone_bricks_stonecutting,stonecutting,,,,,end_stone_brick_wall,1,end_stone_bricks
@@ -437,7 +437,7 @@ blue_ice,crafting_shaped,,,,,blue_ice,1,packed_ice,packed_ice,packed_ice,packed_
 nether_brick_slab_from_nether_bricks_stonecutting,stonecutting,,,,,nether_brick_slab,1,nether_bricks
 golden_boots,crafting_shaped,,,,,golden_boots,1,gold_ingot,,gold_ingot,gold_ingot,,gold_ingot,,,
 deepslate_brick_wall_from_polished_deepslate_stonecutting,stonecutting,,,,,deepslate_brick_wall,1,polished_deepslate
-tnt,crafting_shaped,,,,,tnt,1,gunpowder,"['sand', 'red_sand']",gunpowder,"['sand', 'red_sand']",gunpowder,"['sand', 'red_sand']",gunpowder,"['sand', 'red_sand']",gunpowder
+tnt,crafting_shaped,,,,,tnt,1,gunpowder,sand;red_sand,gunpowder,sand;red_sand,gunpowder,sand;red_sand,gunpowder,sand;red_sand,gunpowder
 sandstone_stairs_from_sand_stonecutting,stonecutting,,,,,sandstone_stairs,1,sand
 purple_carpet_from_white_carpet,crafting_shaped,,carpet,,,purple_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,purple_dye,white_carpet,white_carpet,white_carpet,white_carpet
 waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting,stonecutting,,,,,waxed_weathered_cut_copper,1,waxed_weathered_copper
@@ -545,7 +545,7 @@ waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting,stonecutt
 lever,crafting_shaped,,,,,lever,1,stick,,,cobblestone,,,,,
 iron_hoe,crafting_shaped,,,,,iron_hoe,1,iron_ingot,iron_ingot,,,stick,,,stick,
 nether_brick_from_smelting,smelting,,,0.1,200.0,nether_brick,1,netherrack
-stick,crafting_shaped,,sticks,,,stick,4,"['#planks', 'bamboo']",,,"['#planks', 'bamboo']",,,,,
+stick,crafting_shaped,,sticks,,,stick,4,#planks;bamboo,,,#planks;bamboo,,,,,
 quartz_block_from_quartz_bricks_stonecutting,stonecutting,,,,,quartz_block,1,quartz_bricks
 spruce_planks_from_spruce_trapdoor_stonecutting,stonecutting,,,,,spruce_planks,1,spruce_trapdoor
 smooth_sandstone_slab_from_smooth_sandstone_stonecutting,stonecutting,,,,,smooth_sandstone_slab,1,smooth_sandstone
@@ -1034,7 +1034,7 @@ red_carpet,crafting_shaped,,carpet,,,red_carpet,2,red_wool,red_wool,,,,,,,
 chiseled_stone_bricks_from_stone_stonecutting,stonecutting,,,,,chiseled_stone_bricks,1,stone
 spectral_arrow,crafting_shaped,,,,,spectral_arrow,2,,glowstone_dust,,glowstone_dust,arrow,glowstone_dust,,glowstone_dust,
 waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting,stonecutting,,,,,waxed_oxidized_cut_copper_stairs,1,waxed_oxidized_cut_copper
-torch,crafting_shaped,,,,,torch,4,"['coal', 'charcoal']",,,stick,,,,,
+torch,crafting_shaped,,,,,torch,4,coal;charcoal,,,stick,,,,,
 netherite_boots_smithing,smithing,,,,,netherite_boots,1,diamond_boots,netherite_ingot
 cooked_salmon_from_smoking,smoking,,,0.35,100.0,cooked_salmon,1,salmon
 blackstone_from_polished_blackstone_stairs_stonecutting,stonecutting,,,,,blackstone,1,polished_blackstone_stairs
@@ -1135,7 +1135,7 @@ map,crafting_shaped,,,,,map,1,paper,paper,paper,paper,compass,paper,paper,paper,
 oak_planks_from_oak_slab_stonecutting,stonecutting,,,,,oak_planks,1,oak_slab
 item_frame,crafting_shaped,,,,,item_frame,1,stick,stick,stick,stick,leather,stick,stick,stick,stick
 blackstone_from_polished_blackstone_stonecutting,stonecutting,,,,,blackstone,1,polished_blackstone
-gold_nugget_from_blasting,blasting,,,0.1,100.0,gold_nugget,1,golden_pickaxe,golden_shovel,golden_axe,golden_hoe,golden_sword,golden_helmet,golden_chestplate,golden_leggings,golden_boots,golden_horse_armor
+gold_nugget_from_blasting,blasting,,,0.1,100.0,gold_nugget,1,golden_pickaxe;golden_shovel;golden_axe;golden_hoe;golden_sword;golden_helmet;golden_chestplate;golden_leggings;golden_boots;golden_horse_armor
 iron_block,crafting_shaped,,,,,iron_block,1,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot
 stripped_birch_wood_from_birch_log_stonecutting,stonecutting,,,,,stripped_birch_wood,1,birch_log
 orange_dye_from_orange_tulip,crafting_shapeless,,orange_dye,,,orange_dye,1,orange_tulip
@@ -1159,7 +1159,7 @@ polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting,st
 cobbled_deepslate_from_deepslate_brick_stairs_stonecutting,stonecutting,,,,,cobbled_deepslate,1,deepslate_brick_stairs
 magma_cream,crafting_shapeless,,,,,magma_cream,1,blaze_powder,slime_ball
 armor_stand,crafting_shaped,,,,,armor_stand,1,stick,stick,stick,,stick,,stick,smooth_stone_slab,stick
-iron_nugget_from_smelting,smelting,,,0.1,200.0,iron_nugget,1,iron_pickaxe,iron_shovel,iron_axe,iron_hoe,iron_sword,iron_helmet,iron_chestplate,iron_leggings,iron_boots,iron_horse_armor,chainmail_helmet,chainmail_chestplate,chainmail_leggings,chainmail_boots
+iron_nugget_from_smelting,smelting,,,0.1,200.0,iron_nugget,1,iron_pickaxe;iron_shovel;iron_axe;iron_hoe;iron_sword;iron_helmet;iron_chestplate;iron_leggings;iron_boots;iron_horse_armor;chainmail_helmet;chainmail_chestplate;chainmail_leggings;chainmail_boots
 magenta_concrete_powder,crafting_shapeless,,concrete_powder,,,magenta_concrete_powder,8,magenta_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 blackstone_from_blackstone_wall_stonecutting,stonecutting,,,,,blackstone,1,blackstone_wall
 diamond_leggings,crafting_shaped,,,,,diamond_leggings,1,diamond,diamond,diamond,diamond,,diamond,diamond,,diamond
@@ -1210,7 +1210,7 @@ wheat,crafting_shapeless,,,,,wheat,9,hay_block
 cooked_rabbit_from_smelting,smelting,,,0.35,200.0,cooked_rabbit,1,rabbit
 mud_brick_stairs_from_mud_bricks_stonecutting,stonecutting,,,,,mud_brick_stairs,1,mud_bricks
 lapis_lazuli_from_smelting_lapis_ore,smelting_clear,,lapis_lazuli,0.2,200.0,lapis_lazuli,1,lapis_ore
-rabbit_stew,crafting_shapeless,,rabbit_stew,,,rabbit_stew,1,baked_potato,cooked_rabbit,bowl,carrot,red_mushroom,brown_mushroom
+rabbit_stew,crafting_shapeless,,rabbit_stew,,,rabbit_stew,1,baked_potato,cooked_rabbit,bowl,carrot,red_mushroom;brown_mushroom
 black_concrete_powder,crafting_shapeless,,concrete_powder,,,black_concrete_powder,8,black_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 black_bed_from_white_bed,crafting_shapeless,,dyed_bed,,,black_bed,1,white_bed,black_dye
 cobbled_deepslate_from_cracked_deepslate_tiles_stonecutting,stonecutting,,,,,cobbled_deepslate,1,cracked_deepslate_tiles

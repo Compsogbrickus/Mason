@@ -49,14 +49,7 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
 
         for slot in range(len(inputs)):
             for key in current_recipe["key"]:
-                if isinstance(current_recipe["key"][key], list):
-                    value = []
-
-                    for sub_item in range(len(current_recipe["key"][key])):
-                        value.append(recipe_utils.get_item(
-                            current_recipe["key"][key][sub_item]))
-                else:
-                    value = recipe_utils.get_item(current_recipe["key"][key])
+                value = recipe_utils.get_ingredient(current_recipe["key"][key])
 
                 if inputs[slot] == key:
                     inputs[slot] = value
@@ -71,23 +64,21 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
         inputs = []
 
         for ingredient in range(len(current_recipe["ingredients"])):
-            inputs += recipe_utils.get_ingredient(
-                current_recipe["ingredients"][ingredient])
+            inputs.append(recipe_utils.get_ingredient(current_recipe["ingredients"][ingredient]))
     elif station == "stonecutting":
         output_item = current_recipe["result"].split(":")[1]
         output_count = current_recipe["count"]
-        inputs = recipe_utils.get_ingredient(current_recipe["ingredient"])
+        inputs = [recipe_utils.get_ingredient(current_recipe["ingredient"])]
     elif station == "smithing":
         output_item = recipe_utils.get_item(current_recipe["result"])
         output_count = current_recipe["result"].get("count", 1)
-        inputs = [recipe_utils.get_item(
-            current_recipe["base"]), recipe_utils.get_item(current_recipe["addition"])]
+        inputs = [recipe_utils.get_item(current_recipe["base"]), recipe_utils.get_item(current_recipe["addition"])]
     elif (station == "campfire_cooking") or (station == "smoking") or (station == "blasting") or (station == "blasting_clear") or (station == "smelting") or (station == "smelting_clear"):
         experience = current_recipe.get("experience", "")
         cooking_time = current_recipe.get("cookingtime", "")
         output_item = current_recipe["result"].split(":")[1]
         output_count = 1
-        inputs = recipe_utils.get_ingredient(current_recipe["ingredient"])
+        inputs = [recipe_utils.get_ingredient(current_recipe["ingredient"])]
     else:
         print("Skipped recipe with name " + recipe_name)
         return

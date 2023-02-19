@@ -1,10 +1,8 @@
 {
     "type": "minecraft:blasting",
-    "ingredient": [
-        {
-            "item": "minecraft:deepslate_emerald_ore"
-        }
-    ],
+    "ingredient": {
+        "item": "minecraft:deepslate_emerald_ore"
+    },
     "result": "minecraft:emerald",
     "experience": 1.0,
     "cookingtime": 100.0,

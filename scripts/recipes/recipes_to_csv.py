@@ -83,8 +83,13 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
         print("Skipped recipe with name " + recipe_name)
         return
 
+    num_spacers = 0
+
+    if len(inputs) < 9:
+        num_spacers = 9 - len(inputs)
+
     csv_writer.writerow([recipe_name, station, category, group,
-                        experience, cooking_time, output_item, output_count] + inputs)
+                        experience, cooking_time, output_item, output_count] + inputs + num_spacers * [""])
     return
 
 

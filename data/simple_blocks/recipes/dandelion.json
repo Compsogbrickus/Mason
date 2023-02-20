@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dandelion"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dandelion",
+        "count": 2
+    },
+    "group": "bonemeal_plants"
+}

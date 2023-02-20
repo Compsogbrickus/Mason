@@ -2,14 +2,15 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:amethyst_block"
+            "item": "minecraft:kelp"
         },
         {
-            "item": "minecraft:glass"
+            "item": "minecraft:bone_meal"
         }
     ],
     "result": {
-        "item": "minecraft:tinted_glass",
+        "item": "minecraft:kelp",
         "count": 2
-    }
+    },
+    "group": "bonemeal_plants"
 }

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:seagrass"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        }
+    ],
+    "result": {
+        "item": "minecraft:seagrass",
+        "count": 2
+    },
+    "group": "bonemeal_plants"
+}

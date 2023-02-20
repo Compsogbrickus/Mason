@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:orange_concrete_powder"
+        }
+    ],
+    "result": {
+        "item": "minecraft:orange_concrete",
+        "count": 1
+    },
+    "group": "concrete"
+}

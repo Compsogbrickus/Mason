@@ -11,8 +11,7 @@ name, ext = path.splitext(path.basename(script))
 simple_blocks_dir = script.parents[2].absolute()
 custom_recipes_dir = path.join(simple_blocks_dir, "data/simple_blocks/recipes")
 source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
-custom_advancements_dir = path.join(
-    simple_blocks_dir, "data/simple_blocks/advancements/recipes")
+custom_advancements_dir = path.join(simple_blocks_dir, "data/simple_blocks/advancements/recipes")
 functions_dir = path.join(simple_blocks_dir, "data/simple_blocks/functions")
 
 with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
@@ -21,8 +20,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
     # Header has Recipe Name, Station, Category, Group, Experience, Cooking Time (Ticks), Output, Output Count, Input x9
 
     with open(path.join(functions_dir, "setup.mcfunction"), "w") as setup_function:
-        setup_function.write(
-            "advancement grant @s from simple_blocks:recipes/root")
+        setup_function.write("advancement grant @s from simple_blocks:recipes/root")
 
     for row in csv_reader:
         name, station, category, group, experience, cooking_time, output, output_count = row[:8]

@@ -1,3 +1,6 @@
+# Copyright 2023 Compsogbrickus
+# SPDX-License-Identifier: Apache-2.0
+
 import json
 import re
 from pathlib import Path

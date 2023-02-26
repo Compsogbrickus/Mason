@@ -1,3 +1,6 @@
+# Copyright 2023 Compsogbrickus
+# SPDX-License-Identifier: Apache-2.0
+
 import json
 from pathlib import Path
 from os import path
@@ -17,7 +20,7 @@ functions_dir = path.join(simple_blocks_dir, "data/simple_blocks/functions")
 with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
     csv_reader = reader(csv)
     header = next(csv_reader)
-    # Header has Recipe Name, Station, Category, Group, Experience, Cooking Time (Ticks), Output, Output Count, Input x9
+    # Header has Recipe Name, Station, Category, Group, Experience, Cooking Time (Ticks), Output, Output Count, Inputs
 
     with open(path.join(functions_dir, "setup.mcfunction"), "w") as setup_function:
         setup_function.write("advancement grant @s from simple_blocks:recipes/root")

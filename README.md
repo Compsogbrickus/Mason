@@ -1,6 +1,6 @@
 # Simple Blocks
 
-Simple Blocks is a datapack for Minecraft 1.19.3 that aims to reduce inventory clutter by simplifying block drops and associated recipes.
+Simple Blocks is a datapack for Minecraft 1.19.3 that aims to reduce inventory clutter by simplifying block drops and recipes.
 
 This repository functions as a datapack that can be dropped into a Minecraft world's "datapacks" folder. Once placed into the datapacks folder and once the world is reloaded, it will replace all vanilla block drops and recipes.
 

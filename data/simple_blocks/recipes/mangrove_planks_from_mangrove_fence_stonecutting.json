@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "minecraft:mangrove_fence"
+    },
+    "result": "minecraft:mangrove_planks"
+}

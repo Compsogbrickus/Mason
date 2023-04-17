@@ -72,6 +72,7 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
                 recipe_structure["group"] = group
             if category != "":
                 recipe_structure["category"] = category
+            # recipe_structure["show_notification"] = False
 
         if name != "":
             filename = name

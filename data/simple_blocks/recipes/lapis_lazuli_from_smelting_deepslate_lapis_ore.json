@@ -6,5 +6,6 @@
     "result": "minecraft:lapis_lazuli",
     "experience": 0.2,
     "cookingtime": 200.0,
-    "group": "lapis_lazuli"
+    "group": "lapis_lazuli",
+    "show_notification": false
 }

@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:cauldron",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

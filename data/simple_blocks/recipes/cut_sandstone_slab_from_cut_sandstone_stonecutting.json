@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:cut_sandstone"
     },
-    "result": "minecraft:cut_sandstone_slab"
+    "result": "minecraft:cut_sandstone_slab",
+    "show_notification": false
 }

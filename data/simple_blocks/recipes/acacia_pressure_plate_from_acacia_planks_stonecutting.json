@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:acacia_planks"
     },
-    "result": "minecraft:acacia_pressure_plate"
+    "result": "minecraft:acacia_pressure_plate",
+    "show_notification": false
 }

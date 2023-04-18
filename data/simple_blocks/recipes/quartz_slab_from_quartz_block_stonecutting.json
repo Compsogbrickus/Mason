@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:quartz_block"
     },
-    "result": "minecraft:quartz_slab"
+    "result": "minecraft:quartz_slab",
+    "show_notification": false
 }

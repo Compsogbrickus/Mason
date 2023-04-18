@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:andesite_wall",
         "count": 6
-    }
+    },
+    "show_notification": false
 }

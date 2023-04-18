@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:sandstone"
     },
-    "result": "minecraft:sandstone_stairs"
+    "result": "minecraft:sandstone_stairs",
+    "show_notification": false
 }

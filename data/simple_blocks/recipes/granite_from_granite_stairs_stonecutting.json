@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:granite_stairs"
     },
-    "result": "minecraft:granite"
+    "result": "minecraft:granite",
+    "show_notification": false
 }

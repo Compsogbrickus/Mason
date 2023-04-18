@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:crimson_hyphae"
     },
-    "result": "minecraft:crimson_stem"
+    "result": "minecraft:crimson_stem",
+    "show_notification": false
 }

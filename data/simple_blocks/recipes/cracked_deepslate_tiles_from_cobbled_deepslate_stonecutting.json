@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:cobbled_deepslate"
     },
-    "result": "minecraft:cracked_deepslate_tiles"
+    "result": "minecraft:cracked_deepslate_tiles",
+    "show_notification": false
 }

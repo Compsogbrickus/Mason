@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:cobblestone_stairs"
     },
-    "result": "minecraft:cobblestone"
+    "result": "minecraft:cobblestone",
+    "show_notification": false
 }

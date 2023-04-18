@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:andesite_stairs"
     },
-    "result": "minecraft:andesite"
+    "result": "minecraft:andesite",
+    "show_notification": false
 }

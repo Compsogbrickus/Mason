@@ -5,5 +5,6 @@
     },
     "result": "minecraft:cracked_deepslate_bricks",
     "experience": 0.1,
-    "cookingtime": 200.0
+    "cookingtime": 200.0,
+    "show_notification": false
 }

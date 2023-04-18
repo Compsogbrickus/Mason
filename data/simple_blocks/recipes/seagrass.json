@@ -12,5 +12,6 @@
         "item": "minecraft:seagrass",
         "count": 2
     },
-    "group": "bonemeal_plants"
+    "group": "bonemeal_plants",
+    "show_notification": false
 }

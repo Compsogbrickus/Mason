@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:smooth_stone_slab"
     },
-    "result": "minecraft:cobblestone"
+    "result": "minecraft:cobblestone",
+    "show_notification": false
 }

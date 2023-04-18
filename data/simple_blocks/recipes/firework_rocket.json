@@ -11,5 +11,6 @@
     "result": {
         "item": "minecraft:firework_rocket",
         "count": 3
-    }
+    },
+    "show_notification": false
 }

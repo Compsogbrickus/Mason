@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "simple_blocks:setup"
+        "function": "simple_blocks:give/persistent"
     }
 }

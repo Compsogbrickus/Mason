@@ -9,5 +9,6 @@
         "item": "minecraft:copper_ingot",
         "count": 9
     },
-    "group": "copper_ingot"
+    "group": "copper_ingot",
+    "show_notification": false
 }

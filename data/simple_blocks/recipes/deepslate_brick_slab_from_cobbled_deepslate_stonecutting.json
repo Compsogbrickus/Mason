@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:cobbled_deepslate"
     },
-    "result": "minecraft:deepslate_brick_slab"
+    "result": "minecraft:deepslate_brick_slab",
+    "show_notification": false
 }

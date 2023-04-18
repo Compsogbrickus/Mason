@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:terracotta"
     },
-    "result": "minecraft:brick_wall"
+    "result": "minecraft:brick_wall",
+    "show_notification": false
 }

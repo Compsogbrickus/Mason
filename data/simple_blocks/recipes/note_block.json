@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:note_block",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

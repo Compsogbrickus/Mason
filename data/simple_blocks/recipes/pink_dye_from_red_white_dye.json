@@ -12,5 +12,6 @@
         "item": "minecraft:pink_dye",
         "count": 2
     },
-    "group": "pink_dye"
+    "group": "pink_dye",
+    "show_notification": false
 }

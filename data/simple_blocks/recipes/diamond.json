@@ -8,5 +8,6 @@
     "result": {
         "item": "minecraft:diamond",
         "count": 9
-    }
+    },
+    "show_notification": false
 }

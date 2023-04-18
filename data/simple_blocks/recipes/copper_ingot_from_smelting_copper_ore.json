@@ -6,5 +6,6 @@
     "result": "minecraft:copper_ingot",
     "experience": 0.7,
     "cookingtime": 200.0,
-    "group": "copper_ingot"
+    "group": "copper_ingot",
+    "show_notification": false
 }

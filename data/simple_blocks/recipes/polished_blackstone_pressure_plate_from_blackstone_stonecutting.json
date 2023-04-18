@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:blackstone"
     },
-    "result": "minecraft:polished_blackstone_pressure_plate"
+    "result": "minecraft:polished_blackstone_pressure_plate",
+    "show_notification": false
 }

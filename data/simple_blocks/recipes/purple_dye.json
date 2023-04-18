@@ -11,5 +11,6 @@
     "result": {
         "item": "minecraft:purple_dye",
         "count": 2
-    }
+    },
+    "show_notification": false
 }

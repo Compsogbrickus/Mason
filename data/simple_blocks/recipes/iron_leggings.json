@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:iron_leggings",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

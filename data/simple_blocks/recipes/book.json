@@ -17,5 +17,6 @@
     "result": {
         "item": "minecraft:book",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

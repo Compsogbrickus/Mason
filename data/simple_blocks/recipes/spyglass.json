@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:spyglass",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

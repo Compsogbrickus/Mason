@@ -12,5 +12,6 @@
         "item": "minecraft:waxed_weathered_copper",
         "count": 1
     },
-    "group": "waxed_weathered_copper"
+    "group": "waxed_weathered_copper",
+    "show_notification": false
 }

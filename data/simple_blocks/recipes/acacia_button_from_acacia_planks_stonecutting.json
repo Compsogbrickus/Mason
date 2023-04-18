@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:acacia_planks"
     },
-    "result": "minecraft:acacia_button"
+    "result": "minecraft:acacia_button",
+    "show_notification": false
 }

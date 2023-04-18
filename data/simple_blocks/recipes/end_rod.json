@@ -15,5 +15,6 @@
     "result": {
         "item": "minecraft:end_rod",
         "count": 4
-    }
+    },
+    "show_notification": false
 }

@@ -1,6 +1,6 @@
 # Simple Blocks
 
-Simple Blocks is a datapack for Minecraft 1.19.3 that aims to reduce inventory clutter by simplifying block drops and recipes.
+Simple Blocks is a datapack for Minecraft 1.19.4 that aims to reduce inventory clutter by simplifying block drops and recipes.
 
 This repository functions as a datapack that can be dropped into a Minecraft world's "datapacks" folder. Once placed into the datapacks folder and once the world is reloaded, it will replace all vanilla block drops and recipes.
 
@@ -24,7 +24,7 @@ This datapack is designed to support **Loot Table Output Specification (aka ltos
 
 To read recipes from `data/minecraft/recipes` and `data/simple_blocks/recipes` and store them as `sources/recipes/recipes_to_csv.csv`, run `scripts/recipes/recipes_to_csv.py`.
 
-To overwrite `data/simple_blocks/recipes` with recipes from `sources/recipes/recipes.csv`, run `scripts/recipes/recipes.py`. This also overwrites `data/simple_blocks/advancements/recipes` and `data/simple_blocks/functions/setup.mcfunction` in order to give all recipes to the player on join.
+To overwrite `data/simple_blocks/recipes` with recipes from `sources/recipes/recipes.csv`, run `scripts/recipes/recipes.py`.
 
 ## Credits
 

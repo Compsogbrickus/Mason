@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:stone_bricks"
     },
-    "result": "minecraft:stone_brick_wall"
+    "result": "minecraft:stone_brick_wall",
+    "show_notification": false
 }

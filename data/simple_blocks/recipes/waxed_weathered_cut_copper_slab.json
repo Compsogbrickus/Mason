@@ -12,5 +12,6 @@
         "item": "minecraft:waxed_weathered_cut_copper_slab",
         "count": 1
     },
-    "group": "waxed_weathered_cut_copper_slab"
+    "group": "waxed_weathered_cut_copper_slab",
+    "show_notification": false
 }

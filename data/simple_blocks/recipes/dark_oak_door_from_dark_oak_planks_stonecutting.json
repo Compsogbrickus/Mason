@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:dark_oak_planks"
     },
-    "result": "minecraft:dark_oak_door"
+    "result": "minecraft:dark_oak_door",
+    "show_notification": false
 }

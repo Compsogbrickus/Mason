@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:redstone_block",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

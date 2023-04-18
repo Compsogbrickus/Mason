@@ -12,5 +12,6 @@
         "item": "minecraft:blue_bed",
         "count": 1
     },
-    "group": "dyed_bed"
+    "group": "dyed_bed",
+    "show_notification": false
 }

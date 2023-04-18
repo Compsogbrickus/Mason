@@ -9,5 +9,6 @@
         "item": "minecraft:warped_planks",
         "count": 4
     },
-    "group": "planks"
+    "group": "planks",
+    "show_notification": false
 }

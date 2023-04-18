@@ -12,5 +12,6 @@
         "item": "minecraft:mangrove_pressure_plate",
         "count": 1
     },
-    "group": "wooden_pressure_plate"
+    "group": "wooden_pressure_plate",
+    "show_notification": false
 }

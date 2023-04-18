@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:minecart",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

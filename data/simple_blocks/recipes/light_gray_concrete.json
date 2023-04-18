@@ -9,5 +9,6 @@
         "item": "minecraft:light_gray_concrete",
         "count": 1
     },
-    "group": "concrete"
+    "group": "concrete",
+    "show_notification": false
 }

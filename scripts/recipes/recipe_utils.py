@@ -172,7 +172,7 @@ def crafting_shapeless(output_item, output_count, input_items):
         }
     }
 
-    return (structure)
+    return (len(input_items), structure)
 
 
 def stonecutting(output_item, output_count, input_item):

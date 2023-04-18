@@ -17,5 +17,6 @@
         "item": "minecraft:pink_banner",
         "count": 1
     },
-    "group": "banner"
+    "group": "banner",
+    "show_notification": false
 }

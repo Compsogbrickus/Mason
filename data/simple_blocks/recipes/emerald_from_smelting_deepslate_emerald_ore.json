@@ -6,5 +6,6 @@
     "result": "minecraft:emerald",
     "experience": 1.0,
     "cookingtime": 200.0,
-    "group": "emerald"
+    "group": "emerald",
+    "show_notification": false
 }

@@ -11,5 +11,6 @@
     "result": {
         "item": "minecraft:mojang_banner_pattern",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:andesite"
     },
-    "result": "minecraft:polished_andesite_stairs"
+    "result": "minecraft:polished_andesite_stairs",
+    "show_notification": false
 }

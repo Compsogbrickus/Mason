@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:terracotta"
     },
-    "result": "minecraft:brick_slab"
+    "result": "minecraft:brick_slab",
+    "show_notification": false
 }

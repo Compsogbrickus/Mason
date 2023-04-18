@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:dark_prismarine"
     },
-    "result": "minecraft:prismarine"
+    "result": "minecraft:prismarine",
+    "show_notification": false
 }

@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:prismarine",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

@@ -19,5 +19,6 @@
     "result": {
         "item": "minecraft:tripwire_hook",
         "count": 2
-    }
+    },
+    "show_notification": false
 }

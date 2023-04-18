@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:oak_planks"
     },
-    "result": "minecraft:oak_trapdoor"
+    "result": "minecraft:oak_trapdoor",
+    "show_notification": false
 }

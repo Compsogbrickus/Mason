@@ -8,5 +8,6 @@
     "result": {
         "item": "minecraft:dried_kelp",
         "count": 9
-    }
+    },
+    "show_notification": false
 }

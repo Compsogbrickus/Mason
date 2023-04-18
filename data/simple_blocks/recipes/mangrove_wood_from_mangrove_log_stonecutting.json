@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:mangrove_log"
     },
-    "result": "minecraft:mangrove_wood"
+    "result": "minecraft:mangrove_wood",
+    "show_notification": false
 }

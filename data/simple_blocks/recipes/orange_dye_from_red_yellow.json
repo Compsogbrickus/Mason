@@ -12,5 +12,6 @@
         "item": "minecraft:orange_dye",
         "count": 2
     },
-    "group": "orange_dye"
+    "group": "orange_dye",
+    "show_notification": false
 }

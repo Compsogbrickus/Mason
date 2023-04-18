@@ -13,5 +13,6 @@
         "item": "minecraft:mangrove_boat",
         "count": 1
     },
-    "group": "boat"
+    "group": "boat",
+    "show_notification": false
 }

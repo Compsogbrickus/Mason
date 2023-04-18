@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:birch_planks"
     },
-    "result": "minecraft:birch_trapdoor"
+    "result": "minecraft:birch_trapdoor",
+    "show_notification": false
 }

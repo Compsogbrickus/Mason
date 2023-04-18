@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:andesite"
     },
-    "result": "minecraft:andesite_slab"
+    "result": "minecraft:andesite_slab",
+    "show_notification": false
 }

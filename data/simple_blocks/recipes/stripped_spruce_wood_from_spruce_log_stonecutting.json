@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:spruce_log"
     },
-    "result": "minecraft:stripped_spruce_wood"
+    "result": "minecraft:stripped_spruce_wood",
+    "show_notification": false
 }

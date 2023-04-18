@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:iron_chestplate",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

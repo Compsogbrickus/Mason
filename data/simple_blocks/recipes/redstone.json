@@ -8,5 +8,6 @@
     "result": {
         "item": "minecraft:redstone",
         "count": 9
-    }
+    },
+    "show_notification": false
 }

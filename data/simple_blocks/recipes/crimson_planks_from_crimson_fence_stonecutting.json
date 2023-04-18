@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:crimson_fence"
     },
-    "result": "minecraft:crimson_planks"
+    "result": "minecraft:crimson_planks",
+    "show_notification": false
 }

@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:quartz_block"
     },
-    "result": "minecraft:smooth_quartz"
+    "result": "minecraft:smooth_quartz",
+    "show_notification": false
 }

@@ -16,5 +16,6 @@
         "item": "minecraft:red_bed",
         "count": 1
     },
-    "group": "bed"
+    "group": "bed",
+    "show_notification": false
 }

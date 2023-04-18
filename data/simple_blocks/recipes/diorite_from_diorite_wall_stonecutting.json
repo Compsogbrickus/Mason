@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:diorite_wall"
     },
-    "result": "minecraft:diorite"
+    "result": "minecraft:diorite",
+    "show_notification": false
 }

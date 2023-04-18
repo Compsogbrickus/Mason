@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:cracked_stone_bricks"
     },
-    "result": "minecraft:cobblestone"
+    "result": "minecraft:cobblestone",
+    "show_notification": false
 }

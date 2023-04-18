@@ -17,5 +17,6 @@
         "item": "minecraft:light_gray_stained_glass",
         "count": 8
     },
-    "group": "stained_glass"
+    "group": "stained_glass",
+    "show_notification": false
 }

@@ -9,5 +9,6 @@
         "item": "minecraft:yellow_dye",
         "count": 1
     },
-    "group": "yellow_dye"
+    "group": "yellow_dye",
+    "show_notification": false
 }

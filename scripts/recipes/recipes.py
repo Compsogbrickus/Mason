@@ -3,7 +3,7 @@
 
 import json
 from pathlib import Path
-from os import path
+from os import path,remove
 from csv import reader
 
 import recipe_utils
@@ -17,13 +17,19 @@ source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
 custom_advancements_dir = path.join(simple_blocks_dir, "data/simple_blocks/advancements/recipes")
 functions_dir = path.join(simple_blocks_dir, "data/simple_blocks/functions")
 
+give_recipes_file = path.join(functions_dir, "give_recipes.mcfunction")
+take_recipes_file = path.join(functions_dir, "take_recipes.mcfunction")
+
+if path.exists(give_recipes_file):
+    remove(give_recipes_file)
+
+if path.exists(take_recipes_file):
+    remove(take_recipes_file)
+
 with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
     csv_reader = reader(csv)
     header = next(csv_reader)
     # Header has Recipe Name, Station, Category, Group, Experience, Cooking Time (Ticks), Output, Output Count, Inputs
-
-    with open(path.join(functions_dir, "setup.mcfunction"), "w") as setup_function:
-        setup_function.write("advancement grant @s from simple_blocks:recipes/root")
 
     for row in csv_reader:
         name, station, category, group, experience, cooking_time, output, output_count = row[:8]
@@ -72,19 +78,25 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
                 recipe_structure["group"] = group
             if category != "":
                 recipe_structure["category"] = category
-            # recipe_structure["show_notification"] = False
+            recipe_structure["show_notification"] = False
 
         if name != "":
             filename = name
 
         recipes_dir = custom_recipes_dir
-        advancements_dir = custom_advancements_dir
-        advancement_structure = recipe_utils.advancement_impossible_child_recipe(
-            "simple_blocks:recipes/root", "simple_blocks:" + filename)
+        # advancements_dir = custom_advancements_dir
+        # advancement_structure = recipe_utils.advancement_impossible_child_recipe(
+        #     "simple_blocks:recipes/root", "simple_blocks:" + filename)
 
         if recipe_structure is not None:
             with open(path.join(recipes_dir, filename + ".json"), "w") as file_out:
                 file_out.write(json.dumps(recipe_structure, indent=4))
 
-        with open(path.join(advancements_dir, filename + ".json"), "w") as file_out:
-            file_out.write(json.dumps(advancement_structure, indent=4))
+        # with open(path.join(advancements_dir, filename + ".json"), "w") as file_out:
+        #     file_out.write(json.dumps(advancement_structure, indent=4))
+
+        with open(give_recipes_file, "a") as give_recipes:
+            give_recipes.write("recipe give @s simple_blocks:" + filename + "\n")
+
+        with open(take_recipes_file, "a") as take_recipes:
+            take_recipes.write("recipe take @s simple_blocks:" + filename + "\n")

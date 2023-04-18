@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:conduit",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

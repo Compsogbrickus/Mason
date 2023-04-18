@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:stripped_warped_hyphae"
     },
-    "result": "minecraft:warped_stem"
+    "result": "minecraft:warped_stem",
+    "show_notification": false
 }

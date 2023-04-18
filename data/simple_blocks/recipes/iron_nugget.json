@@ -8,5 +8,6 @@
     "result": {
         "item": "minecraft:iron_nugget",
         "count": 9
-    }
+    },
+    "show_notification": false
 }

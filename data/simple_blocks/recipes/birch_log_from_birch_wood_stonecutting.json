@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:birch_wood"
     },
-    "result": "minecraft:birch_log"
+    "result": "minecraft:birch_log",
+    "show_notification": false
 }

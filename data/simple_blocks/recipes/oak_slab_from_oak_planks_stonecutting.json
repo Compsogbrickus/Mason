@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:oak_planks"
     },
-    "result": "minecraft:oak_slab"
+    "result": "minecraft:oak_slab",
+    "show_notification": false
 }

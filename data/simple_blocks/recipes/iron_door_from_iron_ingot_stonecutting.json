@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:iron_ingot"
     },
-    "result": "minecraft:iron_door"
+    "result": "minecraft:iron_door",
+    "show_notification": false
 }

@@ -9,5 +9,6 @@
         "item": "minecraft:white_dye",
         "count": 1
     },
-    "group": "white_dye"
+    "group": "white_dye",
+    "show_notification": false
 }

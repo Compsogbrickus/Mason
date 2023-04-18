@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:nether_bricks"
     },
-    "result": "minecraft:nether_brick_wall"
+    "result": "minecraft:nether_brick_wall",
+    "show_notification": false
 }

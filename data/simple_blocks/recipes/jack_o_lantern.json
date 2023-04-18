@@ -15,5 +15,6 @@
     "result": {
         "item": "minecraft:jack_o_lantern",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

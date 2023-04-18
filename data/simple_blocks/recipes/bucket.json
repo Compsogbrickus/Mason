@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:bucket",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

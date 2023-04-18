@@ -1,3 +1,2 @@
-advancement grant @s from simple_blocks:recipes/root
-
+function simple_blocks:give_recipes
 scoreboard players set @s simple_blocks.using_crafting_table 1

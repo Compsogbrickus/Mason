@@ -12,5 +12,6 @@
         "item": "minecraft:mossy_cobblestone",
         "count": 1
     },
-    "group": "mossy_cobblestone"
+    "group": "mossy_cobblestone",
+    "show_notification": false
 }

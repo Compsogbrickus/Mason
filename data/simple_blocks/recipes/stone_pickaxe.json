@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:stone_pickaxe",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

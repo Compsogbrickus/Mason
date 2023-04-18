@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:diorite"
     },
-    "result": "minecraft:polished_diorite"
+    "result": "minecraft:polished_diorite",
+    "show_notification": false
 }

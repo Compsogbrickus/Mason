@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:blackstone"
     },
-    "result": "minecraft:blackstone_slab"
+    "result": "minecraft:blackstone_slab",
+    "show_notification": false
 }

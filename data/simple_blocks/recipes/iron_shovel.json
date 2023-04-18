@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:iron_shovel",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

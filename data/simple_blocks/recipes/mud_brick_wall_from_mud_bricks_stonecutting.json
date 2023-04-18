@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:mud_bricks"
     },
-    "result": "minecraft:mud_brick_wall"
+    "result": "minecraft:mud_brick_wall",
+    "show_notification": false
 }

@@ -8,5 +8,6 @@
     "result": {
         "item": "minecraft:polished_blackstone_button",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

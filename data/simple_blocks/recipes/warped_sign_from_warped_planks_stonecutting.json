@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:warped_planks"
     },
-    "result": "minecraft:warped_sign"
+    "result": "minecraft:warped_sign",
+    "show_notification": false
 }

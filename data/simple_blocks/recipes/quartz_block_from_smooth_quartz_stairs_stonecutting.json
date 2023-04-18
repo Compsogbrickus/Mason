@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:smooth_quartz_stairs"
     },
-    "result": "minecraft:quartz_block"
+    "result": "minecraft:quartz_block",
+    "show_notification": false
 }

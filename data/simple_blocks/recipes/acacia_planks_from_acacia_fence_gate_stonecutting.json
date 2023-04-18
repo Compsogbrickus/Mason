@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:acacia_fence_gate"
     },
-    "result": "minecraft:acacia_planks"
+    "result": "minecraft:acacia_planks",
+    "show_notification": false
 }

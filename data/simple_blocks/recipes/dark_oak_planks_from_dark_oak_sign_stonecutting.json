@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:dark_oak_sign"
     },
-    "result": "minecraft:dark_oak_planks"
+    "result": "minecraft:dark_oak_planks",
+    "show_notification": false
 }

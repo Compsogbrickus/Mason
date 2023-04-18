@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:acacia_log"
     },
-    "result": "minecraft:acacia_wood"
+    "result": "minecraft:acacia_wood",
+    "show_notification": false
 }

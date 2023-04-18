@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:prismarine_stairs"
     },
-    "result": "minecraft:prismarine"
+    "result": "minecraft:prismarine",
+    "show_notification": false
 }

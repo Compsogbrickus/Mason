@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:spruce_planks"
     },
-    "result": "minecraft:spruce_door"
+    "result": "minecraft:spruce_door",
+    "show_notification": false
 }

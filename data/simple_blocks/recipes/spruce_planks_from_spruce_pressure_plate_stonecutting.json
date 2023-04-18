@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:spruce_pressure_plate"
     },
-    "result": "minecraft:spruce_planks"
+    "result": "minecraft:spruce_planks",
+    "show_notification": false
 }

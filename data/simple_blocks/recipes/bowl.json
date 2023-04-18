@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:bowl",
         "count": 4
-    }
+    },
+    "show_notification": false
 }

@@ -12,5 +12,6 @@
         "item": "minecraft:waxed_exposed_copper",
         "count": 1
     },
-    "group": "waxed_exposed_copper"
+    "group": "waxed_exposed_copper",
+    "show_notification": false
 }

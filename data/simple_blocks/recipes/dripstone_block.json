@@ -13,5 +13,6 @@
         "item": "minecraft:dripstone_block",
         "count": 1
     },
-    "group": "pointed_dripstone"
+    "group": "pointed_dripstone",
+    "show_notification": false
 }

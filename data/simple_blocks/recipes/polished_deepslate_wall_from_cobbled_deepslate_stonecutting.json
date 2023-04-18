@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:cobbled_deepslate"
     },
-    "result": "minecraft:polished_deepslate_wall"
+    "result": "minecraft:polished_deepslate_wall",
+    "show_notification": false
 }

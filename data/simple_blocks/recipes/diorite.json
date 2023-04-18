@@ -15,5 +15,6 @@
     "result": {
         "item": "minecraft:diorite",
         "count": 2
-    }
+    },
+    "show_notification": false
 }

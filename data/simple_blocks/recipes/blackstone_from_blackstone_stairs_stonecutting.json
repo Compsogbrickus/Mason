@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:blackstone_stairs"
     },
-    "result": "minecraft:blackstone"
+    "result": "minecraft:blackstone",
+    "show_notification": false
 }

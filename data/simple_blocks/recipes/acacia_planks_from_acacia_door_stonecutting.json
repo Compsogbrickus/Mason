@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:acacia_door"
     },
-    "result": "minecraft:acacia_planks"
+    "result": "minecraft:acacia_planks",
+    "show_notification": false
 }

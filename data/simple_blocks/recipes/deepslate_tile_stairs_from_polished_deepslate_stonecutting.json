@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:polished_deepslate"
     },
-    "result": "minecraft:deepslate_tile_stairs"
+    "result": "minecraft:deepslate_tile_stairs",
+    "show_notification": false
 }

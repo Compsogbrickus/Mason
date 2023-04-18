@@ -11,5 +11,6 @@
     "result": {
         "item": "minecraft:muddy_mangrove_roots",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

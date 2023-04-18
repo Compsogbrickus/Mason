@@ -30,5 +30,6 @@
         "item": "minecraft:netherite_ingot",
         "count": 1
     },
-    "group": "netherite_ingot"
+    "group": "netherite_ingot",
+    "show_notification": false
 }

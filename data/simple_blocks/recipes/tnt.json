@@ -21,5 +21,6 @@
     "result": {
         "item": "minecraft:tnt",
         "count": 1
-    }
+    },
+    "show_notification": false
 }

@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:copper_block"
     },
-    "result": "minecraft:cut_copper"
+    "result": "minecraft:cut_copper",
+    "show_notification": false
 }

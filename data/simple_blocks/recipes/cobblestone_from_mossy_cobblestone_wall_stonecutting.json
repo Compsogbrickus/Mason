@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:mossy_cobblestone_wall"
     },
-    "result": "minecraft:cobblestone"
+    "result": "minecraft:cobblestone",
+    "show_notification": false
 }

@@ -6,5 +6,6 @@
     "result": "minecraft:coal",
     "experience": 0.1,
     "cookingtime": 200.0,
-    "group": "coal"
+    "group": "coal",
+    "show_notification": false
 }

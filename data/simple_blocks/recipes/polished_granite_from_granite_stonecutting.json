@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:granite"
     },
-    "result": "minecraft:polished_granite"
+    "result": "minecraft:polished_granite",
+    "show_notification": false
 }

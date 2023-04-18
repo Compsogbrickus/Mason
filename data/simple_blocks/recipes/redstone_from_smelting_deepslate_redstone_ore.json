@@ -6,5 +6,6 @@
     "result": "minecraft:redstone",
     "experience": 0.7,
     "cookingtime": 200.0,
-    "group": "redstone"
+    "group": "redstone",
+    "show_notification": false
 }

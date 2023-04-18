@@ -4,5 +4,6 @@
     "ingredient": {
         "item": "minecraft:waxed_copper_block"
     },
-    "result": "minecraft:waxed_exposed_cut_copper"
+    "result": "minecraft:waxed_exposed_cut_copper",
+    "show_notification": false
 }

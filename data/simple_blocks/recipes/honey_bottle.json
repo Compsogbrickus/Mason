@@ -20,5 +20,6 @@
     "result": {
         "item": "minecraft:honey_bottle",
         "count": 4
-    }
+    },
+    "show_notification": false
 }

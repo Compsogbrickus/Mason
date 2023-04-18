@@ -17,5 +17,6 @@
         "item": "minecraft:orange_stained_glass_pane",
         "count": 8
     },
-    "group": "stained_glass_pane"
+    "group": "stained_glass_pane",
+    "show_notification": false
 }

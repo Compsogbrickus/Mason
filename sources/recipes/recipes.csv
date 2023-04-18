@@ -643,7 +643,7 @@ cracked_stone_bricks_from_smelting,smelting,,,0.1,200,cracked_stone_bricks,1,sto
 cyan_glazed_terracotta_from_smelting,smelting,,,0.1,200,cyan_glazed_terracotta,1,cyan_terracotta,,,,,,,,
 deepslate_from_smelting,smelting,,,0.1,200,deepslate,1,cobbled_deepslate,,,,,,,,
 dried_kelp_from_smelting,smelting,,,0.1,200,dried_kelp,1,kelp,,,,,,,,
-glass_from_smelting,smelting,,,0.1,200,#smelts_to_glass,1,#sand,,,,,,,,
+glass_from_smelting,smelting,,,0.1,200,glass,1,#smelts_to_glass,,,,,,,,
 gold_nugget_from_smelting,smelting,,,0.1,200,gold_nugget,1,golden_axe;golden_boots;golden_chestplate;golden_helmet;golden_hoe;golden_horse_armor;golden_leggings;golden_pickaxe;golden_shovel;golden_sword,,,,,,,,
 gray_glazed_terracotta_from_smelting,smelting,,,0.1,200,gray_glazed_terracotta,1,gray_terracotta,,,,,,,,
 green_dye_from_smelting,smelting,,,1,200,green_dye,1,cactus,,,,,,,,

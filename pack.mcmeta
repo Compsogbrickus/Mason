@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 10,
+        "pack_format": 12,
         "description": "Generated loot tables and recipes by Compsogbrickus.\nSpecial thanks to Misode (JSON generators) and Asometric (inspiration)."
     },
     "filter": {

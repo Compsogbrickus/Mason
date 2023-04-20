@@ -17,5 +17,6 @@
         "item": "minecraft:dark_prismarine",
         "count": 1
     },
+    "category": "building",
     "show_notification": false
 }

@@ -13,5 +13,6 @@
         "count": 1
     },
     "group": "chest_boat",
+    "category": "equipment",
     "show_notification": false
 }

@@ -16,5 +16,6 @@
         "item": "minecraft:sticky_piston",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

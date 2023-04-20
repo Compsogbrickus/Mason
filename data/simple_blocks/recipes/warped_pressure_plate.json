@@ -13,5 +13,6 @@
         "count": 1
     },
     "group": "wooden_pressure_plate",
+    "category": "redstone",
     "show_notification": false
 }

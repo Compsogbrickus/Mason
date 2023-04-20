@@ -20,5 +20,6 @@
         "item": "minecraft:end_crystal",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

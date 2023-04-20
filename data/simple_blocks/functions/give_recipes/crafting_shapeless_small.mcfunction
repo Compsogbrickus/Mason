@@ -36,7 +36,6 @@ recipe give @s simple_blocks:brown_wool
 recipe give @s simple_blocks:chest_minecart
 recipe give @s simple_blocks:coal
 recipe give @s simple_blocks:copper_ingot
-recipe give @s simple_blocks:copper_ingot_from_waxed_copper_block
 recipe give @s simple_blocks:cornflower
 recipe give @s simple_blocks:creeper_banner_pattern
 recipe give @s simple_blocks:crimson_button
@@ -131,10 +130,8 @@ recipe give @s simple_blocks:mangrove_roots
 recipe give @s simple_blocks:melon_seeds
 recipe give @s simple_blocks:melon_slice
 recipe give @s simple_blocks:mojang_banner_pattern
-recipe give @s simple_blocks:mossy_cobblestone_from_moss_block
-recipe give @s simple_blocks:mossy_cobblestone_from_vine
-recipe give @s simple_blocks:mossy_stone_bricks_from_moss_block
-recipe give @s simple_blocks:mossy_stone_bricks_from_vine
+recipe give @s simple_blocks:mossy_cobblestone
+recipe give @s simple_blocks:mossy_stone_bricks
 recipe give @s simple_blocks:muddy_mangrove_roots
 recipe give @s simple_blocks:mushroom_stew
 recipe give @s simple_blocks:nether_sprouts

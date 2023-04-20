@@ -20,5 +20,6 @@
         "item": "minecraft:tripwire_hook",
         "count": 2
     },
+    "category": "redstone",
     "show_notification": false
 }

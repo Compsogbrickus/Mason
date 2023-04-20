@@ -14,5 +14,6 @@
         "item": "minecraft:music_disc_5",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

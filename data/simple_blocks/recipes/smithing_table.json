@@ -17,5 +17,6 @@
         "item": "minecraft:smithing_table",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

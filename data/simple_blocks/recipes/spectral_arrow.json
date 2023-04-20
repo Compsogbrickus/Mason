@@ -17,5 +17,6 @@
         "item": "minecraft:spectral_arrow",
         "count": 2
     },
+    "category": "equipment",
     "show_notification": false
 }

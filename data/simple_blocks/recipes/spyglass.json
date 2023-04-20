@@ -17,5 +17,6 @@
         "item": "minecraft:spyglass",
         "count": 1
     },
+    "category": "equipment",
     "show_notification": false
 }

@@ -14,5 +14,6 @@
         "item": "minecraft:melon",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

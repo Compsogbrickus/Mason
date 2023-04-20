@@ -33,5 +33,6 @@
         "item": "minecraft:packed_ice",
         "count": 1
     },
+    "category": "building",
     "show_notification": false
 }

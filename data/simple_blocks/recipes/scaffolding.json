@@ -17,5 +17,6 @@
         "item": "minecraft:scaffolding",
         "count": 6
     },
+    "category": "misc",
     "show_notification": false
 }

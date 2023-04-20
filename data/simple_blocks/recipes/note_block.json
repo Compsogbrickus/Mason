@@ -17,5 +17,6 @@
         "item": "minecraft:note_block",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

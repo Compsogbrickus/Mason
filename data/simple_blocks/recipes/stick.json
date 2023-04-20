@@ -18,6 +18,6 @@
         "item": "minecraft:stick",
         "count": 4
     },
-    "group": "sticks",
+    "category": "misc",
     "show_notification": false
 }

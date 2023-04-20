@@ -6,5 +6,6 @@
     "result": "minecraft:cooked_cod",
     "experience": 0.35,
     "cookingtime": 600.0,
+    "category": "food",
     "show_notification": false
 }

@@ -6,5 +6,6 @@
     "result": "minecraft:netherite_scrap",
     "experience": 2.0,
     "cookingtime": 200.0,
+    "category": "misc",
     "show_notification": false
 }

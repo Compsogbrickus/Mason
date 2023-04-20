@@ -12,5 +12,6 @@
         "item": "minecraft:cyan_dye",
         "count": 2
     },
+    "category": "misc",
     "show_notification": false
 }

@@ -20,5 +20,6 @@
         "item": "minecraft:arrow",
         "count": 4
     },
+    "category": "equipment",
     "show_notification": false
 }

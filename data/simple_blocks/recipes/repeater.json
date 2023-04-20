@@ -19,5 +19,6 @@
         "item": "minecraft:repeater",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

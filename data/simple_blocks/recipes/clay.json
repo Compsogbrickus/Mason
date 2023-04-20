@@ -13,5 +13,6 @@
         "item": "minecraft:clay",
         "count": 1
     },
+    "category": "building",
     "show_notification": false
 }

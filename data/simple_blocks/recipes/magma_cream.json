@@ -12,5 +12,6 @@
         "item": "minecraft:magma_cream",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

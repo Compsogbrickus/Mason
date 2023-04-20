@@ -16,5 +16,6 @@
         "item": "minecraft:redstone_torch",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

@@ -17,5 +17,6 @@
         "item": "minecraft:rail",
         "count": 16
     },
+    "category": "redstone",
     "show_notification": false
 }

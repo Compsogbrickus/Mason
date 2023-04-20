@@ -12,5 +12,6 @@
         "item": "minecraft:trapped_chest",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

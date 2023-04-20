@@ -9,5 +9,6 @@
         "item": "minecraft:melon_slice",
         "count": 9
     },
+    "category": "misc",
     "show_notification": false
 }

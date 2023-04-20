@@ -13,5 +13,6 @@
         "item": "minecraft:amethyst_block",
         "count": 1
     },
+    "category": "building",
     "show_notification": false
 }

@@ -21,5 +21,6 @@
         "item": "minecraft:honey_bottle",
         "count": 4
     },
+    "category": "misc",
     "show_notification": false
 }

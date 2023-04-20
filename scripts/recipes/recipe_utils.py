@@ -49,38 +49,6 @@ def expand_item(item):
     return (item)
 
 
-def advancement_void():
-
-    structure = {
-        "criteria": {
-            "impossible": {
-                "trigger": "minecraft:impossible"
-            }
-        }
-    }
-
-    return (structure)
-
-
-def advancement_impossible_child_recipe(parent, recipe):
-
-    structure = {
-        "parent": parent,
-        "criteria": {
-            "impossible": {
-                "trigger": "minecraft:impossible"
-            }
-        },
-        "rewards": {
-            "recipes": [
-                recipe
-            ]
-        }
-    }
-
-    return (structure)
-
-
 def spacing_check(pattern):
 
     entered_pattern = pattern.copy()

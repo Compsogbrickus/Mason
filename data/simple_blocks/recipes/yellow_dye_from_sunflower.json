@@ -10,5 +10,6 @@
         "count": 2
     },
     "group": "yellow_dye",
+    "category": "misc",
     "show_notification": false
 }

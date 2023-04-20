@@ -16,5 +16,6 @@
         "item": "minecraft:lever",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

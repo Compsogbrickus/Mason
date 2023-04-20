@@ -16,5 +16,6 @@
         "item": "minecraft:end_rod",
         "count": 4
     },
+    "category": "building",
     "show_notification": false
 }

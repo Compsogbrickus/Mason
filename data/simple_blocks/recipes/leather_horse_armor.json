@@ -14,5 +14,6 @@
         "item": "minecraft:leather_horse_armor",
         "count": 1
     },
+    "category": "equipment",
     "show_notification": false
 }

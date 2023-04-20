@@ -12,5 +12,6 @@
         "item": "minecraft:furnace_minecart",
         "count": 1
     },
+    "category": "equipment",
     "show_notification": false
 }

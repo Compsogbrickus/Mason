@@ -13,5 +13,6 @@
         "item": "minecraft:glass_bottle",
         "count": 3
     },
+    "category": "misc",
     "show_notification": false
 }

@@ -19,5 +19,6 @@
         "item": "minecraft:grindstone",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

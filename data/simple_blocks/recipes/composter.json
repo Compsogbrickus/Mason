@@ -14,5 +14,6 @@
         "item": "minecraft:composter",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

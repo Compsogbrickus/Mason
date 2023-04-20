@@ -21,5 +21,6 @@
         "item": "minecraft:torch",
         "count": 4
     },
+    "category": "building",
     "show_notification": false
 }

@@ -10,5 +10,6 @@
         "count": 1
     },
     "group": "wooden_button",
+    "category": "redstone",
     "show_notification": false
 }

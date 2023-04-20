@@ -20,5 +20,6 @@
         "item": "minecraft:daylight_detector",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

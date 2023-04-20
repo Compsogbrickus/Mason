@@ -16,5 +16,6 @@
         "item": "minecraft:loom",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

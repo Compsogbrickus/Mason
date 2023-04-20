@@ -20,5 +20,6 @@
         "item": "minecraft:soul_campfire",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

@@ -12,5 +12,6 @@
         "item": "minecraft:firework_rocket",
         "count": 3
     },
+    "category": "equipment",
     "show_notification": false
 }

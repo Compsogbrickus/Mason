@@ -18,5 +18,6 @@
         "item": "minecraft:fire_charge",
         "count": 3
     },
+    "category": "equipment",
     "show_notification": false
 }

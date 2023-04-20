@@ -2,8 +2,6 @@ recipe give @s simple_blocks:acacia_boat
 recipe give @s simple_blocks:acacia_pressure_plate
 recipe give @s simple_blocks:activator_rail
 recipe give @s simple_blocks:amethyst_block
-recipe give @s simple_blocks:andesite_stairs
-recipe give @s simple_blocks:andesite_wall
 recipe give @s simple_blocks:anvil
 recipe give @s simple_blocks:armor_stand
 recipe give @s simple_blocks:arrow

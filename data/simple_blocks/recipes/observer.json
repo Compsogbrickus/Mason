@@ -20,5 +20,6 @@
         "item": "minecraft:observer",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

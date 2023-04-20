@@ -9,5 +9,6 @@
         "item": "minecraft:lapis_lazuli",
         "count": 9
     },
+    "category": "misc",
     "show_notification": false
 }

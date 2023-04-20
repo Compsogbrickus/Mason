@@ -14,5 +14,6 @@
         "item": "minecraft:cauldron",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

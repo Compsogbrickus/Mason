@@ -14,5 +14,6 @@
         "item": "minecraft:iron_leggings",
         "count": 1
     },
+    "category": "equipment",
     "show_notification": false
 }

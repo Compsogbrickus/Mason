@@ -17,5 +17,6 @@
         "item": "minecraft:item_frame",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

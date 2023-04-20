@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-        "item": "minecraft:mangrove_sign"
-    },
-    "result": "minecraft:mangrove_planks",
-    "show_notification": false
-}

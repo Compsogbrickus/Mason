@@ -9,5 +9,6 @@
         "item": "minecraft:raw_copper",
         "count": 9
     },
+    "category": "misc",
     "show_notification": false
 }

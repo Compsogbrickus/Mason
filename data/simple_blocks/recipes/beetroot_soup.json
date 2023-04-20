@@ -27,5 +27,6 @@
         "item": "minecraft:beetroot_soup",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

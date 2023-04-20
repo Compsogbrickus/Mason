@@ -12,5 +12,6 @@
         "item": "minecraft:flint_and_steel",
         "count": 1
     },
+    "category": "equipment",
     "show_notification": false
 }

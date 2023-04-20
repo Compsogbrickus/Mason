@@ -20,5 +20,6 @@
         "item": "minecraft:blast_furnace",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

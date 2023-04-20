@@ -16,5 +16,6 @@
         "item": "minecraft:warped_fungus_on_a_stick",
         "count": 1
     },
+    "category": "equipment",
     "show_notification": false
 }

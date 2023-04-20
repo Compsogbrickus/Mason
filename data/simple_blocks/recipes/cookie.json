@@ -15,5 +15,6 @@
         "item": "minecraft:cookie",
         "count": 8
     },
+    "category": "misc",
     "show_notification": false
 }

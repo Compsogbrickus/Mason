@@ -15,5 +15,6 @@
         "item": "minecraft:pumpkin_pie",
         "count": 1
     },
+    "category": "misc",
     "show_notification": false
 }

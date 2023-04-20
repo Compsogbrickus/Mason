@@ -17,5 +17,6 @@
         "item": "minecraft:redstone_lamp",
         "count": 1
     },
+    "category": "redstone",
     "show_notification": false
 }

@@ -16,5 +16,6 @@
         "item": "minecraft:diorite",
         "count": 2
     },
+    "category": "building",
     "show_notification": false
 }

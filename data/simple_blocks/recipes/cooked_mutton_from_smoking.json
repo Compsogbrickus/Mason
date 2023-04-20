@@ -6,5 +6,6 @@
     "result": "minecraft:cooked_mutton",
     "experience": 0.35,
     "cookingtime": 100.0,
+    "category": "food",
     "show_notification": false
 }

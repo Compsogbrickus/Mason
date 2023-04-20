@@ -9,5 +9,6 @@
         "item": "minecraft:redstone",
         "count": 9
     },
+    "category": "redstone",
     "show_notification": false
 }

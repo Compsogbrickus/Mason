@@ -12,5 +12,6 @@
         "item": "minecraft:tinted_glass",
         "count": 2
     },
+    "category": "building",
     "show_notification": false
 }

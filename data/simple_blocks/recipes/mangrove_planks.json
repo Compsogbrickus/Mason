@@ -9,5 +9,6 @@
         "item": "minecraft:mangrove_planks",
         "count": 4
     },
-    "group": "planks"
+    "group": "planks",
+    "category": "building"
 }

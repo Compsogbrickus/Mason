@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:compass",
         "count": 1
-    }
+    },
+    "category": "equipment"
 }

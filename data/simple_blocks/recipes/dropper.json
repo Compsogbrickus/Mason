@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:dropper",
         "count": 1
-    }
+    },
+    "category": "redstone"
 }

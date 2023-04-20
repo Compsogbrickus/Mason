@@ -12,5 +12,6 @@
         "item": "minecraft:black_carpet",
         "count": 2
     },
-    "group": "carpet"
+    "group": "carpet",
+    "category": "building"
 }

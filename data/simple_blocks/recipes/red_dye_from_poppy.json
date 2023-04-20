@@ -9,5 +9,6 @@
         "item": "minecraft:red_dye",
         "count": 1
     },
-    "group": "red_dye"
+    "group": "red_dye",
+    "category": "misc"
 }

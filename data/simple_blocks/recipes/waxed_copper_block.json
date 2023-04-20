@@ -12,5 +12,6 @@
         "item": "minecraft:waxed_copper_block",
         "count": 1
     },
-    "group": "waxed_copper_block"
+    "group": "waxed_copper_block",
+    "category": "building"
 }

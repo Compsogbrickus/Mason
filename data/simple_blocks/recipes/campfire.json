@@ -19,5 +19,6 @@
     "result": {
         "item": "minecraft:campfire",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

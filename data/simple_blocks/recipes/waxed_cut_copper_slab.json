@@ -12,5 +12,6 @@
         "item": "minecraft:waxed_cut_copper_slab",
         "count": 1
     },
-    "group": "waxed_cut_copper_slab"
+    "group": "waxed_cut_copper_slab",
+    "category": "building"
 }

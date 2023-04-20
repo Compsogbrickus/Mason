@@ -9,5 +9,6 @@
         "item": "minecraft:pink_dye",
         "count": 1
     },
-    "group": "pink_dye"
+    "group": "pink_dye",
+    "category": "misc"
 }

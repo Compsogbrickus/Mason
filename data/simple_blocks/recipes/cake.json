@@ -22,5 +22,6 @@
     "result": {
         "item": "minecraft:cake",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

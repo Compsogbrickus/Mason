@@ -16,5 +16,6 @@
         "item": "minecraft:white_bed",
         "count": 1
     },
-    "group": "bed"
+    "group": "bed",
+    "category": "building"
 }

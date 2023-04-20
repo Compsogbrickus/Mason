@@ -15,5 +15,6 @@
     "result": {
         "item": "minecraft:brewing_stand",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

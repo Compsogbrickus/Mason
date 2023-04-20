@@ -17,5 +17,6 @@
         "item": "minecraft:orange_stained_glass",
         "count": 8
     },
-    "group": "stained_glass"
+    "group": "stained_glass",
+    "category": "building"
 }

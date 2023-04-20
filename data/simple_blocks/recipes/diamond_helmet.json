@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:diamond_helmet",
         "count": 1
-    }
+    },
+    "category": "equipment"
 }

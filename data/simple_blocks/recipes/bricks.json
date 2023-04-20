@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:bricks",
         "count": 1
-    }
+    },
+    "category": "building"
 }

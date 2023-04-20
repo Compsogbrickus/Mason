@@ -9,5 +9,6 @@
         "item": "minecraft:netherite_ingot",
         "count": 9
     },
-    "group": "netherite_ingot"
+    "group": "netherite_ingot",
+    "category": "misc"
 }

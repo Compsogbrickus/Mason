@@ -12,5 +12,6 @@
     "result": {
         "item": "minecraft:snow_block",
         "count": 1
-    }
+    },
+    "category": "building"
 }

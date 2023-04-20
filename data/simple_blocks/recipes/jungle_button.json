@@ -9,5 +9,6 @@
         "item": "minecraft:jungle_button",
         "count": 1
     },
-    "group": "wooden_button"
+    "group": "wooden_button",
+    "category": "redstone"
 }

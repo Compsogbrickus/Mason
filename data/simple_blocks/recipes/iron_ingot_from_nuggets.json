@@ -14,5 +14,6 @@
         "item": "minecraft:iron_ingot",
         "count": 1
     },
-    "group": "iron_ingot"
+    "group": "iron_ingot",
+    "category": "misc"
 }

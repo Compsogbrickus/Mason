@@ -12,5 +12,6 @@
         "item": "minecraft:allium",
         "count": 2
     },
-    "group": "bonemeal_plants"
+    "group": "bonemeal_plants",
+    "category": "misc"
 }

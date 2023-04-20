@@ -19,5 +19,6 @@
     "result": {
         "item": "minecraft:powered_rail",
         "count": 6
-    }
+    },
+    "category": "redstone"
 }

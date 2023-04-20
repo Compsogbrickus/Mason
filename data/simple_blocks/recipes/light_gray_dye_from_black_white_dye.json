@@ -15,5 +15,6 @@
         "item": "minecraft:light_gray_dye",
         "count": 3
     },
-    "group": "light_gray_dye"
+    "group": "light_gray_dye",
+    "category": "misc"
 }

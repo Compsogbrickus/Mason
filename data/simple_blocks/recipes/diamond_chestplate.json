@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:diamond_chestplate",
         "count": 1
-    }
+    },
+    "category": "equipment"
 }

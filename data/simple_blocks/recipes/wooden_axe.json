@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:wooden_axe",
         "count": 1
-    }
+    },
+    "category": "equipment"
 }

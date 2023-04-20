@@ -15,5 +15,6 @@
     "result": {
         "item": "minecraft:candle",
         "count": 1
-    }
+    },
+    "category": "building"
 }

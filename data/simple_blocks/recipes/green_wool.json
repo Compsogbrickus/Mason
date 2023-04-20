@@ -12,5 +12,6 @@
         "item": "minecraft:green_wool",
         "count": 1
     },
-    "group": "wool"
+    "group": "wool",
+    "category": "building"
 }

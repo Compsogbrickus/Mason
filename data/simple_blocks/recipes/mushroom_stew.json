@@ -14,5 +14,6 @@
     "result": {
         "item": "minecraft:mushroom_stew",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

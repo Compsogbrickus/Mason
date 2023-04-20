@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-        "item": "minecraft:oak_sign"
-    },
-    "result": "minecraft:oak_planks"
-}

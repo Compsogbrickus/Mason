@@ -22,5 +22,6 @@
     "result": {
         "item": "minecraft:piston",
         "count": 1
-    }
+    },
+    "category": "redstone"
 }

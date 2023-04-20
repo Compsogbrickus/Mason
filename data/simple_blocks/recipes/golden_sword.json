@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:golden_sword",
         "count": 1
-    }
+    },
+    "category": "equipment"
 }

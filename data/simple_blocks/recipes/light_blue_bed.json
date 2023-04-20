@@ -16,5 +16,6 @@
         "item": "minecraft:light_blue_bed",
         "count": 1
     },
-    "group": "bed"
+    "group": "bed",
+    "category": "building"
 }

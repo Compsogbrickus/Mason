@@ -16,5 +16,6 @@
     "result": {
         "item": "minecraft:respawn_anchor",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

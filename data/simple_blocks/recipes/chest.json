@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:chest",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

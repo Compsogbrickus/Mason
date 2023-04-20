@@ -20,5 +20,6 @@
     "result": {
         "item": "minecraft:torch",
         "count": 4
-    }
+    },
+    "category": "building"
 }

@@ -9,5 +9,6 @@
         "item": "minecraft:bone_meal",
         "count": 9
     },
-    "group": "bonemeal"
+    "group": "bonemeal",
+    "category": "misc"
 }

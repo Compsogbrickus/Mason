@@ -39,7 +39,8 @@ def expand_item(item):
     else:
         if re.search(";", str(item)):
             item = str(item).split(";")
-            item = expand_item(list(filter(lambda x: x != "", sorted(set(item)))))
+            item = expand_item(
+                list(filter(lambda x: x != "", sorted(set(item)))))
         else:
             if re.search("^\#", item):
                 return ({"tag": "minecraft:" + re.sub("^\#", "", item)})
@@ -57,6 +58,24 @@ def advancement_void():
                 "trigger": "minecraft:impossible"
             }
         }
+    }
+
+    return (structure)
+
+
+def advancement_root():
+
+    structure = {
+        "criteria": {
+            "impossible": {
+                "trigger": "minecraft:impossible"
+            }
+        },
+        "requirements": [
+            [
+                "impossible"
+            ]
+        ]
     }
 
     return (structure)
@@ -155,7 +174,7 @@ def crafting_shaped(output_item, output_count, input_items):
                 "count": output_count
         }
     }
-    
+
     return (structure)
 
 
@@ -198,7 +217,7 @@ def smithing(result, result_count, items):
             "count": result_count
         }
     }
-    
+
     return (structure)
 
 

@@ -12,5 +12,6 @@
         "item": "minecraft:dark_oak_chest_boat",
         "count": 1
     },
-    "group": "chest_boat"
+    "group": "chest_boat",
+    "category": "equipment"
 }

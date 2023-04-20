@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:bricks"
+        },
+        {
+            "item": "minecraft:terracotta"
+        }
+    ],
+    "result": "minecraft:brick_stairs"
+}

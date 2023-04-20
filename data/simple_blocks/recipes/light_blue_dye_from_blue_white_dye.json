@@ -12,5 +12,6 @@
         "item": "minecraft:light_blue_dye",
         "count": 2
     },
-    "group": "light_blue_dye"
+    "group": "light_blue_dye",
+    "category": "misc"
 }

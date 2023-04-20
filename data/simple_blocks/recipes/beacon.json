@@ -19,5 +19,6 @@
     "result": {
         "item": "minecraft:beacon",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

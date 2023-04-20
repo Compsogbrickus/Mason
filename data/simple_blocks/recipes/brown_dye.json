@@ -9,5 +9,6 @@
         "item": "minecraft:brown_dye",
         "count": 1
     },
-    "group": "brown_dye"
+    "group": "brown_dye",
+    "category": "misc"
 }

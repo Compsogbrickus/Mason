@@ -17,5 +17,6 @@
         "item": "minecraft:green_terracotta",
         "count": 8
     },
-    "group": "stained_terracotta"
+    "group": "stained_terracotta",
+    "category": "building"
 }

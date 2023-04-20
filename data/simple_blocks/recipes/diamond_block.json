@@ -13,5 +13,6 @@
     "result": {
         "item": "minecraft:diamond_block",
         "count": 1
-    }
+    },
+    "category": "building"
 }

@@ -33,5 +33,6 @@
         "item": "minecraft:red_concrete_powder",
         "count": 8
     },
-    "group": "concrete_powder"
+    "group": "concrete_powder",
+    "category": "building"
 }

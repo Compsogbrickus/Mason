@@ -12,5 +12,6 @@
         "item": "minecraft:pink_candle",
         "count": 1
     },
-    "group": "dyed_candle"
+    "group": "dyed_candle",
+    "category": "building"
 }

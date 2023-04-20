@@ -87,3 +87,6 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
 
         with open(path.join(advancements_dir, filename + ".json"), "w") as file_out:
             file_out.write(json.dumps(advancement_structure, indent=4))
+
+with open(path.join(advancements_dir, "root.json"), "w") as file_out:
+    file_out.write(json.dumps(recipe_utils.advancement_root(), indent=4))

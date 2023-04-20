@@ -11,5 +11,6 @@
     "result": {
         "item": "minecraft:bread",
         "count": 1
-    }
+    },
+    "category": "misc"
 }

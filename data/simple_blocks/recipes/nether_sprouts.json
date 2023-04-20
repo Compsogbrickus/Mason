@@ -12,5 +12,6 @@
         "item": "minecraft:nether_sprouts",
         "count": 2
     },
-    "group": "bonemeal_plants"
+    "group": "bonemeal_plants",
+    "category": "misc"
 }

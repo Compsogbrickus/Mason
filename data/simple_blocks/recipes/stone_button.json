@@ -8,5 +8,6 @@
     "result": {
         "item": "minecraft:stone_button",
         "count": 1
-    }
+    },
+    "category": "redstone"
 }

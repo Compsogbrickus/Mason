@@ -3,7 +3,8 @@
 
 import json
 from pathlib import Path
-from os import path
+from os import path, makedirs
+from shutil import rmtree
 from contextlib import ExitStack
 from csv import reader
 
@@ -29,6 +30,11 @@ recipe_types = ["crafting_shaped",
                 "smoking",
                 "blasting",
                 "smelting"]
+
+for dir in [custom_recipes_dir, give_recipes_dir, take_recipes_dir]:
+    if path.exists(dir):
+        rmtree(dir)
+    makedirs(dir)
 
 with ExitStack() as stack:
     csv = stack.enter_context(open(path.join(source_recipes_dir, name + ".csv"), newline=""))

@@ -3,7 +3,8 @@
 
 import json
 from pathlib import Path
-from os import path
+from os import path, makedirs
+from shutil import rmtree
 from csv import reader
 
 import recipe_utils
@@ -16,6 +17,14 @@ custom_recipes_dir = path.join(simple_blocks_dir, "data/simple_blocks/recipes")
 source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
 custom_advancements_dir = path.join(simple_blocks_dir, "data/simple_blocks/advancements/recipes")
 functions_dir = path.join(simple_blocks_dir, "data/simple_blocks/functions")
+
+for dir in [custom_recipes_dir, custom_advancements_dir]:
+    if path.exists(dir):
+        rmtree(dir)
+    makedirs(dir)
+
+with open(path.join(custom_advancements_dir, "root.json"), "w") as file_out:
+    file_out.write(json.dumps(recipe_utils.advancement_root(), indent=4))
 
 with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
     csv_reader = reader(csv)
@@ -67,26 +76,19 @@ with open(path.join(source_recipes_dir, name + ".csv"), newline="") as csv:
             recipe_structure = None
             print("Adding recipe with no type " + name)
 
+        if name != "":
+            filename = name
+
         if recipe_structure is not None:
             if group != "":
                 recipe_structure["group"] = group
             if category != "":
                 recipe_structure["category"] = category
-
-        if name != "":
-            filename = name
-
-        recipes_dir = custom_recipes_dir
-        advancements_dir = custom_advancements_dir
-        advancement_structure = recipe_utils.advancement_impossible_child_recipe(
-            "simple_blocks:recipes/root", "simple_blocks:" + filename)
-
-        if recipe_structure is not None:
-            with open(path.join(recipes_dir, filename + ".json"), "w") as file_out:
+            
+            with open(path.join(custom_recipes_dir, filename + ".json"), "w") as file_out:
                 file_out.write(json.dumps(recipe_structure, indent=4))
 
-        with open(path.join(advancements_dir, filename + ".json"), "w") as file_out:
+        advancement_structure = recipe_utils.advancement_impossible_child_recipe(
+            "simple_blocks:recipes/root", "simple_blocks:" + filename)        
+        with open(path.join(custom_advancements_dir, filename + ".json"), "w") as file_out:
             file_out.write(json.dumps(advancement_structure, indent=4))
-
-with open(path.join(advancements_dir, "root.json"), "w") as file_out:
-    file_out.write(json.dumps(recipe_utils.advancement_root(), indent=4))

@@ -56,6 +56,8 @@ with open(path.join(source_loot_tables_dir, name + ".csv"), newline="") as csv:
             structure = loot_table_utils.blocks_slab_1(base_block, block_1)
         elif table_type == "slab_2":
             structure = loot_table_utils.blocks_slab_2(base_block, block_1, block_2)
+        elif table_type == "shulker_box":
+            structure = loot_table_utils.shulker_box(base_block)
         else:
             print("Skipping block loot table with base block " + base_block + ".")
             continue

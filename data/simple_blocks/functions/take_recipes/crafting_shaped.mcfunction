@@ -85,6 +85,7 @@ recipe take @s simple_blocks:dark_oak_boat
 recipe take @s simple_blocks:dark_oak_pressure_plate
 recipe take @s simple_blocks:dark_prismarine
 recipe take @s simple_blocks:daylight_detector
+recipe take @s simple_blocks:decorated_pot_simple
 recipe take @s simple_blocks:detector_rail
 recipe take @s simple_blocks:diamond_axe
 recipe take @s simple_blocks:diamond_block
@@ -110,6 +111,7 @@ recipe take @s simple_blocks:ender_chest
 recipe take @s simple_blocks:eye_armor_trim_smithing_template
 recipe take @s simple_blocks:fishing_rod
 recipe take @s simple_blocks:fletching_table
+recipe take @s simple_blocks:flower_pot
 recipe take @s simple_blocks:furnace
 recipe take @s simple_blocks:glass_bottle
 recipe take @s simple_blocks:glass_pane

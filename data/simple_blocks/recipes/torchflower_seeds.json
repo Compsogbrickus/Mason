@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:torchflower"
+        }
+    ],
+    "result": {
+        "item": "minecraft:torchflower_seeds",
+        "count": 1
+    },
+    "group": "seeds",
+    "category": "misc",
+    "show_notification": false
+}

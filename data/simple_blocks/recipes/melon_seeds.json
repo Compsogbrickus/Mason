@@ -9,6 +9,7 @@
         "item": "minecraft:melon_seeds",
         "count": 1
     },
+    "group": "seeds",
     "category": "misc",
     "show_notification": false
 }

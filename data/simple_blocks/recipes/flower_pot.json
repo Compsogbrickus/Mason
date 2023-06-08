@@ -1,9 +1,18 @@
 {
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-        "item": "minecraft:terracotta"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:brick"
+        }
     },
-    "result": "minecraft:flower_pot",
+    "result": {
+        "item": "minecraft:flower_pot",
+        "count": 1
+    },
+    "category": "building",
     "show_notification": false
 }

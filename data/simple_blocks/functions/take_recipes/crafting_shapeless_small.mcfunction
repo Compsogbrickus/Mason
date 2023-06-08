@@ -30,6 +30,7 @@ recipe take @s simple_blocks:blue_wool
 recipe take @s simple_blocks:bone_meal
 recipe take @s simple_blocks:bone_meal_from_bone_block
 recipe take @s simple_blocks:book
+recipe take @s simple_blocks:brick
 recipe take @s simple_blocks:brown_bed_from_white_bed
 recipe take @s simple_blocks:brown_candle
 recipe take @s simple_blocks:brown_concrete
@@ -39,6 +40,7 @@ recipe take @s simple_blocks:brown_wool
 recipe take @s simple_blocks:cherry_button
 recipe take @s simple_blocks:cherry_chest_boat
 recipe take @s simple_blocks:cherry_planks
+recipe take @s simple_blocks:cherry_sapling
 recipe take @s simple_blocks:cherry_sapling
 recipe take @s simple_blocks:chest_minecart
 recipe take @s simple_blocks:coal
@@ -215,6 +217,7 @@ recipe take @s simple_blocks:pink_dye_from_pink_tulip
 recipe take @s simple_blocks:pink_dye_from_red_white_dye
 recipe take @s simple_blocks:pink_tulip
 recipe take @s simple_blocks:pink_wool
+recipe take @s simple_blocks:pitcher_pod
 recipe take @s simple_blocks:polished_blackstone_button
 recipe take @s simple_blocks:poppy
 recipe take @s simple_blocks:pumpkin_pie
@@ -240,6 +243,7 @@ recipe take @s simple_blocks:red_wool
 recipe take @s simple_blocks:redstone
 recipe take @s simple_blocks:rose_bush
 recipe take @s simple_blocks:seagrass
+recipe take @s simple_blocks:seeds
 recipe take @s simple_blocks:skull_banner_pattern
 recipe take @s simple_blocks:slime_ball
 recipe take @s simple_blocks:small_dripleaf
@@ -255,6 +259,7 @@ recipe take @s simple_blocks:sunflower
 recipe take @s simple_blocks:tall_grass
 recipe take @s simple_blocks:tinted_glass
 recipe take @s simple_blocks:tnt_minecart
+recipe take @s simple_blocks:torchflower_seeds
 recipe take @s simple_blocks:trapped_chest
 recipe take @s simple_blocks:twisting_vines
 recipe take @s simple_blocks:vine

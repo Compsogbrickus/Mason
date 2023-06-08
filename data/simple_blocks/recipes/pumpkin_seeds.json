@@ -9,6 +9,7 @@
         "item": "minecraft:pumpkin_seeds",
         "count": 4
     },
+    "group": "seeds",
     "category": "misc",
     "show_notification": false
 }

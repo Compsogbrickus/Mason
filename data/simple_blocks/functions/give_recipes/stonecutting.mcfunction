@@ -129,7 +129,6 @@ recipe give @s simple_blocks:dark_oak_wood_from_stonecutting
 recipe give @s simple_blocks:dark_prismarine_from_stonecutting
 recipe give @s simple_blocks:dark_prismarine_slab_from_stonecutting
 recipe give @s simple_blocks:dark_prismarine_stairs_from_stonecutting
-recipe give @s simple_blocks:decorated_pot_simple
 recipe give @s simple_blocks:deepslate_brick_slab_from_stonecutting
 recipe give @s simple_blocks:deepslate_brick_stairs_from_stonecutting
 recipe give @s simple_blocks:deepslate_brick_wall_from_stonecutting
@@ -151,7 +150,6 @@ recipe give @s simple_blocks:exposed_copper_from_stonecutting
 recipe give @s simple_blocks:exposed_cut_copper_from_stonecutting
 recipe give @s simple_blocks:exposed_cut_copper_slab_from_stonecutting
 recipe give @s simple_blocks:exposed_cut_copper_stairs_from_stonecutting
-recipe give @s simple_blocks:flower_pot
 recipe give @s simple_blocks:granite_from_stonecutting
 recipe give @s simple_blocks:granite_slab_from_stonecutting
 recipe give @s simple_blocks:granite_stairs_from_stonecutting

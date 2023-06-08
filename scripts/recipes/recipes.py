@@ -29,7 +29,8 @@ recipe_types = ["crafting_shaped",
                 "campfire_cooking",
                 "smoking",
                 "blasting",
-                "smelting"]
+                "smelting",
+                "other"]
 
 for dir in [custom_recipes_dir, give_recipes_dir, take_recipes_dir]:
     if path.exists(dir):
@@ -97,6 +98,7 @@ with ExitStack() as stack:
             recipe_structure = recipe_utils.cooking("smelting", experience, cooking_time, output, inputs[0])
             filename = output + "_from_smelting_" + inputs[0]
         else:
+            id = -1
             recipe_structure = None
             print("Adding recipe with no type " + name)
 
@@ -112,5 +114,6 @@ with ExitStack() as stack:
             
             with open(path.join(custom_recipes_dir, filename + ".json"), "w") as file_out:
                 file_out.write(json.dumps(recipe_structure, indent=4))
-            give_recipes[id].write("recipe give @s simple_blocks:" + filename + "\n")
-            take_recipes[id].write("recipe take @s simple_blocks:" + filename + "\n")
+
+        give_recipes[id].write("recipe give @s simple_blocks:" + filename + "\n")
+        take_recipes[id].write("recipe take @s simple_blocks:" + filename + "\n")

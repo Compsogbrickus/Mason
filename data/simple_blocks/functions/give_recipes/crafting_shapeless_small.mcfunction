@@ -59,7 +59,7 @@ recipe give @s simple_blocks:ender_eye
 recipe give @s simple_blocks:fermented_spider_eye
 recipe give @s simple_blocks:fern
 recipe give @s simple_blocks:fire_charge
-recipe give @s simple_blocks:firework_rocket
+recipe give @s simple_blocks:firework_rocket_simple
 recipe give @s simple_blocks:flint_and_steel
 recipe give @s simple_blocks:flower_banner_pattern
 recipe give @s simple_blocks:flowering_azalea

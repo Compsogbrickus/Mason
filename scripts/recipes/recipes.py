@@ -30,7 +30,8 @@ recipe_types = ["crafting_shaped",
                 "campfire_cooking",
                 "smoking",
                 "blasting",
-                "smelting"]
+                "smelting",
+                "other"]
 
 for dir in [custom_recipes_dir, give_recipes_dir, take_recipes_dir]:
     if path.exists(dir):
@@ -74,34 +75,35 @@ with ExitStack() as stack:
             recipe_structure = recipe_utils.smithing_transform(output, output_count, inputs[:3])
             filename = output + "_smithing"
         elif station == "smithing_trim":
-            id = 4
+            id = 5
             recipe_structure = recipe_utils.smithing_trim(inputs[:3])
             filename = inputs[0] + "_smithing_trim"
         elif station == "campfire_cooking":
-            id = 5
+            id = 6
             recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_campfire_cooking"
         elif station == "smoking":
-            id = 6
+            id = 7
             recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_smoking"
         elif station == "blasting":
-            id = 7
+            id = 8
             recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_blasting"
         elif station == "blasting_clear":
-            id = 7
+            id = 8
             recipe_structure = recipe_utils.cooking("blasting", experience, cooking_time, output, inputs[0])
             filename = output + "_from_blasting_" + inputs[0]
         elif station == "smelting":
-            id = 8
+            id = 9
             recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])
             filename = output + "_from_smelting"
         elif station == "smelting_clear":
-            id = 8
+            id = 9
             recipe_structure = recipe_utils.cooking("smelting", experience, cooking_time, output, inputs[0])
             filename = output + "_from_smelting_" + inputs[0]
         else:
+            id = -1
             recipe_structure = None
             print("Adding recipe with no type " + name)
 
@@ -117,5 +119,6 @@ with ExitStack() as stack:
             
             with open(path.join(custom_recipes_dir, filename + ".json"), "w") as file_out:
                 file_out.write(json.dumps(recipe_structure, indent=4))
-            give_recipes[id].write("recipe give @s simple_blocks:" + filename + "\n")
-            take_recipes[id].write("recipe take @s simple_blocks:" + filename + "\n")
+
+        give_recipes[id].write("recipe give @s simple_blocks:" + filename + "\n")
+        take_recipes[id].write("recipe take @s simple_blocks:" + filename + "\n")

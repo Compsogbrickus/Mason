@@ -117,7 +117,7 @@ recipe take @s simple_blocks:ender_eye
 recipe take @s simple_blocks:fermented_spider_eye
 recipe take @s simple_blocks:fern
 recipe take @s simple_blocks:fire_charge
-recipe take @s simple_blocks:firework_rocket
+recipe take @s simple_blocks:firework_rocket_simple
 recipe take @s simple_blocks:flint_and_steel
 recipe take @s simple_blocks:flower_banner_pattern
 recipe take @s simple_blocks:flowering_azalea

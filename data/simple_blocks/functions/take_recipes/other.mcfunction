@@ -2,7 +2,7 @@ recipe take @s simple_blocks:armor_dye
 recipe take @s simple_blocks:banner_duplicate
 recipe take @s simple_blocks:book_cloning
 recipe take @s simple_blocks:decorated_pot
-recipe take @s simple_blocks:firework_rocket_special
+recipe take @s simple_blocks:firework_rocket
 recipe take @s simple_blocks:firework_star
 recipe take @s simple_blocks:firework_star_fade
 recipe take @s simple_blocks:map_cloning

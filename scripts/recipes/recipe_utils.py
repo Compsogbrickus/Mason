@@ -155,12 +155,13 @@ def stonecutting(output_item, output_count, input_item):
     return (structure)
 
 
-def smithing(result, result_count, items):
+def smithing_transform(result, result_count, items):
 
     structure = {
-        "type": "minecraft:smithing",
-        "base": expand_item(items[0]),
-        "addition": expand_item(items[1]),
+        "type": "minecraft:smithing_transform",
+        "template": expand_item(items[0]),
+        "base": expand_item(items[1]),
+        "addition": expand_item(items[2]),
         "result": {
             "item": "minecraft:" + result,
             "count": result_count
@@ -170,7 +171,20 @@ def smithing(result, result_count, items):
     return (structure)
 
 
+def smithing_trim(items):
+
+    structure = {
+        "type": "minecraft:smithing_trim",
+        "template": expand_item(items[0]),
+        "base": expand_item(items[1]),
+        "addition": expand_item(items[2])
+    }
+    
+    return (structure)
+
+
 def cooking(station, experience, cooking_time, output_item, input_items):
+    
     structure = {
         "type": "minecraft:" + station,
         "ingredient": expand_item(input_items),

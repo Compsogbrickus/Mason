@@ -25,7 +25,8 @@ recipe_types = ["crafting_shaped",
                 "crafting_shapeless_small",
                 "crafting_shapeless_large",
                 "stonecutting",
-                "smithing",
+                "smithing_transform",
+                "smithing_trim",
                 "campfire_cooking",
                 "smoking",
                 "blasting",
@@ -68,10 +69,14 @@ with ExitStack() as stack:
             id = 3
             recipe_structure = recipe_utils.stonecutting(output, int(output_count), inputs[0])
             filename = output + "_from_" + inputs[0] + "_stonecutting"
-        elif station == "smithing":
+        elif station == "smithing_transform":
             id = 4
-            recipe_structure = recipe_utils.smithing(output, output_count, inputs[:2])
+            recipe_structure = recipe_utils.smithing_transform(output, output_count, inputs[:3])
             filename = output + "_smithing"
+        elif station == "smithing_trim":
+            id = 4
+            recipe_structure = recipe_utils.smithing_trim(inputs[:3])
+            filename = inputs[0] + "_smithing_trim"
         elif station == "campfire_cooking":
             id = 5
             recipe_structure = recipe_utils.cooking(station, experience, cooking_time, output, inputs[0])

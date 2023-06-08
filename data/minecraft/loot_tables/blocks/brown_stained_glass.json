@@ -32,5 +32,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/brown_stained_glass"
 }

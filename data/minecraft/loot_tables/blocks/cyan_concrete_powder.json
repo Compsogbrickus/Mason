@@ -52,5 +52,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/cyan_concrete_powder"
 }

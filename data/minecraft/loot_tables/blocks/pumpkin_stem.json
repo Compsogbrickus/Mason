@@ -337,5 +337,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/pumpkin_stem"
 }

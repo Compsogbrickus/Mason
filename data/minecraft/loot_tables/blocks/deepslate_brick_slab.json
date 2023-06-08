@@ -72,5 +72,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/deepslate_brick_slab"
 }

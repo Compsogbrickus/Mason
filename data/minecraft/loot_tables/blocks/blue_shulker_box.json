@@ -43,5 +43,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/blue_shulker_box"
 }

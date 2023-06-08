@@ -52,5 +52,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/cracked_polished_blackstone_bricks"
 }

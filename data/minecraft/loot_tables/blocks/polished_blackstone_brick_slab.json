@@ -72,5 +72,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/polished_blackstone_brick_slab"
 }

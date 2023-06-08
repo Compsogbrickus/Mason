@@ -57,5 +57,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/spruce_sapling"
 }

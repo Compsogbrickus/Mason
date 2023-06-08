@@ -43,5 +43,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/green_shulker_box"
 }

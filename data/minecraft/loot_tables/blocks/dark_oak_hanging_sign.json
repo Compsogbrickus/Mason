@@ -52,5 +52,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/dark_oak_hanging_sign"
 }

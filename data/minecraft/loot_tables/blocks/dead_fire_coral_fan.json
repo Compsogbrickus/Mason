@@ -32,5 +32,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/dead_fire_coral_fan"
 }

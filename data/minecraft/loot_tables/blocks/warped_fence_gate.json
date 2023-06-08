@@ -52,5 +52,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/warped_fence_gate"
 }

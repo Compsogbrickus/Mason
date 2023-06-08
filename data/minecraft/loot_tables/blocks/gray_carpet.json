@@ -60,5 +60,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/gray_carpet"
 }

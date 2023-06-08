@@ -35,5 +35,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/iron_door"
 }

@@ -72,5 +72,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/dark_oak_slab"
 }

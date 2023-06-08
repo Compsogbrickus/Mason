@@ -43,5 +43,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/magenta_shulker_box"
 }

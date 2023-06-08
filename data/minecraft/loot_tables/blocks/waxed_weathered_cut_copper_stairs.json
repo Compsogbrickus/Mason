@@ -52,5 +52,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/waxed_weathered_cut_copper_stairs"
 }

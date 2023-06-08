@@ -57,5 +57,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/jungle_sapling"
 }

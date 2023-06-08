@@ -33,5 +33,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/potted_azalea_bush"
 }

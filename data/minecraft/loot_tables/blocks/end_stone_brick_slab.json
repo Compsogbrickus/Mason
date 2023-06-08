@@ -72,5 +72,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/end_stone_brick_slab"
 }

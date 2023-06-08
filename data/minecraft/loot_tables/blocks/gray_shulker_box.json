@@ -43,5 +43,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/gray_shulker_box"
 }

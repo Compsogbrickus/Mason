@@ -22,5 +22,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:blocks/oxidized_cut_copper"
 }

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OMO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "O": {
+            "item": "minecraft:diamond"
+        },
+        "M": {
+            "item": "minecraft:vex_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "item": "minecraft:vex_armor_trim_smithing_template",
+        "count": 2
+    },
+    "category": "misc",
+    "show_notification": false
+}

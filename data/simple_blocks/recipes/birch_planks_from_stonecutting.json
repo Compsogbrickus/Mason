@@ -15,6 +15,9 @@
             "item": "minecraft:birch_fence_gate"
         },
         {
+            "item": "minecraft:birch_hanging_sign"
+        },
+        {
             "item": "minecraft:birch_pressure_plate"
         },
         {

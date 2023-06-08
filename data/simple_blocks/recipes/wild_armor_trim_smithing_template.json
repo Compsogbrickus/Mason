@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CMC",
+        "COC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:diamond"
+        },
+        "O": {
+            "item": "minecraft:mossy_cobblestone"
+        },
+        "M": {
+            "item": "minecraft:wild_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "item": "minecraft:wild_armor_trim_smithing_template",
+        "count": 2
+    },
+    "category": "misc",
+    "show_notification": false
+}

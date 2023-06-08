@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:bamboo_button"
+        },
+        {
+            "item": "minecraft:bamboo_door"
+        },
+        {
+            "item": "minecraft:bamboo_fence"
+        },
+        {
+            "item": "minecraft:bamboo_fence_gate"
+        },
+        {
+            "item": "minecraft:bamboo_hanging_sign"
+        },
+        {
+            "item": "minecraft:bamboo_mosaic"
+        },
+        {
+            "item": "minecraft:bamboo_mosaic_slab"
+        },
+        {
+            "item": "minecraft:bamboo_mosaic_stairs"
+        },
+        {
+            "item": "minecraft:bamboo_pressure_plate"
+        },
+        {
+            "item": "minecraft:bamboo_sign"
+        },
+        {
+            "item": "minecraft:bamboo_slab"
+        },
+        {
+            "item": "minecraft:bamboo_stairs"
+        },
+        {
+            "item": "minecraft:bamboo_trapdoor"
+        }
+    ],
+    "result": "minecraft:bamboo_planks",
+    "show_notification": false
+}

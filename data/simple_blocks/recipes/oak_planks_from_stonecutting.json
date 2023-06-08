@@ -15,6 +15,9 @@
             "item": "minecraft:oak_fence_gate"
         },
         {
+            "item": "minecraft:oak_hanging_sign"
+        },
+        {
             "item": "minecraft:oak_pressure_plate"
         },
         {

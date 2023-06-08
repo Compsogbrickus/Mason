@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OMO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobbled_deepslate"
+        },
+        "O": {
+            "item": "minecraft:diamond"
+        },
+        "M": {
+            "item": "minecraft:silence_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "item": "minecraft:silence_armor_trim_smithing_template",
+        "count": 2
+    },
+    "category": "misc",
+    "show_notification": false
+}

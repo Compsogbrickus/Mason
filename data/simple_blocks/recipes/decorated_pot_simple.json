@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "minecraft:terracotta"
+    },
+    "result": "minecraft:decorated_pot",
+    "show_notification": false
+}

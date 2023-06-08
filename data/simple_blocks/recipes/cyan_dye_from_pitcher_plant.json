@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:pitcher_plant"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cyan_dye",
+        "count": 2
+    },
+    "group": "cyan_dye",
+    "category": "misc",
+    "show_notification": false
+}

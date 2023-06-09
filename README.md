@@ -1,6 +1,6 @@
 # Simple Blocks
 
-Simple Blocks is a datapack for Minecraft 1.19.4 that aims to reduce inventory clutter by simplifying block drops and recipes.
+Simple Blocks is a datapack for Minecraft 1.20 that aims to reduce inventory clutter by simplifying block drops and recipes.
 
 This repository functions as a datapack that can be dropped into a Minecraft world's "datapacks" folder. Once placed into the datapacks folder and once the world is reloaded, it will replace all vanilla block drops and recipes.
 
@@ -10,7 +10,7 @@ This datapack uses scripts written in Python paired with spreadsheets in CSV for
 
 The source spreadsheets with usage notes are provided on Google Sheets at https://docs.google.com/spreadsheets/d/1e1b9jBrNWyr_0TeIGuodv0pg3ZAfBQGJ3JTmPyZcpbY/edit?usp=sharing. You can edit these for personal use via "File > Make a copy." Each tab can be downloaded in CSV format via "File > Download > Comma Separated Values (.csv)."
 
-To report a bug or suggest a feature, use the Issues tracker on Github. Issues are forwarded to my email. For more detailed questions, you can reach me at compsogbrickus@gmail.com or on Discord (Compsogbrickus#3188).
+To report a bug or suggest a feature, use the Issues tracker on Github. Issues are forwarded to my email. For more detailed questions, you can reach me at compsogbrickus@gmail.com or on Discord as compsogbrickus.
 
 ### Block Drops
 

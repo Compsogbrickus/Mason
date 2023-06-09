@@ -62,6 +62,7 @@ with open(path.join(source_loot_tables_dir, name + ".csv"), newline="") as csv:
             print("Skipping block loot table with base block " + base_block + ".")
             continue
 
+        structure["random_sequence"] = "minecraft:blocks/" + base_block
         json_structure = json.dumps(structure, indent=4)
 
         with open(path.join(block_loot_tables_dir, base_block + ".json"), "w") as file_out:

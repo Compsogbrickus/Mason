@@ -3,16 +3,13 @@
     "ingredients": [
         {
             "item": "minecraft:beetroot"
-        },
-        {
-            "item": "minecraft:beetroot"
         }
     ],
     "result": {
-        "item": "minecraft:red_dye",
-        "count": 2
+        "item": "minecraft:beetroot_seeds",
+        "count": 1
     },
-    "group": "red_dye",
+    "group": "seeds",
     "category": "misc",
     "show_notification": false
 }

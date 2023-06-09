@@ -9,6 +9,7 @@ recipe give @s simple_blocks:azure_bluet
 recipe give @s simple_blocks:bamboo_button
 recipe give @s simple_blocks:bamboo_chest_raft
 recipe give @s simple_blocks:bamboo_planks
+recipe give @s simple_blocks:beetroot_seeds
 recipe give @s simple_blocks:birch_button
 recipe give @s simple_blocks:birch_chest_boat
 recipe give @s simple_blocks:birch_planks
@@ -243,7 +244,6 @@ recipe give @s simple_blocks:red_wool
 recipe give @s simple_blocks:redstone
 recipe give @s simple_blocks:rose_bush
 recipe give @s simple_blocks:seagrass
-recipe give @s simple_blocks:seeds
 recipe give @s simple_blocks:skull_banner_pattern
 recipe give @s simple_blocks:slime_ball
 recipe give @s simple_blocks:small_dripleaf
@@ -285,6 +285,7 @@ recipe give @s simple_blocks:waxed_weathered_cut_copper_slab
 recipe give @s simple_blocks:waxed_weathered_cut_copper_stairs
 recipe give @s simple_blocks:weeping_vines
 recipe give @s simple_blocks:wheat
+recipe give @s simple_blocks:wheat_seeds
 recipe give @s simple_blocks:white_candle
 recipe give @s simple_blocks:white_concrete
 recipe give @s simple_blocks:white_dye

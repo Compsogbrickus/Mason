@@ -19,14 +19,17 @@ for loot_table in Path(block_loot_tables_dir).glob("*.json"):
         base_block = path.splitext(path.basename(loot_table))[0]
 
         ltos = False
-        if len(current_loot_table["pools"]) > 0:
+        if len(current_loot_table.get("pools", "")) > 0:
             for pool in current_loot_table["pools"]:
                 if len(pool["entries"]) > 0:
                     if pool["entries"][0].get("name", "") == "ltos:data":
                         ltos = True
         
         if not ltos:
-            current_loot_table["pools"].append(loot_table_utils.ltos(base_block))
+            if "pools" not in current_loot_table:
+                current_loot_table["pools"] = loot_table_utils.ltos(base_block) 
+            else:
+                current_loot_table["pools"].append(loot_table_utils.ltos(base_block))
 
         loaded_loot_table.seek(0)
 

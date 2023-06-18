@@ -11,9 +11,9 @@ import loot_table_utils
 script = Path(__file__)
 name, ext = path.splitext(path.basename(script))
 
-simple_blocks_dir = script.parents[2].absolute()
-block_loot_tables_dir = path.join(simple_blocks_dir, "data/minecraft/loot_tables/blocks")
-source_loot_tables_dir = path.join(simple_blocks_dir, "sources/loot_tables")
+mason_dir = script.parents[2].absolute()
+block_loot_tables_dir = path.join(mason_dir, "data/minecraft/loot_tables/blocks")
+source_loot_tables_dir = path.join(mason_dir, "sources/loot_tables")
 
 header = ["Type", "Base Block", "Block", "Count", "Block", "Count"]
 

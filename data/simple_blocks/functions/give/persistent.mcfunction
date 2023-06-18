@@ -1,3 +1,0 @@
-function simple_blocks:give_recipes/crafting_shapeless_small
-# function simple_blocks:give_recipes/campfire_cooking
-# function simple_blocks:give_recipes/other

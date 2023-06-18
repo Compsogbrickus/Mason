@@ -13,10 +13,10 @@ import recipe_utils
 script = Path(__file__)
 name, ext = path.splitext(path.basename(script))
 
-simple_blocks_dir = script.parents[2].absolute()
-custom_recipes_dir = path.join(simple_blocks_dir, "data/simple_blocks/recipes")
-source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
-functions_dir = path.join(simple_blocks_dir, "data/simple_blocks/functions")
+mason_dir = script.parents[2].absolute()
+custom_recipes_dir = path.join(mason_dir, "data/mason/recipes")
+source_recipes_dir = path.join(mason_dir, "sources/recipes")
+functions_dir = path.join(mason_dir, "data/mason/functions")
 
 give_recipes_dir = path.join(functions_dir, "give_recipes")
 take_recipes_dir = path.join(functions_dir, "take_recipes")
@@ -120,5 +120,5 @@ with ExitStack() as stack:
             with open(path.join(custom_recipes_dir, filename + ".json"), "w") as file_out:
                 file_out.write(json.dumps(recipe_structure, indent=4))
 
-        give_recipes[id].write("recipe give @s simple_blocks:" + filename + "\n")
-        take_recipes[id].write("recipe take @s simple_blocks:" + filename + "\n")
+        give_recipes[id].write("recipe give @s mason:" + filename + "\n")
+        take_recipes[id].write("recipe take @s mason:" + filename + "\n")

@@ -12,10 +12,10 @@ import recipe_utils
 script = Path(__file__)
 name, ext = path.splitext(path.basename(script))
 
-simple_blocks_dir = script.parents[2].absolute()
-vanilla_recipes_dir = path.join(simple_blocks_dir, "data/minecraft/recipes")
-custom_recipes_dir = path.join(simple_blocks_dir, "data/simple_blocks/recipes")
-source_recipes_dir = path.join(simple_blocks_dir, "sources/recipes")
+mason_dir = script.parents[2].absolute()
+vanilla_recipes_dir = path.join(mason_dir, "data/minecraft/recipes")
+custom_recipes_dir = path.join(mason_dir, "data/mason/recipes")
+source_recipes_dir = path.join(mason_dir, "sources/recipes")
 
 header = ["Recipe Name", "Station", "Category", "Group", "Experience",
           "Cooking Time (Ticks)", "Output", "Output Count", "Input", "Input", "Input", "Input", "Input", "Input", "Input", "Input", "Input"]

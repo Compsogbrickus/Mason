@@ -1,0 +1,1 @@
+function mason:take_recipes/blasting

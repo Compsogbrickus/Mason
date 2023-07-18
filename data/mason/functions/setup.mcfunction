@@ -10,3 +10,5 @@ scoreboard objectives add mason.opened.furnace custom:interact_with_furnace
 scoreboard objectives add mason.crafting_state dummy
 scoreboard objectives add mason.yaw dummy
 scoreboard objectives add mason.pitch dummy
+
+function mason:reset/loop

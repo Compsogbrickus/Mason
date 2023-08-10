@@ -36,7 +36,7 @@ birch_boat,crafting_shaped,equipment,boat,,,birch_boat,1,birch_planks,,birch_pla
 birch_pressure_plate,crafting_shaped,redstone,wooden_pressure_plate,,,birch_pressure_plate,1,birch_planks,birch_planks,,,,,,,
 black_banner,crafting_shaped,building,banner,,,black_banner,1,black_wool,black_wool,black_wool,black_wool,black_wool,black_wool,,stick,
 black_bed,crafting_shaped,building,bed,,,black_bed,1,black_wool,black_wool,black_wool,#planks,#planks,#planks,,,
-black_carpet,crafting_shaped,building,carpet,,,black_carpet,2,black_wool,black_wool,,,,,,,
+black_carpet,crafting_shaped,building,carpet,,,black_carpet,8,black_wool,black_wool,,,,,,,
 black_carpet_from_white_carpet,crafting_shaped,building,carpet,,,black_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,black_dye,white_carpet,white_carpet,white_carpet,white_carpet
 black_stained_glass,crafting_shaped,building,stained_glass,,,black_stained_glass,8,glass,glass,glass,glass,black_dye,glass,glass,glass,glass
 black_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,black_stained_glass_pane,16,black_stained_glass,black_stained_glass,black_stained_glass,black_stained_glass,black_stained_glass,black_stained_glass,,,
@@ -45,7 +45,7 @@ black_terracotta,crafting_shaped,building,stained_terracotta,,,black_terracotta,
 blast_furnace,crafting_shaped,misc,,,,blast_furnace,1,iron_ingot,iron_ingot,iron_ingot,iron_ingot,furnace,iron_ingot,smooth_stone,smooth_stone,smooth_stone
 blue_banner,crafting_shaped,building,banner,,,blue_banner,1,blue_wool,blue_wool,blue_wool,blue_wool,blue_wool,blue_wool,,stick,
 blue_bed,crafting_shaped,building,bed,,,blue_bed,1,blue_wool,blue_wool,blue_wool,#planks,#planks,#planks,,,
-blue_carpet,crafting_shaped,building,carpet,,,blue_carpet,2,blue_wool,blue_wool,,,,,,,
+blue_carpet,crafting_shaped,building,carpet,,,blue_carpet,8,blue_wool,blue_wool,,,,,,,
 blue_carpet_from_white_carpet,crafting_shaped,building,carpet,,,blue_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,blue_dye,white_carpet,white_carpet,white_carpet,white_carpet
 blue_ice,crafting_shaped,building,,,,blue_ice,1,packed_ice,packed_ice,packed_ice,packed_ice,packed_ice,packed_ice,packed_ice,packed_ice,packed_ice
 blue_stained_glass,crafting_shaped,building,stained_glass,,,blue_stained_glass,8,glass,glass,glass,glass,blue_dye,glass,glass,glass,glass
@@ -61,7 +61,7 @@ brewing_stand,crafting_shaped,misc,,,,brewing_stand,1,,blaze_rod,,#stone_craftin
 bricks,crafting_shaped,building,,,,bricks,1,brick,brick,,brick,brick,,,,
 brown_banner,crafting_shaped,building,banner,,,brown_banner,1,brown_wool,brown_wool,brown_wool,brown_wool,brown_wool,brown_wool,,stick,
 brown_bed,crafting_shaped,building,bed,,,brown_bed,1,brown_wool,brown_wool,brown_wool,#planks,#planks,#planks,,,
-brown_carpet,crafting_shaped,building,carpet,,,brown_carpet,2,brown_wool,brown_wool,,,,,,,
+brown_carpet,crafting_shaped,building,carpet,,,brown_carpet,8,brown_wool,brown_wool,,,,,,,
 brown_carpet_from_white_carpet,crafting_shaped,building,carpet,,,brown_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,brown_dye,white_carpet,white_carpet,white_carpet,white_carpet
 brown_stained_glass,crafting_shaped,building,stained_glass,,,brown_stained_glass,8,glass,glass,glass,glass,brown_dye,glass,glass,glass,glass
 brown_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,brown_stained_glass_pane,16,brown_stained_glass,brown_stained_glass,brown_stained_glass,brown_stained_glass,brown_stained_glass,brown_stained_glass,,,
@@ -97,7 +97,7 @@ crimson_pressure_plate,crafting_shaped,redstone,wooden_pressure_plate,,,crimson_
 crossbow,crafting_shaped,equipment,,,,crossbow,1,stick,iron_ingot,stick,string,tripwire_hook,string,,stick,
 cyan_banner,crafting_shaped,building,banner,,,cyan_banner,1,cyan_wool,cyan_wool,cyan_wool,cyan_wool,cyan_wool,cyan_wool,,stick,
 cyan_bed,crafting_shaped,building,bed,,,cyan_bed,1,cyan_wool,cyan_wool,cyan_wool,#planks,#planks,#planks,,,
-cyan_carpet,crafting_shaped,building,carpet,,,cyan_carpet,2,cyan_wool,cyan_wool,,,,,,,
+cyan_carpet,crafting_shaped,building,carpet,,,cyan_carpet,8,cyan_wool,cyan_wool,,,,,,,
 cyan_carpet_from_white_carpet,crafting_shaped,building,carpet,,,cyan_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,cyan_dye,white_carpet,white_carpet,white_carpet,white_carpet
 cyan_stained_glass,crafting_shaped,building,stained_glass,,,cyan_stained_glass,8,glass,glass,glass,glass,cyan_dye,glass,glass,glass,glass
 cyan_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,cyan_stained_glass_pane,16,cyan_stained_glass,cyan_stained_glass,cyan_stained_glass,cyan_stained_glass,cyan_stained_glass,cyan_stained_glass,,,
@@ -154,7 +154,7 @@ golden_shovel,crafting_shaped,equipment,,,,golden_shovel,1,gold_ingot,,,stick,,,
 golden_sword,crafting_shaped,equipment,,,,golden_sword,1,gold_ingot,,,gold_ingot,,,stick,,
 gray_banner,crafting_shaped,building,banner,,,gray_banner,1,gray_wool,gray_wool,gray_wool,gray_wool,gray_wool,gray_wool,,stick,
 gray_bed,crafting_shaped,building,bed,,,gray_bed,1,gray_wool,gray_wool,gray_wool,#planks,#planks,#planks,,,
-gray_carpet,crafting_shaped,building,carpet,,,gray_carpet,2,gray_wool,gray_wool,,,,,,,
+gray_carpet,crafting_shaped,building,carpet,,,gray_carpet,8,gray_wool,gray_wool,,,,,,,
 gray_carpet_from_white_carpet,crafting_shaped,building,carpet,,,gray_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,gray_dye,white_carpet,white_carpet,white_carpet,white_carpet
 gray_stained_glass,crafting_shaped,building,stained_glass,,,gray_stained_glass,8,glass,glass,glass,glass,gray_dye,glass,glass,glass,glass
 gray_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,gray_stained_glass_pane,16,gray_stained_glass,gray_stained_glass,gray_stained_glass,gray_stained_glass,gray_stained_glass,gray_stained_glass,,,
@@ -162,7 +162,7 @@ gray_stained_glass_pane_from_glass_pane,crafting_shaped,building,stained_glass_p
 gray_terracotta,crafting_shaped,building,stained_terracotta,,,gray_terracotta,8,terracotta,terracotta,terracotta,terracotta,gray_dye,terracotta,terracotta,terracotta,terracotta
 green_banner,crafting_shaped,building,banner,,,green_banner,1,green_wool,green_wool,green_wool,green_wool,green_wool,green_wool,,stick,
 green_bed,crafting_shaped,building,bed,,,green_bed,1,green_wool,green_wool,green_wool,#planks,#planks,#planks,,,
-green_carpet,crafting_shaped,building,carpet,,,green_carpet,2,green_wool,green_wool,,,,,,,
+green_carpet,crafting_shaped,building,carpet,,,green_carpet,8,green_wool,green_wool,,,,,,,
 green_carpet_from_white_carpet,crafting_shaped,building,carpet,,,green_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,green_dye,white_carpet,white_carpet,white_carpet,white_carpet
 green_stained_glass,crafting_shaped,building,stained_glass,,,green_stained_glass,8,glass,glass,glass,glass,green_dye,glass,glass,glass,glass
 green_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,green_stained_glass_pane,16,green_stained_glass,green_stained_glass,green_stained_glass,green_stained_glass,green_stained_glass,green_stained_glass,,,
@@ -205,7 +205,7 @@ lectern,crafting_shaped,misc,,,,lectern,1,#wooden_slabs,#wooden_slabs,#wooden_sl
 lever,crafting_shaped,redstone,,,,lever,1,stick,,,cobblestone,,,,,
 light_blue_banner,crafting_shaped,building,banner,,,light_blue_banner,1,light_blue_wool,light_blue_wool,light_blue_wool,light_blue_wool,light_blue_wool,light_blue_wool,,stick,
 light_blue_bed,crafting_shaped,building,bed,,,light_blue_bed,1,light_blue_wool,light_blue_wool,light_blue_wool,#planks,#planks,#planks,,,
-light_blue_carpet,crafting_shaped,building,carpet,,,light_blue_carpet,2,light_blue_wool,light_blue_wool,,,,,,,
+light_blue_carpet,crafting_shaped,building,carpet,,,light_blue_carpet,8,light_blue_wool,light_blue_wool,,,,,,,
 light_blue_carpet_from_white_carpet,crafting_shaped,building,carpet,,,light_blue_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,light_blue_dye,white_carpet,white_carpet,white_carpet,white_carpet
 light_blue_stained_glass,crafting_shaped,building,stained_glass,,,light_blue_stained_glass,8,glass,glass,glass,glass,light_blue_dye,glass,glass,glass,glass
 light_blue_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,light_blue_stained_glass_pane,16,light_blue_stained_glass,light_blue_stained_glass,light_blue_stained_glass,light_blue_stained_glass,light_blue_stained_glass,light_blue_stained_glass,,,
@@ -213,7 +213,7 @@ light_blue_stained_glass_pane_from_glass_pane,crafting_shaped,building,stained_g
 light_blue_terracotta,crafting_shaped,building,stained_terracotta,,,light_blue_terracotta,8,terracotta,terracotta,terracotta,terracotta,light_blue_dye,terracotta,terracotta,terracotta,terracotta
 light_gray_banner,crafting_shaped,building,banner,,,light_gray_banner,1,light_gray_wool,light_gray_wool,light_gray_wool,light_gray_wool,light_gray_wool,light_gray_wool,,stick,
 light_gray_bed,crafting_shaped,building,bed,,,light_gray_bed,1,light_gray_wool,light_gray_wool,light_gray_wool,#planks,#planks,#planks,,,
-light_gray_carpet,crafting_shaped,building,carpet,,,light_gray_carpet,2,light_gray_wool,light_gray_wool,,,,,,,
+light_gray_carpet,crafting_shaped,building,carpet,,,light_gray_carpet,8,light_gray_wool,light_gray_wool,,,,,,,
 light_gray_carpet_from_white_carpet,crafting_shaped,building,carpet,,,light_gray_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,light_gray_dye,white_carpet,white_carpet,white_carpet,white_carpet
 light_gray_stained_glass,crafting_shaped,building,stained_glass,,,light_gray_stained_glass,8,glass,glass,glass,glass,light_gray_dye,glass,glass,glass,glass
 light_gray_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,light_gray_stained_glass_pane,16,light_gray_stained_glass,light_gray_stained_glass,light_gray_stained_glass,light_gray_stained_glass,light_gray_stained_glass,light_gray_stained_glass,,,
@@ -223,7 +223,7 @@ light_weighted_pressure_plate,crafting_shaped,redstone,,,,light_weighted_pressur
 lightning_rod,crafting_shaped,building,,,,lightning_rod,1,copper_ingot,,,copper_ingot,,,copper_ingot,,
 lime_banner,crafting_shaped,building,banner,,,lime_banner,1,lime_wool,lime_wool,lime_wool,lime_wool,lime_wool,lime_wool,,stick,
 lime_bed,crafting_shaped,building,bed,,,lime_bed,1,lime_wool,lime_wool,lime_wool,#planks,#planks,#planks,,,
-lime_carpet,crafting_shaped,building,carpet,,,lime_carpet,2,lime_wool,lime_wool,,,,,,,
+lime_carpet,crafting_shaped,building,carpet,,,lime_carpet,8,lime_wool,lime_wool,,,,,,,
 lime_carpet_from_white_carpet,crafting_shaped,building,carpet,,,lime_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,lime_dye,white_carpet,white_carpet,white_carpet,white_carpet
 lime_stained_glass,crafting_shaped,building,stained_glass,,,lime_stained_glass,8,glass,glass,glass,glass,lime_dye,glass,glass,glass,glass
 lime_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,lime_stained_glass_pane,16,lime_stained_glass,lime_stained_glass,lime_stained_glass,lime_stained_glass,lime_stained_glass,lime_stained_glass,,,
@@ -233,7 +233,7 @@ lodestone,crafting_shaped,misc,,,,lodestone,1,chiseled_stone_bricks,chiseled_sto
 loom,crafting_shaped,misc,,,,loom,1,string,string,,#planks,#planks,,,,
 magenta_banner,crafting_shaped,building,banner,,,magenta_banner,1,magenta_wool,magenta_wool,magenta_wool,magenta_wool,magenta_wool,magenta_wool,,stick,
 magenta_bed,crafting_shaped,building,bed,,,magenta_bed,1,magenta_wool,magenta_wool,magenta_wool,#planks,#planks,#planks,,,
-magenta_carpet,crafting_shaped,building,carpet,,,magenta_carpet,2,magenta_wool,magenta_wool,,,,,,,
+magenta_carpet,crafting_shaped,building,carpet,,,magenta_carpet,8,magenta_wool,magenta_wool,,,,,,,
 magenta_carpet_from_white_carpet,crafting_shaped,building,carpet,,,magenta_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,magenta_dye,white_carpet,white_carpet,white_carpet,white_carpet
 magenta_stained_glass,crafting_shaped,building,stained_glass,,,magenta_stained_glass,8,glass,glass,glass,glass,magenta_dye,glass,glass,glass,glass
 magenta_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,magenta_stained_glass_pane,16,magenta_stained_glass,magenta_stained_glass,magenta_stained_glass,magenta_stained_glass,magenta_stained_glass,magenta_stained_glass,,,
@@ -245,7 +245,7 @@ mangrove_pressure_plate,crafting_shaped,redstone,wooden_pressure_plate,,,mangrov
 map,crafting_shaped,equipment,,,,map,1,paper,paper,paper,paper,compass,paper,paper,paper,paper
 melon,crafting_shaped,misc,,,,melon,1,melon_slice,melon_slice,melon_slice,melon_slice,melon_slice,melon_slice,melon_slice,melon_slice,melon_slice
 minecart,crafting_shaped,equipment,,,,minecart,1,iron_ingot,,iron_ingot,iron_ingot,iron_ingot,iron_ingot,,,
-moss_carpet,crafting_shaped,building,carpet,,,moss_carpet,2,moss_block,moss_block,,,,,,,
+moss_carpet,crafting_shaped,building,carpet,,,moss_carpet,8,moss_block,moss_block,,,,,,,
 music_disc_5,crafting_shaped,misc,,,,music_disc_5,1,disc_fragment_5,disc_fragment_5,disc_fragment_5,disc_fragment_5,disc_fragment_5,disc_fragment_5,disc_fragment_5,disc_fragment_5,disc_fragment_5
 nether_bricks,crafting_shaped,building,,,,nether_bricks,1,nether_brick,nether_brick,,nether_brick,nether_brick,,,,
 nether_wart_block,crafting_shaped,building,,,,nether_wart_block,1,nether_wart,nether_wart,nether_wart,nether_wart,nether_wart,nether_wart,nether_wart,nether_wart,nether_wart
@@ -257,7 +257,7 @@ oak_pressure_plate,crafting_shaped,redstone,wooden_pressure_plate,,,oak_pressure
 observer,crafting_shaped,redstone,,,,observer,1,cobblestone,cobblestone,cobblestone,redstone,redstone,quartz,cobblestone,cobblestone,cobblestone
 orange_banner,crafting_shaped,building,banner,,,orange_banner,1,orange_wool,orange_wool,orange_wool,orange_wool,orange_wool,orange_wool,,stick,
 orange_bed,crafting_shaped,building,bed,,,orange_bed,1,orange_wool,orange_wool,orange_wool,#planks,#planks,#planks,,,
-orange_carpet,crafting_shaped,building,carpet,,,orange_carpet,2,orange_wool,orange_wool,,,,,,,
+orange_carpet,crafting_shaped,building,carpet,,,orange_carpet,8,orange_wool,orange_wool,,,,,,,
 orange_carpet_from_white_carpet,crafting_shaped,building,carpet,,,orange_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,orange_dye,white_carpet,white_carpet,white_carpet,white_carpet
 orange_stained_glass,crafting_shaped,building,stained_glass,,,orange_stained_glass,8,glass,glass,glass,glass,orange_dye,glass,glass,glass,glass
 orange_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,orange_stained_glass_pane,16,orange_stained_glass,orange_stained_glass,orange_stained_glass,orange_stained_glass,orange_stained_glass,orange_stained_glass,,,
@@ -267,7 +267,7 @@ painting,crafting_shaped,misc,,,,painting,1,stick,stick,stick,stick,#wool,stick,
 paper,crafting_shaped,misc,,,,paper,3,sugar_cane,sugar_cane,sugar_cane,,,,,,
 pink_banner,crafting_shaped,building,banner,,,pink_banner,1,pink_wool,pink_wool,pink_wool,pink_wool,pink_wool,pink_wool,,stick,
 pink_bed,crafting_shaped,building,bed,,,pink_bed,1,pink_wool,pink_wool,pink_wool,#planks,#planks,#planks,,,
-pink_carpet,crafting_shaped,building,carpet,,,pink_carpet,2,pink_wool,pink_wool,,,,,,,
+pink_carpet,crafting_shaped,building,carpet,,,pink_carpet,8,pink_wool,pink_wool,,,,,,,
 pink_carpet_from_white_carpet,crafting_shaped,building,carpet,,,pink_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,pink_dye,white_carpet,white_carpet,white_carpet,white_carpet
 pink_stained_glass,crafting_shaped,building,stained_glass,,,pink_stained_glass,8,glass,glass,glass,glass,pink_dye,glass,glass,glass,glass
 pink_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,pink_stained_glass_pane,16,pink_stained_glass,pink_stained_glass,pink_stained_glass,pink_stained_glass,pink_stained_glass,pink_stained_glass,,,
@@ -280,7 +280,7 @@ prismarine,crafting_shaped,building,,,,prismarine,1,prismarine_shard,prismarine_
 prismarine_bricks,crafting_shaped,building,,,,prismarine_bricks,1,prismarine_shard,prismarine_shard,prismarine_shard,prismarine_shard,prismarine_shard,prismarine_shard,prismarine_shard,prismarine_shard,prismarine_shard
 purple_banner,crafting_shaped,building,banner,,,purple_banner,1,purple_wool,purple_wool,purple_wool,purple_wool,purple_wool,purple_wool,,stick,
 purple_bed,crafting_shaped,building,bed,,,purple_bed,1,purple_wool,purple_wool,purple_wool,#planks,#planks,#planks,,,
-purple_carpet,crafting_shaped,building,carpet,,,purple_carpet,2,purple_wool,purple_wool,,,,,,,
+purple_carpet,crafting_shaped,building,carpet,,,purple_carpet,8,purple_wool,purple_wool,,,,,,,
 purple_carpet_from_white_carpet,crafting_shaped,building,carpet,,,purple_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,purple_dye,white_carpet,white_carpet,white_carpet,white_carpet
 purple_stained_glass,crafting_shaped,building,stained_glass,,,purple_stained_glass,8,glass,glass,glass,glass,purple_dye,glass,glass,glass,glass
 purple_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,purple_stained_glass_pane,16,purple_stained_glass,purple_stained_glass,purple_stained_glass,purple_stained_glass,purple_stained_glass,purple_stained_glass,,,
@@ -296,7 +296,7 @@ raw_iron_block,crafting_shaped,building,,,,raw_iron_block,1,raw_iron,raw_iron,ra
 recovery_compass,crafting_shaped,equipment,,,,recovery_compass,1,echo_shard,echo_shard,echo_shard,echo_shard,compass,echo_shard,echo_shard,echo_shard,echo_shard
 red_banner,crafting_shaped,building,banner,,,red_banner,1,red_wool,red_wool,red_wool,red_wool,red_wool,red_wool,,stick,
 red_bed,crafting_shaped,building,bed,,,red_bed,1,red_wool,red_wool,red_wool,#planks,#planks,#planks,,,
-red_carpet,crafting_shaped,building,carpet,,,red_carpet,2,red_wool,red_wool,,,,,,,
+red_carpet,crafting_shaped,building,carpet,,,red_carpet,8,red_wool,red_wool,,,,,,,
 red_carpet_from_white_carpet,crafting_shaped,building,carpet,,,red_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,red_dye,white_carpet,white_carpet,white_carpet,white_carpet
 red_stained_glass,crafting_shaped,building,stained_glass,,,red_stained_glass,8,glass,glass,glass,glass,red_dye,glass,glass,glass,glass
 red_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,red_stained_glass_pane,16,red_stained_glass,red_stained_glass,red_stained_glass,red_stained_glass,red_stained_glass,red_stained_glass,,,
@@ -352,7 +352,7 @@ warped_pressure_plate,crafting_shaped,redstone,wooden_pressure_plate,,,warped_pr
 wayfinder_armor_trim_smithing_template,crafting_shaped,misc,,,,wayfinder_armor_trim_smithing_template,2,diamond,wayfinder_armor_trim_smithing_template,diamond,diamond,terracotta,diamond,diamond,diamond,diamond
 white_banner,crafting_shaped,building,banner,,,white_banner,1,white_wool,white_wool,white_wool,white_wool,white_wool,white_wool,,stick,
 white_bed,crafting_shaped,building,bed,,,white_bed,1,white_wool,white_wool,white_wool,#planks,#planks,#planks,,,
-white_carpet,crafting_shaped,building,carpet,,,white_carpet,2,white_wool,white_wool,,,,,,,
+white_carpet,crafting_shaped,building,carpet,,,white_carpet,8,white_wool,white_wool,,,,,,,
 white_stained_glass,crafting_shaped,building,stained_glass,,,white_stained_glass,8,glass,glass,glass,glass,white_dye,glass,glass,glass,glass
 white_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,white_stained_glass_pane,16,white_stained_glass,white_stained_glass,white_stained_glass,white_stained_glass,white_stained_glass,white_stained_glass,,,
 white_stained_glass_pane_from_glass_pane,crafting_shaped,building,stained_glass_pane,,,white_stained_glass_pane,8,glass_pane,glass_pane,glass_pane,glass_pane,white_dye,glass_pane,glass_pane,glass_pane,glass_pane
@@ -366,7 +366,7 @@ wooden_shovel,crafting_shaped,equipment,,,,wooden_shovel,1,#planks,,,stick,,,sti
 wooden_sword,crafting_shaped,equipment,,,,wooden_sword,1,#planks,,,#planks,,,stick,,
 yellow_banner,crafting_shaped,building,banner,,,yellow_banner,1,yellow_wool,yellow_wool,yellow_wool,yellow_wool,yellow_wool,yellow_wool,,stick,
 yellow_bed,crafting_shaped,building,bed,,,yellow_bed,1,yellow_wool,yellow_wool,yellow_wool,#planks,#planks,#planks,,,
-yellow_carpet,crafting_shaped,building,carpet,,,yellow_carpet,2,yellow_wool,yellow_wool,,,,,,,
+yellow_carpet,crafting_shaped,building,carpet,,,yellow_carpet,8,yellow_wool,yellow_wool,,,,,,,
 yellow_carpet_from_white_carpet,crafting_shaped,building,carpet,,,yellow_carpet,8,white_carpet,white_carpet,white_carpet,white_carpet,yellow_dye,white_carpet,white_carpet,white_carpet,white_carpet
 yellow_stained_glass,crafting_shaped,building,stained_glass,,,yellow_stained_glass,8,glass,glass,glass,glass,yellow_dye,glass,glass,glass,glass
 yellow_stained_glass_pane,crafting_shaped,building,stained_glass_pane,,,yellow_stained_glass_pane,16,yellow_stained_glass,yellow_stained_glass,yellow_stained_glass,yellow_stained_glass,yellow_stained_glass,yellow_stained_glass,,,
@@ -391,7 +391,8 @@ birch_planks,crafting_shapeless,building,planks,,,birch_planks,4,#birch_logs,,,,
 birch_sapling,crafting_shapeless,misc,bonemeal_plants,,,birch_sapling,2,birch_sapling,bone_meal,,,,,,,
 black_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,black_bed,1,white_bed,black_dye,,,,,,,
 black_candle,crafting_shapeless,building,dyed_candle,,,black_candle,1,candle,black_dye,,,,,,,
-black_concrete,crafting_shapeless,building,concrete,,,black_concrete,1,black_concrete_powder,,,,,,,,
+black_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,black_concrete_powder,1,black_concrete,,,,,,,,
+black_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,black_concrete,1,black_concrete_powder,,,,,,,,
 black_concrete_powder,crafting_shapeless,building,concrete_powder,,,black_concrete_powder,8,black_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 black_dye,crafting_shapeless,misc,black_dye,,,black_dye,1,ink_sac,,,,,,,,
 black_dye_from_wither_rose,crafting_shapeless,misc,black_dye,,,black_dye,1,wither_rose,,,,,,,,
@@ -399,7 +400,8 @@ black_wool,crafting_shapeless,building,wool,,,black_wool,1,black_dye,white_wool,
 blaze_powder,crafting_shapeless,misc,,,,blaze_powder,2,blaze_rod,,,,,,,,
 blue_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,blue_bed,1,white_bed,blue_dye,,,,,,,
 blue_candle,crafting_shapeless,building,dyed_candle,,,blue_candle,1,candle,blue_dye,,,,,,,
-blue_concrete,crafting_shapeless,building,concrete,,,blue_concrete,1,blue_concrete_powder,,,,,,,,
+blue_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,blue_concrete_powder,1,blue_concrete,,,,,,,,
+blue_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,blue_concrete,1,blue_concrete_powder,,,,,,,,
 blue_concrete_powder,crafting_shapeless,building,concrete_powder,,,blue_concrete_powder,8,blue_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 blue_dye,crafting_shapeless,misc,blue_dye,,,blue_dye,1,lapis_lazuli,,,,,,,,
 blue_dye_from_cornflower,crafting_shapeless,misc,blue_dye,,,blue_dye,1,cornflower,,,,,,,,
@@ -411,7 +413,8 @@ book,crafting_shapeless,misc,,,,book,1,paper,paper,paper,leather,,,,,
 brick,crafting_shapeless,building,,,,brick,4,terracotta;bricks,,,,,,,,
 brown_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,brown_bed,1,white_bed,brown_dye,,,,,,,
 brown_candle,crafting_shapeless,building,dyed_candle,,,brown_candle,1,candle,brown_dye,,,,,,,
-brown_concrete,crafting_shapeless,building,concrete,,,brown_concrete,1,brown_concrete_powder,,,,,,,,
+brown_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,brown_concrete_powder,1,brown_concrete,,,,,,,,
+brown_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,brown_concrete,1,brown_concrete_powder,,,,,,,,
 brown_concrete_powder,crafting_shapeless,building,concrete_powder,,,brown_concrete_powder,8,brown_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 brown_dye,crafting_shapeless,misc,brown_dye,,,brown_dye,1,cocoa_beans,,,,,,,,
 brown_mushroom,crafting_shapeless,misc,bonemeal_plants,,,brown_mushroom,2,brown_mushroom,bone_meal,,,,,,,
@@ -432,7 +435,8 @@ crimson_planks,crafting_shapeless,building,planks,,,crimson_planks,4,#crimson_st
 crimson_roots,crafting_shapeless,misc,bonemeal_plants,,,crimson_roots,2,crimson_roots,bone_meal,,,,,,,
 cyan_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,cyan_bed,1,white_bed,cyan_dye,,,,,,,
 cyan_candle,crafting_shapeless,building,dyed_candle,,,cyan_candle,1,candle,cyan_dye,,,,,,,
-cyan_concrete,crafting_shapeless,building,concrete,,,cyan_concrete,1,cyan_concrete_powder,,,,,,,,
+cyan_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,cyan_concrete_powder,1,cyan_concrete,,,,,,,,
+cyan_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,cyan_concrete,1,cyan_concrete_powder,,,,,,,,
 cyan_concrete_powder,crafting_shapeless,building,concrete_powder,,,cyan_concrete_powder,8,cyan_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 cyan_dye,crafting_shapeless,misc,cyan_dye,,,cyan_dye,2,blue_dye,green_dye,,,,,,,
 cyan_dye_from_pitcher_plant,crafting_shapeless,misc,cyan_dye,,,cyan_dye,2,pitcher_plant,,,,,,,,
@@ -509,13 +513,15 @@ granite,crafting_shapeless,building,,,,granite,1,diorite,quartz,,,,,,,
 grass,crafting_shapeless,misc,bonemeal_plants,,,grass,2,grass,bone_meal,,,,,,,
 gray_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,gray_bed,1,white_bed,gray_dye,,,,,,,
 gray_candle,crafting_shapeless,building,dyed_candle,,,gray_candle,1,candle,gray_dye,,,,,,,
-gray_concrete,crafting_shapeless,building,concrete,,,gray_concrete,1,gray_concrete_powder,,,,,,,,
+gray_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,gray_concrete_powder,1,gray_concrete,,,,,,,,
+gray_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,gray_concrete,1,gray_concrete_powder,,,,,,,,
 gray_concrete_powder,crafting_shapeless,building,concrete_powder,,,gray_concrete_powder,8,gray_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 gray_dye,crafting_shapeless,misc,,,,gray_dye,2,black_dye,white_dye,,,,,,,
 gray_wool,crafting_shapeless,building,wool,,,gray_wool,1,gray_dye,white_wool,,,,,,,
 green_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,green_bed,1,white_bed,green_dye,,,,,,,
 green_candle,crafting_shapeless,building,dyed_candle,,,green_candle,1,candle,green_dye,,,,,,,
-green_concrete,crafting_shapeless,building,concrete,,,green_concrete,1,green_concrete_powder,,,,,,,,
+green_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,green_concrete_powder,1,green_concrete,,,,,,,,
+green_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,green_concrete,1,green_concrete_powder,,,,,,,,
 green_concrete_powder,crafting_shapeless,building,concrete_powder,,,green_concrete_powder,8,green_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 green_wool,crafting_shapeless,building,wool,,,green_wool,1,green_dye,white_wool,,,,,,,
 hanging_roots,crafting_shapeless,misc,bonemeal_plants,,,hanging_roots,2,hanging_roots,bone_meal,,,,,,,
@@ -532,14 +538,16 @@ lapis_lazuli,crafting_shapeless,misc,,,,lapis_lazuli,9,lapis_block,,,,,,,,
 large_fern,crafting_shapeless,misc,bonemeal_plants,,,large_fern,2,large_fern,bone_meal,,,,,,,
 light_blue_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,light_blue_bed,1,white_bed,light_blue_dye,,,,,,,
 light_blue_candle,crafting_shapeless,building,dyed_candle,,,light_blue_candle,1,candle,light_blue_dye,,,,,,,
-light_blue_concrete,crafting_shapeless,building,concrete,,,light_blue_concrete,1,light_blue_concrete_powder,,,,,,,,
+light_blue_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,light_blue_concrete_powder,1,light_blue_concrete,,,,,,,,
+light_blue_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,light_blue_concrete,1,light_blue_concrete_powder,,,,,,,,
 light_blue_concrete_powder,crafting_shapeless,building,concrete_powder,,,light_blue_concrete_powder,8,light_blue_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 light_blue_dye_from_blue_orchid,crafting_shapeless,misc,light_blue_dye,,,light_blue_dye,1,blue_orchid,,,,,,,,
 light_blue_dye_from_blue_white_dye,crafting_shapeless,misc,light_blue_dye,,,light_blue_dye,2,blue_dye,white_dye,,,,,,,
 light_blue_wool,crafting_shapeless,building,wool,,,light_blue_wool,1,light_blue_dye,white_wool,,,,,,,
 light_gray_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,light_gray_bed,1,white_bed,light_gray_dye,,,,,,,
 light_gray_candle,crafting_shapeless,building,dyed_candle,,,light_gray_candle,1,candle,light_gray_dye,,,,,,,
-light_gray_concrete,crafting_shapeless,building,concrete,,,light_gray_concrete,1,light_gray_concrete_powder,,,,,,,,
+light_gray_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,light_gray_concrete_powder,1,light_gray_concrete,,,,,,,,
+light_gray_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,light_gray_concrete,1,light_gray_concrete_powder,,,,,,,,
 light_gray_concrete_powder,crafting_shapeless,building,concrete_powder,,,light_gray_concrete_powder,8,light_gray_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 light_gray_dye_from_azure_bluet,crafting_shapeless,misc,light_gray_dye,,,light_gray_dye,1,azure_bluet,,,,,,,,
 light_gray_dye_from_black_white_dye,crafting_shapeless,misc,light_gray_dye,,,light_gray_dye,3,black_dye,white_dye,white_dye,,,,,,
@@ -552,13 +560,15 @@ lily_of_the_valley,crafting_shapeless,misc,bonemeal_plants,,,lily_of_the_valley,
 lily_pad,crafting_shapeless,misc,bonemeal_plants,,,lily_pad,2,lily_pad,bone_meal,,,,,,,
 lime_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,lime_bed,1,white_bed,lime_dye,,,,,,,
 lime_candle,crafting_shapeless,building,dyed_candle,,,lime_candle,1,candle,lime_dye,,,,,,,
-lime_concrete,crafting_shapeless,building,concrete,,,lime_concrete,1,lime_concrete_powder,,,,,,,,
+lime_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,lime_concrete_powder,1,lime_concrete,,,,,,,,
+lime_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,lime_concrete,1,lime_concrete_powder,,,,,,,,
 lime_concrete_powder,crafting_shapeless,building,concrete_powder,,,lime_concrete_powder,8,lime_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 lime_dye,crafting_shapeless,misc,,,,lime_dye,2,green_dye,white_dye,,,,,,,
 lime_wool,crafting_shapeless,building,wool,,,lime_wool,1,lime_dye,white_wool,,,,,,,
 magenta_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,magenta_bed,1,white_bed,magenta_dye,,,,,,,
 magenta_candle,crafting_shapeless,building,dyed_candle,,,magenta_candle,1,candle,magenta_dye,,,,,,,
-magenta_concrete,crafting_shapeless,building,concrete,,,magenta_concrete,1,magenta_concrete_powder,,,,,,,,
+magenta_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,magenta_concrete_powder,1,magenta_concrete,,,,,,,,
+magenta_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,magenta_concrete,1,magenta_concrete_powder,,,,,,,,
 magenta_concrete_powder,crafting_shapeless,building,concrete_powder,,,magenta_concrete_powder,8,magenta_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 magenta_dye_from_allium,crafting_shapeless,misc,magenta_dye,,,magenta_dye,1,allium,,,,,,,,
 magenta_dye_from_blue_red_pink,crafting_shapeless,misc,magenta_dye,,,magenta_dye,3,blue_dye,red_dye,pink_dye,,,,,,
@@ -588,7 +598,8 @@ oak_planks,crafting_shapeless,building,planks,,,oak_planks,4,#oak_logs,,,,,,,,
 oak_sapling,crafting_shapeless,misc,bonemeal_plants,,,oak_sapling,2,oak_sapling,bone_meal,,,,,,,
 orange_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,orange_bed,1,white_bed,orange_dye,,,,,,,
 orange_candle,crafting_shapeless,building,dyed_candle,,,orange_candle,1,candle,orange_dye,,,,,,,
-orange_concrete,crafting_shapeless,building,concrete,,,orange_concrete,1,orange_concrete_powder,,,,,,,,
+orange_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,orange_concrete_powder,1,orange_concrete,,,,,,,,
+orange_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,orange_concrete,1,orange_concrete_powder,,,,,,,,
 orange_concrete_powder,crafting_shapeless,building,concrete_powder,,,orange_concrete_powder,8,orange_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 orange_dye_from_orange_tulip,crafting_shapeless,misc,orange_dye,,,orange_dye,1,orange_tulip,,,,,,,,
 orange_dye_from_red_yellow,crafting_shapeless,misc,orange_dye,,,orange_dye,2,red_dye,yellow_dye,,,,,,,
@@ -601,7 +612,8 @@ packed_mud,crafting_shapeless,building,,,,packed_mud,1,mud,wheat,,,,,,,
 peony,crafting_shapeless,misc,bonemeal_plants,,,peony,2,peony,bone_meal,,,,,,,
 pink_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,pink_bed,1,white_bed,pink_dye,,,,,,,
 pink_candle,crafting_shapeless,building,dyed_candle,,,pink_candle,1,candle,pink_dye,,,,,,,
-pink_concrete,crafting_shapeless,building,concrete,,,pink_concrete,1,pink_concrete_powder,,,,,,,,
+pink_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,pink_concrete_powder,1,pink_concrete,,,,,,,,
+pink_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,pink_concrete,1,pink_concrete_powder,,,,,,,,
 pink_concrete_powder,crafting_shapeless,building,concrete_powder,,,pink_concrete_powder,8,pink_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 pink_dye_from_peony,crafting_shapeless,misc,pink_dye,,,pink_dye,2,peony,,,,,,,,
 pink_dye_from_pink_tulip,crafting_shapeless,misc,pink_dye,,,pink_dye,1,pink_tulip,,,,,,,,
@@ -615,7 +627,8 @@ pumpkin_pie,crafting_shapeless,misc,,,,pumpkin_pie,1,pumpkin,sugar,egg,,,,,,
 pumpkin_seeds,crafting_shapeless,misc,seeds,,,pumpkin_seeds,4,pumpkin,,,,,,,,
 purple_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,purple_bed,1,white_bed,purple_dye,,,,,,,
 purple_candle,crafting_shapeless,building,dyed_candle,,,purple_candle,1,candle,purple_dye,,,,,,,
-purple_concrete,crafting_shapeless,building,concrete,,,purple_concrete,1,purple_concrete_powder,,,,,,,,
+purple_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,purple_concrete_powder,1,purple_concrete,,,,,,,,
+purple_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,purple_concrete,1,purple_concrete_powder,,,,,,,,
 purple_concrete_powder,crafting_shapeless,building,concrete_powder,,,purple_concrete_powder,8,purple_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 purple_dye,crafting_shapeless,misc,,,,purple_dye,2,blue_dye,red_dye,,,,,,,
 purple_wool,crafting_shapeless,building,wool,,,purple_wool,1,purple_dye,white_wool,,,,,,,
@@ -625,7 +638,8 @@ raw_gold,crafting_shapeless,misc,,,,raw_gold,9,raw_gold_block,,,,,,,,
 raw_iron,crafting_shapeless,misc,,,,raw_iron,9,raw_iron_block,,,,,,,,
 red_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,red_bed,1,white_bed,red_dye,,,,,,,
 red_candle,crafting_shapeless,building,dyed_candle,,,red_candle,1,candle,red_dye,,,,,,,
-red_concrete,crafting_shapeless,building,concrete,,,red_concrete,1,red_concrete_powder,,,,,,,,
+red_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,red_concrete_powder,1,red_concrete,,,,,,,,
+red_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,red_concrete,1,red_concrete_powder,,,,,,,,
 red_concrete_powder,crafting_shapeless,building,concrete_powder,,,red_concrete_powder,8,red_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 red_dye_from_beetroot,crafting_shapeless,misc,red_dye,,,red_dye,2,beetroot,beetroot,,,,,,,
 red_dye_from_poppy,crafting_shapeless,misc,red_dye,,,red_dye,1,poppy,,,,,,,,
@@ -680,7 +694,8 @@ weeping_vines,crafting_shapeless,misc,bonemeal_plants,,,weeping_vines,2,weeping_
 wheat,crafting_shapeless,misc,,,,wheat,9,hay_block,,,,,,,,
 wheat_seeds,crafting_shapeless,misc,seeds,,,wheat_seeds,1,wheat,,,,,,,,
 white_candle,crafting_shapeless,building,dyed_candle,,,white_candle,1,candle,white_dye,,,,,,,
-white_concrete,crafting_shapeless,building,concrete,,,white_concrete,1,white_concrete_powder,,,,,,,,
+white_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,white_concrete_powder,1,white_concrete,,,,,,,,
+white_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,white_concrete,1,white_concrete_powder,,,,,,,,
 white_concrete_powder,crafting_shapeless,building,concrete_powder,,,white_concrete_powder,8,white_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 white_dye,crafting_shapeless,misc,white_dye,,,white_dye,1,bone_meal,,,,,,,,
 white_dye_from_lily_of_the_valley,crafting_shapeless,misc,white_dye,,,white_dye,1,lily_of_the_valley,,,,,,,,
@@ -688,7 +703,8 @@ white_tulip,crafting_shapeless,misc,bonemeal_plants,,,white_tulip,2,white_tulip,
 writable_book,crafting_shapeless,equipment,,,,writable_book,1,book,ink_sac,feather,,,,,,
 yellow_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,yellow_bed,1,white_bed,yellow_dye,,,,,,,
 yellow_candle,crafting_shapeless,building,dyed_candle,,,yellow_candle,1,candle,yellow_dye,,,,,,,
-yellow_concrete,crafting_shapeless,building,concrete,,,yellow_concrete,1,yellow_concrete_powder,,,,,,,,
+yellow_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,yellow_concrete_powder,1,yellow_concrete,,,,,,,,
+yellow_concrete_conversion,crafting_shapeless,building,concrete_conversion,,,yellow_concrete,1,yellow_concrete_powder,,,,,,,,
 yellow_concrete_powder,crafting_shapeless,building,concrete_powder,,,yellow_concrete_powder,8,yellow_dye,sand,sand,sand,sand,gravel,gravel,gravel,gravel
 yellow_dye_from_dandelion,crafting_shapeless,misc,yellow_dye,,,yellow_dye,1,dandelion,,,,,,,,
 yellow_dye_from_sunflower,crafting_shapeless,misc,yellow_dye,,,yellow_dye,2,sunflower,,,,,,,,

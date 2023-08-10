@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:lime_concrete_powder"
+            "item": "minecraft:light_blue_concrete_powder"
         }
     ],
     "result": {
-        "item": "minecraft:lime_concrete",
+        "item": "minecraft:light_blue_concrete",
         "count": 1
     },
-    "group": "concrete",
+    "group": "concrete_conversion",
     "category": "building",
     "show_notification": false
 }

@@ -9,7 +9,7 @@
         "item": "minecraft:pink_concrete",
         "count": 1
     },
-    "group": "concrete",
+    "group": "concrete_conversion",
     "category": "building",
     "show_notification": false
 }

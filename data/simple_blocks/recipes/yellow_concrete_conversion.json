@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:gray_concrete_powder"
+            "item": "minecraft:yellow_concrete_powder"
         }
     ],
     "result": {
-        "item": "minecraft:gray_concrete",
+        "item": "minecraft:yellow_concrete",
         "count": 1
     },
-    "group": "concrete",
+    "group": "concrete_conversion",
     "category": "building",
     "show_notification": false
 }

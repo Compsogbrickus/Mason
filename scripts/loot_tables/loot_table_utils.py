@@ -597,7 +597,7 @@ def blocks_slab_1(base_block, block):
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:block_state_property",
-                                                "block": "minecraft:stone_slab",
+                                                "block": "minecraft:" + base_block,
                                                 "properties": {
                                                     "type": "double"
                                                 }
@@ -632,7 +632,7 @@ def blocks_slab_1(base_block, block):
                                         "conditions": [
                                             {
                                                 "condition": "minecraft:block_state_property",
-                                                "block": "minecraft:blackstone_slab",
+                                                "block": "minecraft:" + base_block,
                                                 "properties": {
                                                     "type": "double"
                                                 }

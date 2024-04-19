@@ -131,7 +131,7 @@ recipe take @s mason:glow_item_frame
 recipe take @s mason:gold_ingot_from_gold_block
 recipe take @s mason:gold_nugget
 recipe take @s mason:granite
-recipe take @s mason:grass
+recipe take @s mason:short_grass
 recipe take @s mason:gray_bed_from_white_bed
 recipe take @s mason:gray_candle
 recipe take @s mason:gray_concrete_powder_conversion

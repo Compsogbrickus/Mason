@@ -510,7 +510,7 @@ glow_item_frame,crafting_shapeless,misc,,,,glow_item_frame,1,item_frame,glow_ink
 gold_ingot_from_gold_block,crafting_shapeless,misc,gold_ingot,,,gold_ingot,9,gold_block,,,,,,,,
 gold_nugget,crafting_shapeless,misc,,,,gold_nugget,9,gold_ingot,,,,,,,,
 granite,crafting_shapeless,building,,,,granite,1,diorite,quartz,,,,,,,
-grass,crafting_shapeless,misc,bonemeal_plants,,,grass,2,grass,bone_meal,,,,,,,
+short_grass,crafting_shapeless,misc,bonemeal_plants,,,short_grass,2,grass,bone_meal,,,,,,,
 gray_bed_from_white_bed,crafting_shapeless,building,dyed_bed,,,gray_bed,1,white_bed,gray_dye,,,,,,,
 gray_candle,crafting_shapeless,building,dyed_candle,,,gray_candle,1,candle,gray_dye,,,,,,,
 gray_concrete_powder_conversion,crafting_shapeless,building,concrete_powder_conversion,,,gray_concrete_powder,1,gray_concrete,,,,,,,,

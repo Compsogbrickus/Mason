@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:bow",
+        "id": "minecraft:bow",
         "count": 1
     },
     "category": "equipment",

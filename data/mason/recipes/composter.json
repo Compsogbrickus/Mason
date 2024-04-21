@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:composter",
+        "id": "minecraft:composter",
         "count": 1
     },
     "category": "misc",

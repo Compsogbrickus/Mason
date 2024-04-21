@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:oxeye_daisy",
+        "id": "minecraft:oxeye_daisy",
         "count": 2
     },
     "group": "bonemeal_plants",

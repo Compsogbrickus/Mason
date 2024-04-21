@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:acacia_boat",
+        "id": "minecraft:acacia_boat",
         "count": 1
     },
     "group": "boat",

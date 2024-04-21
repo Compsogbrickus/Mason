@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:small_dripleaf",
+        "id": "minecraft:small_dripleaf",
         "count": 2
     },
     "group": "bonemeal_plants",

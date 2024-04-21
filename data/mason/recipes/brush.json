@@ -17,7 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:brush",
+        "id": "minecraft:brush",
         "count": 1
     },
     "category": "equipment",

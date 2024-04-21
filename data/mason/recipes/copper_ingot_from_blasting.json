@@ -11,7 +11,9 @@
             "item": "minecraft:raw_copper"
         }
     ],
-    "result": "minecraft:copper_ingot",
+    "result": {
+        "id": "minecraft:copper_ingot"
+    },
     "experience": 0.7,
     "cookingtime": 100.0,
     "category": "misc",

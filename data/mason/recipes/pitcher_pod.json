@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:pitcher_pod",
+        "id": "minecraft:pitcher_pod",
         "count": 1
     },
     "group": "seeds",

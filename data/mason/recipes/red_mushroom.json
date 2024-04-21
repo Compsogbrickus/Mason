@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:red_mushroom",
+        "id": "minecraft:red_mushroom",
         "count": 2
     },
     "group": "bonemeal_plants",

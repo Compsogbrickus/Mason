@@ -53,7 +53,7 @@
         ]
     ],
     "result": {
-        "item": "minecraft:pink_bed",
+        "id": "minecraft:pink_bed",
         "count": 1
     },
     "group": "bed",

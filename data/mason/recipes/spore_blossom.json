@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spore_blossom",
+        "id": "minecraft:spore_blossom",
         "count": 2
     },
     "group": "bonemeal_plants",

@@ -15,7 +15,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:fire_charge",
+        "id": "minecraft:fire_charge",
         "count": 3
     },
     "category": "equipment",

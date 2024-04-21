@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:black_concrete",
+        "id": "minecraft:black_concrete",
         "count": 1
     },
     "group": "concrete_conversion",

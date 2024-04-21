@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "minecraft:yellow_bed",
+        "id": "minecraft:yellow_bed",
         "count": 1
     },
     "group": "bed",

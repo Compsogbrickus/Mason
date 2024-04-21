@@ -687,7 +687,7 @@ def shulker_box(base_block):
                                         "source": "block_entity",
                                     },
                                     {
-                                        "function": "minecraft:copy_nbt",
+                                        "function": "minecraft:copy_custom_data",
                                         "source": "block_entity",
                                         "ops": [
                                             {
@@ -731,13 +731,13 @@ def ltos(base_block):
         "entries": [
             {
                 "type": "minecraft:loot_table",
-                "name": "ltos:data",
+                "value": "ltos:data",
                 "functions": [
                     {
-                        "function": "minecraft:set_nbt",
+                        "function": "minecraft:set_custom_data",
                         "tag": "{block:'" + base_block + "'}",
                     }
-                ],
+                ]
             }
         ],
     }

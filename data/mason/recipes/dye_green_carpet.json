@@ -53,7 +53,7 @@
         ]
     ],
     "result": {
-        "item": "minecraft:green_carpet",
+        "id": "minecraft:green_carpet",
         "count": 1
     },
     "group": "carpet",

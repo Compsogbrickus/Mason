@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:smoker",
+        "id": "minecraft:smoker",
         "count": 1
     },
     "category": "misc",

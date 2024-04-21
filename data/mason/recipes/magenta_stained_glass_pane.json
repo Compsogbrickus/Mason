@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:magenta_stained_glass_pane",
+        "id": "minecraft:magenta_stained_glass_pane",
         "count": 16
     },
     "group": "stained_glass_pane",

@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:snow",
+        "id": "minecraft:snow",
         "count": 6
     },
     "category": "building",

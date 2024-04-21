@@ -492,7 +492,7 @@ copper_ingot_from_smelting_deepslate_copper_ore,smelting_clear,misc,copper_ingot
 iron_bars,crafting_shaped,misc,,,,iron_bars,16,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot,iron_ingot,,,
 end_stone_brick_stairs_from_end_stone_stonecutting,stonecutting,,,,,end_stone_brick_stairs,1,end_stone,,,,,,,,
 polished_blackstone_wall,crafting_shaped,misc,,,,polished_blackstone_wall,6,polished_blackstone,polished_blackstone,polished_blackstone,polished_blackstone,polished_blackstone,polished_blackstone,,,
-turtle_helmet,crafting_shaped,equipment,,,,turtle_helmet,1,scute,scute,scute,scute,,scute,,,
+turtle_helmet,crafting_shaped,equipment,,,,turtle_helmet,1,turtle_scute,turtle_scute,turtle_scute,turtle_scute,,turtle_scute,,,
 polished_andesite,crafting_shaped,building,,,,polished_andesite,4,andesite,andesite,,andesite,andesite,,,,
 netherite_hoe_smithing,smithing_transform,,,,,netherite_hoe,1,netherite_upgrade_smithing_template,diamond_hoe,netherite_ingot,,,,,,
 polished_blackstone_brick_stairs,crafting_shaped,building,,,,polished_blackstone_brick_stairs,4,polished_blackstone_bricks,,,polished_blackstone_bricks,polished_blackstone_bricks,,polished_blackstone_bricks,polished_blackstone_bricks,polished_blackstone_bricks
@@ -607,7 +607,7 @@ acacia_slab,crafting_shaped,building,wooden_slab,,,acacia_slab,6,acacia_planks,a
 weathered_cut_copper_from_weathered_copper_stonecutting,stonecutting,,,,,weathered_cut_copper,4,weathered_copper,,,,,,,,
 blast_furnace,crafting_shaped,misc,,,,blast_furnace,1,iron_ingot,iron_ingot,iron_ingot,iron_ingot,furnace,iron_ingot,smooth_stone,smooth_stone,smooth_stone
 stone_hoe,crafting_shaped,equipment,,,,stone_hoe,1,#stone_tool_materials,#stone_tool_materials,,,stick,,,stick,
-bamboo_fence,crafting_shaped,misc,wooden_custom_fence,,,bamboo_fence,3,bamboo_planks,stick,bamboo_planks,bamboo_planks,stick,bamboo_planks,,,
+bamboo_fence,crafting_shaped,misc,wooden_fence,,,bamboo_fence,3,bamboo_planks,stick,bamboo_planks,bamboo_planks,stick,bamboo_planks,,,
 wooden_pickaxe,crafting_shaped,equipment,,,,wooden_pickaxe,1,#planks,#planks,#planks,,stick,,,stick,
 cut_copper_from_copper_block_stonecutting,stonecutting,,,,,cut_copper,4,copper_block,,,,,,,,
 cobblestone_wall_from_cobblestone_stonecutting,stonecutting,,,,,cobblestone_wall,1,cobblestone,,,,,,,,
@@ -625,7 +625,7 @@ mangrove_fence,crafting_shaped,misc,wooden_fence,,,mangrove_fence,3,mangrove_pla
 decorated_pot_simple,crafting_shaped,misc,,,,decorated_pot,1,,brick,,brick,,brick,,brick,
 golden_pickaxe,crafting_shaped,equipment,,,,golden_pickaxe,1,gold_ingot,gold_ingot,gold_ingot,,stick,,,stick,
 golden_helmet,crafting_shaped,equipment,,,,golden_helmet,1,gold_ingot,gold_ingot,gold_ingot,gold_ingot,,gold_ingot,,,
-bamboo_fence_gate,crafting_shaped,redstone,wooden_custom_fence_gate,,,bamboo_fence_gate,1,stick,bamboo_planks,stick,stick,bamboo_planks,stick,,,
+bamboo_fence_gate,crafting_shaped,redstone,wooden_fence_gate,,,bamboo_fence_gate,1,stick,bamboo_planks,stick,stick,bamboo_planks,stick,,,
 bamboo_mosaic_slab,crafting_shaped,building,,,,bamboo_mosaic_slab,6,bamboo_mosaic,bamboo_mosaic,bamboo_mosaic,,,,,,
 cherry_trapdoor,crafting_shaped,redstone,wooden_trapdoor,,,cherry_trapdoor,2,cherry_planks,cherry_planks,cherry_planks,cherry_planks,cherry_planks,cherry_planks,,,
 lightning_rod,crafting_shaped,redstone,,,,lightning_rod,1,copper_ingot,,,copper_ingot,,,copper_ingot,,
@@ -1014,6 +1014,7 @@ rib_armor_trim_smithing_template_smithing_trim,smithing_trim,,,,,,1,rib_armor_tr
 cut_red_sandstone_slab,crafting_shaped,building,,,,cut_red_sandstone_slab,6,cut_red_sandstone,cut_red_sandstone,cut_red_sandstone,,,,,,
 light_blue_stained_glass_pane_from_glass_pane,crafting_shaped,misc,stained_glass_pane,,,light_blue_stained_glass_pane,8,glass_pane,glass_pane,glass_pane,glass_pane,light_blue_dye,glass_pane,glass_pane,glass_pane,glass_pane
 rail,crafting_shaped,misc,,,,rail,16,iron_ingot,,iron_ingot,iron_ingot,stick,iron_ingot,iron_ingot,,iron_ingot
+wolf_armor,crafting_shaped,equipment,,,,wolf_armor,1,armadillo_scute,,,armadillo_scute,armadillo_scute,armadillo_scute,armadillo_scute,,armadillo_scute
 diamond_from_blasting_diamond_ore,blasting_clear,misc,diamond,1.0,100,diamond,1,diamond_ore,,,,,,,,
 stripped_jungle_wood,crafting_shaped,building,bark,,,stripped_jungle_wood,3,stripped_jungle_log,stripped_jungle_log,,stripped_jungle_log,stripped_jungle_log,,,,
 flower_banner_pattern,crafting_shapeless,misc,,,,flower_banner_pattern,1,paper,oxeye_daisy,,,,,,,

@@ -38,7 +38,7 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
     cooking_time = ""
 
     if station == "crafting_shaped":
-        output_item = recipe_utils.get_item(current_recipe["result"])
+        output_item = current_recipe["result"]["id"].split(":")[1]
         output_count = current_recipe["result"].get("count", 1)
 
         inputs = []
@@ -62,28 +62,28 @@ def recipe_to_csv(csv_writer, recipe_name, loaded_recipe):
             elif len(inputs[slot]) == 1:
                 print("Key mismatch found in recipe with name " + recipe_name)
     elif station == "crafting_shapeless":
-        output_item = recipe_utils.get_item(current_recipe["result"])
+        output_item = current_recipe["result"]["id"].split(":")[1]
         output_count = current_recipe["result"].get("count", 1)
         inputs = []
 
         for ingredient in range(len(current_recipe["ingredients"])):
             inputs.append(recipe_utils.get_ingredient(current_recipe["ingredients"][ingredient]))
     elif station == "stonecutting":
-        output_item = current_recipe["result"].split(":")[1]
-        output_count = current_recipe["count"]
+        output_item = current_recipe["result"]["id"].split(":")[1]
+        output_count = current_recipe["result"].get("count", 1)
         inputs = [recipe_utils.get_ingredient(current_recipe["ingredient"])]
     elif station == "smithing_trim":
         output_item = ""
         output_count = 1
         inputs = [recipe_utils.get_item(current_recipe["template"]), recipe_utils.get_item(current_recipe["base"]), recipe_utils.get_item(current_recipe["addition"])]
     elif station == "smithing_transform":
-        output_item = recipe_utils.get_item(current_recipe["result"])
+        output_item = current_recipe["result"]["id"].split(":")[1]
         output_count = current_recipe["result"].get("count", 1)
         inputs = [recipe_utils.get_item(current_recipe["template"]), recipe_utils.get_item(current_recipe["base"]), recipe_utils.get_item(current_recipe["addition"])]
     elif (station == "campfire_cooking") or (station == "smoking") or (station == "blasting") or (station == "blasting_clear") or (station == "smelting") or (station == "smelting_clear"):
         experience = current_recipe.get("experience", "")
         cooking_time = current_recipe.get("cookingtime", "")
-        output_item = current_recipe["result"].split(":")[1]
+        output_item = current_recipe["result"]["id"].split(":")[1]
         output_count = 1
         inputs = [recipe_utils.get_ingredient(current_recipe["ingredient"])]
     else:

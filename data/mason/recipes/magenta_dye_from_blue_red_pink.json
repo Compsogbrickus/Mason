@@ -12,7 +12,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:magenta_dye",
+        "id": "minecraft:magenta_dye",
         "count": 3
     },
     "group": "magenta_dye",

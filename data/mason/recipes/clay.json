@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:clay",
+        "id": "minecraft:clay",
         "count": 1
     },
     "category": "building",

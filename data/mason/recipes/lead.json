@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:lead",
+        "id": "minecraft:lead",
         "count": 2
     },
     "category": "equipment",

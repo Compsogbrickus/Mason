@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:andesite",
+        "id": "minecraft:andesite",
         "count": 2
     },
     "category": "building",

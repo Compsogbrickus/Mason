@@ -1,9 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": {
         "item": "minecraft:crimson_planks"
     },
-    "result": "minecraft:crimson_hanging_sign",
+    "result": {
+        "id": "minecraft:crimson_hanging_sign",
+        "count": 1
+    },
     "show_notification": false
 }

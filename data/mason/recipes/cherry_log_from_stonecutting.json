@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:cherry_wood"
@@ -12,6 +11,9 @@
             "item": "minecraft:stripped_cherry_wood"
         }
     ],
-    "result": "minecraft:cherry_log",
+    "result": {
+        "id": "minecraft:cherry_log",
+        "count": 1
+    },
     "show_notification": false
 }

@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:mangrove_pressure_plate",
+        "id": "minecraft:mangrove_pressure_plate",
         "count": 1
     },
     "group": "wooden_pressure_plate",

@@ -1,9 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 3,
     "ingredient": {
         "item": "minecraft:iron_ingot"
     },
-    "result": "minecraft:iron_bars",
+    "result": {
+        "id": "minecraft:iron_bars",
+        "count": 3
+    },
     "show_notification": false
 }

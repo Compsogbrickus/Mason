@@ -20,7 +20,7 @@
         }
     },
     "result": {
-        "item": "minecraft:piston",
+        "id": "minecraft:piston",
         "count": 1
     },
     "category": "redstone",

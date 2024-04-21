@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:sea_lantern",
+        "id": "minecraft:sea_lantern",
         "count": 1
     },
     "category": "building",

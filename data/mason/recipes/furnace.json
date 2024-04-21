@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:furnace",
+        "id": "minecraft:furnace",
         "count": 1
     },
     "category": "misc",

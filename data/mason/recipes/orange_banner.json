@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:orange_banner",
+        "id": "minecraft:orange_banner",
         "count": 1
     },
     "group": "banner",

@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:stone_shovel",
+        "id": "minecraft:stone_shovel",
         "count": 1
     },
     "category": "equipment",

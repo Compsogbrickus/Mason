@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:blue_carpet",
+        "id": "minecraft:blue_carpet",
         "count": 8
     },
     "group": "carpet",

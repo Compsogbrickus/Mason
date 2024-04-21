@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:quartz_block"
@@ -9,6 +8,9 @@
             "item": "minecraft:smooth_quartz"
         }
     ],
-    "result": "minecraft:smooth_quartz_slab",
+    "result": {
+        "id": "minecraft:smooth_quartz_slab",
+        "count": 1
+    },
     "show_notification": false
 }

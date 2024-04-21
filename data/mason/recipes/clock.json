@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:clock",
+        "id": "minecraft:clock",
         "count": 1
     },
     "category": "equipment",

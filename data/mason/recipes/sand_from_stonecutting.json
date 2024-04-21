@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:chiseled_sandstone"
@@ -33,6 +32,9 @@
             "item": "minecraft:smooth_sandstone_stairs"
         }
     ],
-    "result": "minecraft:sand",
+    "result": {
+        "id": "minecraft:sand",
+        "count": 1
+    },
     "show_notification": false
 }

@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:white_dye",
+        "id": "minecraft:white_dye",
         "count": 1
     },
     "group": "white_dye",

@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dark_oak_chest_boat",
+        "id": "minecraft:dark_oak_chest_boat",
         "count": 1
     },
     "group": "chest_boat",

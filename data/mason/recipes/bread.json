@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:bread",
+        "id": "minecraft:bread",
         "count": 1
     },
     "category": "misc",

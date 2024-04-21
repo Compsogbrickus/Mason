@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:emerald",
+        "id": "minecraft:emerald",
         "count": 9
     },
     "category": "misc",

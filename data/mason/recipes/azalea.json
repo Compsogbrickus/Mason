@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:azalea",
+        "id": "minecraft:azalea",
         "count": 2
     },
     "group": "bonemeal_plants",

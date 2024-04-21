@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:redstone",
+        "id": "minecraft:redstone",
         "count": 9
     },
     "category": "redstone",

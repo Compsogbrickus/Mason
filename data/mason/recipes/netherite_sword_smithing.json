@@ -10,7 +10,7 @@
         "item": "minecraft:netherite_ingot"
     },
     "result": {
-        "item": "minecraft:netherite_sword",
+        "id": "minecraft:netherite_sword",
         "count": 1
     },
     "show_notification": false

@@ -276,6 +276,7 @@ recipe give @s mason:white_stained_glass_pane
 recipe give @s mason:white_stained_glass_pane_from_glass_pane
 recipe give @s mason:white_terracotta
 recipe give @s mason:wild_armor_trim_smithing_template
+recipe give @s mason:wolf_armor
 recipe give @s mason:wooden_axe
 recipe give @s mason:wooden_hoe
 recipe give @s mason:wooden_pickaxe

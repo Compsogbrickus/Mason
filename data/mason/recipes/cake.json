@@ -20,7 +20,7 @@
         }
     },
     "result": {
-        "item": "minecraft:cake",
+        "id": "minecraft:cake",
         "count": 1
     },
     "category": "misc",

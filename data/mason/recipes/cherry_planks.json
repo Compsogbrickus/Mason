@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cherry_planks",
+        "id": "minecraft:cherry_planks",
         "count": 4
     },
     "group": "planks",

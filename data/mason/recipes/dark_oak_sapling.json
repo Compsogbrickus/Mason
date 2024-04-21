@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dark_oak_sapling",
+        "id": "minecraft:dark_oak_sapling",
         "count": 2
     },
     "group": "bonemeal_plants",

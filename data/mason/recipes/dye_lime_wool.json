@@ -53,7 +53,7 @@
         ]
     ],
     "result": {
-        "item": "minecraft:lime_wool",
+        "id": "minecraft:lime_wool",
         "count": 1
     },
     "group": "wool",

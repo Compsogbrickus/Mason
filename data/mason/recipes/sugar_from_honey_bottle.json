@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sugar",
+        "id": "minecraft:sugar",
         "count": 3
     },
     "group": "sugar",

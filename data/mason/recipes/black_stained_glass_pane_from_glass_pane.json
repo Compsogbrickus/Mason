@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:black_stained_glass_pane",
+        "id": "minecraft:black_stained_glass_pane",
         "count": 8
     },
     "group": "stained_glass_pane",

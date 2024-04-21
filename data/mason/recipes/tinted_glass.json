@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:tinted_glass",
+        "id": "minecraft:tinted_glass",
         "count": 2
     },
     "category": "building",

@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:iron_ingot",
+        "id": "minecraft:iron_ingot",
         "count": 9
     },
     "group": "iron_ingot",

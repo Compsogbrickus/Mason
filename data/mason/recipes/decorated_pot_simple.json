@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:decorated_pot",
+        "id": "minecraft:decorated_pot",
         "count": 1
     },
     "category": "misc",

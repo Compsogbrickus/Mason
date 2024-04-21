@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:moss_carpet",
+        "id": "minecraft:moss_carpet",
         "count": 8
     },
     "group": "carpet",

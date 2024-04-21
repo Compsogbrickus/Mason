@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:waxed_oxidized_copper",
+        "id": "minecraft:waxed_oxidized_copper",
         "count": 1
     },
     "group": "waxed_oxidized_copper",

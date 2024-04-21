@@ -53,7 +53,7 @@
         ]
     ],
     "result": {
-        "item": "minecraft:lime_bed",
+        "id": "minecraft:lime_bed",
         "count": 1
     },
     "group": "bed",

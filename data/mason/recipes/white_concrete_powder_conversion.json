@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:white_concrete_powder",
+        "id": "minecraft:white_concrete_powder",
         "count": 1
     },
     "group": "concrete_powder_conversion",

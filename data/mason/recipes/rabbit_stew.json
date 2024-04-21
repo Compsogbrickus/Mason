@@ -23,7 +23,7 @@
         ]
     ],
     "result": {
-        "item": "minecraft:rabbit_stew",
+        "id": "minecraft:rabbit_stew",
         "count": 1
     },
     "group": "rabbit_stew",

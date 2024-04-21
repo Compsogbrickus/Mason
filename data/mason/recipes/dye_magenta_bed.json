@@ -53,7 +53,7 @@
         ]
     ],
     "result": {
-        "item": "minecraft:magenta_bed",
+        "id": "minecraft:magenta_bed",
         "count": 1
     },
     "group": "bed",

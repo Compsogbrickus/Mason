@@ -344,7 +344,7 @@ tide_armor_trim_smithing_template,crafting_shaped,misc,,,,tide_armor_trim_smithi
 tnt,crafting_shaped,redstone,,,,tnt,1,gunpowder,red_sand;sand,gunpowder,red_sand;sand,gunpowder,red_sand;sand,gunpowder,red_sand;sand,gunpowder
 torch,crafting_shaped,building,,,,torch,4,charcoal;coal,,,stick,,,,,
 tripwire_hook,crafting_shaped,redstone,,,,tripwire_hook,2,iron_ingot,,,stick,,,#planks,,
-turtle_helmet,crafting_shaped,equipment,,,,turtle_helmet,1,scute,scute,scute,scute,,scute,,,
+turtle_helmet,crafting_shaped,equipment,,,,turtle_helmet,1,turtle_scute,turtle_scute,turtle_scute,turtle_scute,,turtle_scute,,,
 vex_armor_trim_smithing_template,crafting_shaped,misc,,,,vex_armor_trim_smithing_template,2,diamond,vex_armor_trim_smithing_template,diamond,diamond,cobblestone,diamond,diamond,diamond,diamond
 ward_armor_trim_smithing_template,crafting_shaped,misc,,,,ward_armor_trim_smithing_template,2,diamond,ward_armor_trim_smithing_template,diamond,diamond,cobbled_deepslate,diamond,diamond,diamond,diamond
 warped_fungus_on_a_stick,crafting_shaped,equipment,,,,warped_fungus_on_a_stick,1,fishing_rod,,,,warped_fungus,,,,
@@ -359,6 +359,7 @@ white_stained_glass_pane_from_glass_pane,crafting_shaped,building,stained_glass_
 white_terracotta,crafting_shaped,building,stained_terracotta,,,white_terracotta,8,terracotta,terracotta,terracotta,terracotta,white_dye,terracotta,terracotta,terracotta,terracotta
 white_wool_from_string,crafting_shaped,building,,,,white_wool,1,string,string,,string,string,,,,
 wild_armor_trim_smithing_template,crafting_shaped,misc,,,,wild_armor_trim_smithing_template,2,diamond,wild_armor_trim_smithing_template,diamond,diamond,mossy_cobblestone,diamond,diamond,diamond,diamond
+wolf_armor,crafting_shaped,equipment,,,,wolf_armor,1,armadillo_scute,,,armadillo_scute,armadillo_scute,armadillo_scute,armadillo_scute,,armadillo_scute
 wooden_axe,crafting_shaped,equipment,,,,wooden_axe,1,#planks,#planks,,#planks,stick,,,stick,
 wooden_hoe,crafting_shaped,equipment,,,,wooden_hoe,1,#planks,#planks,,,stick,,,stick,
 wooden_pickaxe,crafting_shaped,equipment,,,,wooden_pickaxe,1,#planks,#planks,#planks,,stick,,,stick,

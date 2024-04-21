@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:wheat_seeds",
+        "id": "minecraft:wheat_seeds",
         "count": 1
     },
     "group": "seeds",

@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dark_oak_planks",
+        "id": "minecraft:dark_oak_planks",
         "count": 4
     },
     "group": "planks",

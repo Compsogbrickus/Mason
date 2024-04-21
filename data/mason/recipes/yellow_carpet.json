@@ -9,7 +9,7 @@
         }
     },
     "result": {
-        "item": "minecraft:yellow_carpet",
+        "id": "minecraft:yellow_carpet",
         "count": 8
     },
     "group": "carpet",

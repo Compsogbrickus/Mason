@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:scaffolding",
+        "id": "minecraft:scaffolding",
         "count": 6
     },
     "category": "misc",

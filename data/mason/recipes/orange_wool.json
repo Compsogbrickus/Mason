@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:orange_wool",
+        "id": "minecraft:orange_wool",
         "count": 1
     },
     "group": "wool",

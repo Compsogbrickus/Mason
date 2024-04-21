@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:red_candle",
+        "id": "minecraft:red_candle",
         "count": 1
     },
     "group": "dyed_candle",

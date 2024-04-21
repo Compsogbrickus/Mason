@@ -12,7 +12,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:writable_book",
+        "id": "minecraft:writable_book",
         "count": 1
     },
     "category": "equipment",

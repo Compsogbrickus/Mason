@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:shield",
+        "id": "minecraft:shield",
         "count": 1
     },
     "category": "equipment",

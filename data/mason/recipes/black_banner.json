@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:black_banner",
+        "id": "minecraft:black_banner",
         "count": 1
     },
     "group": "banner",

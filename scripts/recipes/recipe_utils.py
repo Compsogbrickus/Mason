@@ -41,8 +41,8 @@ def expand_item(item):
             item = str(item).split(";")
             item = expand_item(list(filter(lambda x: x != "", sorted(set(item)))))
         else:
-            if re.search("^\#", item):
-                return ({"tag": "minecraft:" + re.sub("^\#", "", item)})
+            if re.search("^#", item):
+                return ({"tag": "minecraft:" + re.sub("^#", "", item)})
             else:
                 return ({"item": "minecraft:" + item})
 
@@ -119,8 +119,8 @@ def crafting_shaped(output_item, output_count, input_items):
         "pattern": pattern_rows,
         "key": key_dict,
         "result": {
-                "item": "minecraft:" + output_item,
-                "count": output_count
+            "id": "minecraft:" + output_item,
+            "count": output_count
         }
     }
     
@@ -135,7 +135,7 @@ def crafting_shapeless(output_item, output_count, input_items):
         "type": "minecraft:crafting_shapeless",
         "ingredients": list(expand_item(input_items)),
         "result": {
-            "item": "minecraft:" + output_item,
+            "id": "minecraft:" + output_item,
             "count": output_count
         }
     }
@@ -147,9 +147,11 @@ def stonecutting(output_item, output_count, input_item):
 
     structure = {
         "type": "minecraft:stonecutting",
-        "count": output_count,
         "ingredient": expand_item(input_item),
-        "result": "minecraft:" + output_item
+        "result": {
+            "id": "minecraft:" + output_item,
+            "count": output_count
+        }
     }
 
     return (structure)
@@ -163,7 +165,7 @@ def smithing_transform(result, result_count, items):
         "base": expand_item(items[1]),
         "addition": expand_item(items[2]),
         "result": {
-            "item": "minecraft:" + result,
+            "id": "minecraft:" + result,
             "count": result_count
         }
     }
@@ -188,7 +190,9 @@ def cooking(station, experience, cooking_time, output_item, input_items):
     structure = {
         "type": "minecraft:" + station,
         "ingredient": expand_item(input_items),
-        "result": "minecraft:" + output_item,
+        "result": {
+            "id": "minecraft:" + output_item
+        },
         "experience": experience,
         "cookingtime": cooking_time
     }

@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:gold_block",
+        "id": "minecraft:gold_block",
         "count": 1
     },
     "category": "building",

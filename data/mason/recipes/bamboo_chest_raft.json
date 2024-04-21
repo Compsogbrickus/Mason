@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bamboo_chest_raft",
+        "id": "minecraft:bamboo_chest_raft",
         "count": 1
     },
     "group": "chest_boat",

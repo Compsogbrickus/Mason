@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:netherite_block",
+        "id": "minecraft:netherite_block",
         "count": 1
     },
     "category": "building",

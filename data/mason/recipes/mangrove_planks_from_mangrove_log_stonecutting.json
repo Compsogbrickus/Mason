@@ -1,9 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 4,
     "ingredient": {
         "item": "minecraft:mangrove_log"
     },
-    "result": "minecraft:mangrove_planks",
+    "result": {
+        "id": "minecraft:mangrove_planks",
+        "count": 4
+    },
     "show_notification": false
 }

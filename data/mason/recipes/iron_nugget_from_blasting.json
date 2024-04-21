@@ -44,7 +44,9 @@
             "item": "minecraft:iron_sword"
         }
     ],
-    "result": "minecraft:iron_nugget",
+    "result": {
+        "id": "minecraft:iron_nugget"
+    },
     "experience": 0.1,
     "cookingtime": 100.0,
     "category": "misc",

@@ -1,9 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": {
         "item": "minecraft:prismarine"
     },
-    "result": "minecraft:dark_prismarine",
+    "result": {
+        "id": "minecraft:dark_prismarine",
+        "count": 1
+    },
     "show_notification": false
 }

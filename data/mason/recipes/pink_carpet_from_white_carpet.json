@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:pink_carpet",
+        "id": "minecraft:pink_carpet",
         "count": 8
     },
     "group": "carpet",

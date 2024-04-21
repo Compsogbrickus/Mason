@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:brown_terracotta",
+        "id": "minecraft:brown_terracotta",
         "count": 8
     },
     "group": "stained_terracotta",

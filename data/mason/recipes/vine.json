@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:vine",
+        "id": "minecraft:vine",
         "count": 2
     },
     "group": "bonemeal_plants",

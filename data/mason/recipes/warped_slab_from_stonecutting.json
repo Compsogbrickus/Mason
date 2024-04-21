@@ -1,9 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": {
         "item": "minecraft:warped_planks"
     },
-    "result": "minecraft:warped_slab",
+    "result": {
+        "id": "minecraft:warped_slab",
+        "count": 1
+    },
     "show_notification": false
 }

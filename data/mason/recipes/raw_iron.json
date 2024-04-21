@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:raw_iron",
+        "id": "minecraft:raw_iron",
         "count": 9
     },
     "category": "misc",

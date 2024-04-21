@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:blackstone_slab"
@@ -48,6 +47,9 @@
             "item": "minecraft:polished_blackstone_wall"
         }
     ],
-    "result": "minecraft:blackstone",
+    "result": {
+        "id": "minecraft:blackstone",
+        "count": 1
+    },
     "show_notification": false
 }

@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:spyglass",
+        "id": "minecraft:spyglass",
         "count": 1
     },
     "category": "equipment",

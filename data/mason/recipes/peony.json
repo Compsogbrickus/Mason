@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:peony",
+        "id": "minecraft:peony",
         "count": 2
     },
     "group": "bonemeal_plants",

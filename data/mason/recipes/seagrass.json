@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:seagrass",
+        "id": "minecraft:seagrass",
         "count": 2
     },
     "group": "bonemeal_plants",

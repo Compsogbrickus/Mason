@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "minecraft:diorite",
+        "id": "minecraft:diorite",
         "count": 2
     },
     "category": "building",

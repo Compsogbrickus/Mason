@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:magenta_concrete",
+        "id": "minecraft:magenta_concrete",
         "count": 1
     },
     "group": "concrete_conversion",

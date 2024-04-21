@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "minecraft:sticky_piston",
+        "id": "minecraft:sticky_piston",
         "count": 1
     },
     "category": "redstone",

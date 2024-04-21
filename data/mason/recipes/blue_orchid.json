@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:blue_orchid",
+        "id": "minecraft:blue_orchid",
         "count": 2
     },
     "group": "bonemeal_plants",

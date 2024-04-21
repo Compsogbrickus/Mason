@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:jungle_button"
@@ -33,6 +32,9 @@
             "item": "minecraft:jungle_trapdoor"
         }
     ],
-    "result": "minecraft:jungle_planks",
+    "result": {
+        "id": "minecraft:jungle_planks",
+        "count": 1
+    },
     "show_notification": false
 }

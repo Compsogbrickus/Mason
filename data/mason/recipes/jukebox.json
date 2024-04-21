@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:jukebox",
+        "id": "minecraft:jukebox",
         "count": 1
     },
     "category": "misc",

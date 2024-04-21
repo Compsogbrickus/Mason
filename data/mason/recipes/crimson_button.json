@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_button",
+        "id": "minecraft:crimson_button",
         "count": 1
     },
     "group": "wooden_button",

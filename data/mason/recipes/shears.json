@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:shears",
+        "id": "minecraft:shears",
         "count": 1
     },
     "category": "equipment",

@@ -10,7 +10,7 @@
         "item": "minecraft:netherite_ingot"
     },
     "result": {
-        "item": "minecraft:netherite_pickaxe",
+        "id": "minecraft:netherite_pickaxe",
         "count": 1
     },
     "show_notification": false

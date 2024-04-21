@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_roots",
+        "id": "minecraft:mangrove_roots",
         "count": 2
     },
     "group": "bonemeal_plants",

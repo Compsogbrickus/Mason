@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:nether_sprouts",
+        "id": "minecraft:nether_sprouts",
         "count": 2
     },
     "group": "bonemeal_plants",

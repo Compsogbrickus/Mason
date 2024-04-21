@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:lodestone",
+        "id": "minecraft:lodestone",
         "count": 1
     },
     "category": "misc",

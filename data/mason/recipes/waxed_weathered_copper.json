@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:waxed_weathered_copper",
+        "id": "minecraft:waxed_weathered_copper",
         "count": 1
     },
     "group": "waxed_weathered_copper",

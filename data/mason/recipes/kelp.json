@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:kelp",
+        "id": "minecraft:kelp",
         "count": 2
     },
     "group": "bonemeal_plants",

@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:emerald_block",
+        "id": "minecraft:emerald_block",
         "count": 1
     },
     "category": "building",

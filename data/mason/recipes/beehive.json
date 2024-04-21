@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:beehive",
+        "id": "minecraft:beehive",
         "count": 1
     },
     "category": "misc",

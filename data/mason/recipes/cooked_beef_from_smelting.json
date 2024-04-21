@@ -3,7 +3,9 @@
     "ingredient": {
         "item": "minecraft:beef"
     },
-    "result": "minecraft:cooked_beef",
+    "result": {
+        "id": "minecraft:cooked_beef"
+    },
     "experience": 0.35,
     "cookingtime": 200.0,
     "category": "food",

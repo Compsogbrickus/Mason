@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_fungus",
+        "id": "minecraft:crimson_fungus",
         "count": 2
     },
     "group": "bonemeal_plants",

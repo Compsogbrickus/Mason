@@ -20,7 +20,7 @@
         }
     },
     "result": {
-        "item": "minecraft:crossbow",
+        "id": "minecraft:crossbow",
         "count": 1
     },
     "category": "equipment",

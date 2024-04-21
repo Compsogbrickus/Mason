@@ -1,9 +1,11 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": {
         "item": "minecraft:prismarine"
     },
-    "result": "minecraft:prismarine_slab",
+    "result": {
+        "id": "minecraft:prismarine_slab",
+        "count": 1
+    },
     "show_notification": false
 }

@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:golden_apple",
+        "id": "minecraft:golden_apple",
         "count": 1
     },
     "category": "misc",

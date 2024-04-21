@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_propagule",
+        "id": "minecraft:mangrove_propagule",
         "count": 2
     },
     "group": "bonemeal_plants",

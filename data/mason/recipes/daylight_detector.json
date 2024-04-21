@@ -17,7 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:daylight_detector",
+        "id": "minecraft:daylight_detector",
         "count": 1
     },
     "category": "redstone",

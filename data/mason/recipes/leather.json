@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:leather",
+        "id": "minecraft:leather",
         "count": 1
     },
     "category": "misc",

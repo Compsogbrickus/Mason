@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:granite",
+        "id": "minecraft:granite",
         "count": 1
     },
     "category": "building",

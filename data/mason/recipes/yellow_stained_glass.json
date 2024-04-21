@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:yellow_stained_glass",
+        "id": "minecraft:yellow_stained_glass",
         "count": 8
     },
     "group": "stained_glass",

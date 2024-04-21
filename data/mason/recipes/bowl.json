@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:bowl",
+        "id": "minecraft:bowl",
         "count": 4
     },
     "category": "equipment",

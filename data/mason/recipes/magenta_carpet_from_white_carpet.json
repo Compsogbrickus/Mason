@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:magenta_carpet",
+        "id": "minecraft:magenta_carpet",
         "count": 8
     },
     "group": "carpet",

@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bamboo_planks",
+        "id": "minecraft:bamboo_planks",
         "count": 4
     },
     "group": "planks",

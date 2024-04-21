@@ -30,7 +30,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:pink_concrete_powder",
+        "id": "minecraft:pink_concrete_powder",
         "count": 8
     },
     "group": "concrete_powder",

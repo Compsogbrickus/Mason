@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:fishing_rod",
+        "id": "minecraft:fishing_rod",
         "count": 1
     },
     "category": "equipment",

@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sunflower",
+        "id": "minecraft:sunflower",
         "count": 2
     },
     "group": "bonemeal_plants",

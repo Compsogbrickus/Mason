@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:glass_bottle",
+        "id": "minecraft:glass_bottle",
         "count": 3
     },
     "category": "misc",

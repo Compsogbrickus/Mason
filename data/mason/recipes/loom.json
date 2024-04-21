@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "minecraft:loom",
+        "id": "minecraft:loom",
         "count": 1
     },
     "category": "misc",

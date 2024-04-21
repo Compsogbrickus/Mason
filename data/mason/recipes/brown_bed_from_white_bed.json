@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:brown_bed",
+        "id": "minecraft:brown_bed",
         "count": 1
     },
     "group": "dyed_bed",

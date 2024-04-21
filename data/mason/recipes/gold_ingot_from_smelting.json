@@ -14,7 +14,9 @@
             "item": "minecraft:raw_gold"
         }
     ],
-    "result": "minecraft:gold_ingot",
+    "result": {
+        "id": "minecraft:gold_ingot"
+    },
     "experience": 1.0,
     "cookingtime": 200.0,
     "category": "misc",

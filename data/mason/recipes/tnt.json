@@ -19,7 +19,7 @@
         ]
     },
     "result": {
-        "item": "minecraft:tnt",
+        "id": "minecraft:tnt",
         "count": 1
     },
     "category": "redstone",

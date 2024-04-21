@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:azure_bluet",
+        "id": "minecraft:azure_bluet",
         "count": 2
     },
     "group": "bonemeal_plants",

@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:short_grass",
+        "id": "minecraft:short_grass",
         "count": 2
     },
     "group": "bonemeal_plants",

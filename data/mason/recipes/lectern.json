@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:lectern",
+        "id": "minecraft:lectern",
         "count": 1
     },
     "category": "misc",

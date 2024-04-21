@@ -27,7 +27,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:netherite_ingot",
+        "id": "minecraft:netherite_ingot",
         "count": 1
     },
     "group": "netherite_ingot",

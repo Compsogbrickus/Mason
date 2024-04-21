@@ -17,7 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:campfire",
+        "id": "minecraft:campfire",
         "count": 1
     },
     "category": "misc",

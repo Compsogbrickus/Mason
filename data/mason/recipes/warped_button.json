@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_button",
+        "id": "minecraft:warped_button",
         "count": 1
     },
     "group": "wooden_button",

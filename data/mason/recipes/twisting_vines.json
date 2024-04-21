@@ -9,7 +9,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:twisting_vines",
+        "id": "minecraft:twisting_vines",
         "count": 2
     },
     "group": "bonemeal_plants",

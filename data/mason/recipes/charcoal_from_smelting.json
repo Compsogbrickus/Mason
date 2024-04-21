@@ -3,7 +3,9 @@
     "ingredient": {
         "tag": "minecraft:logs_that_burn"
     },
-    "result": "minecraft:charcoal",
+    "result": {
+        "id": "minecraft:charcoal"
+    },
     "experience": 0.15,
     "cookingtime": 200.0,
     "category": "misc",

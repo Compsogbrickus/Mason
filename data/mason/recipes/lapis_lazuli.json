@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lapis_lazuli",
+        "id": "minecraft:lapis_lazuli",
         "count": 9
     },
     "category": "misc",

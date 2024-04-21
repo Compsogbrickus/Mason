@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:stripped_warped_hyphae"
@@ -12,6 +11,9 @@
             "item": "minecraft:warped_hyphae"
         }
     ],
-    "result": "minecraft:warped_stem",
+    "result": {
+        "id": "minecraft:warped_stem",
+        "count": 1
+    },
     "show_notification": false
 }

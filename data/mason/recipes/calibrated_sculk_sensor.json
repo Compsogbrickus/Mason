@@ -13,7 +13,7 @@
         }
     },
     "result": {
-        "item": "minecraft:calibrated_sculk_sensor",
+        "id": "minecraft:calibrated_sculk_sensor",
         "count": 1
     },
     "category": "redstone",

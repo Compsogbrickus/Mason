@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "minecraft:compass",
+        "id": "minecraft:compass",
         "count": 1
     },
     "category": "equipment",

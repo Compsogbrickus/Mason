@@ -1,6 +1,5 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 1,
     "ingredient": [
         {
             "item": "minecraft:dark_oak_button"
@@ -33,6 +32,9 @@
             "item": "minecraft:dark_oak_trapdoor"
         }
     ],
-    "result": "minecraft:dark_oak_planks",
+    "result": {
+        "id": "minecraft:dark_oak_planks",
+        "count": 1
+    },
     "show_notification": false
 }

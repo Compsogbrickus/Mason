@@ -673,47 +673,28 @@ def shulker_box(base_block):
                                     {
                                         "condition": "minecraft:match_tool",
                                         "predicate": {
-                                            "items": ["minecraft:air"],
-                                            "nbt": "{drop_contents:1b}",
+                                            "predicates": {
+                                                "minecraft:custom_data": "{drop_contents:1b}"
+                                            },
                                         },
                                     }
                                 ],
                             },
                             {
                                 "type": "minecraft:item",
+                                "name": "minecraft:" + base_block,
                                 "functions": [
                                     {
-                                        "function": "minecraft:copy_name",
+                                        "function": "minecraft:copy_components",
                                         "source": "block_entity",
-                                    },
-                                    {
-                                        "function": "minecraft:copy_custom_data",
-                                        "source": "block_entity",
-                                        "ops": [
-                                            {
-                                                "source": "Lock",
-                                                "target": "BlockEntityTag.Lock",
-                                                "op": "replace",
-                                            },
-                                            {
-                                                "source": "LootTable",
-                                                "target": "BlockEntityTag.LootTable",
-                                                "op": "replace",
-                                            },
-                                            {
-                                                "source": "LootTableSeed",
-                                                "target": "BlockEntityTag.LootTableSeed",
-                                                "op": "replace",
-                                            },
-                                            {
-                                                "source": "Items",
-                                                "target": "BlockEntityTag.Items",
-                                                "op": "replace",
-                                            },
+                                        "include": [
+                                            "minecraft:custom_name",
+                                            "minecraft:lock",
+                                            "minecraft:container",
+                                            "minecraft:container_loot",
                                         ],
-                                    },
+                                    }
                                 ],
-                                "name": "minecraft:" + base_block,
                             },
                         ],
                     }
@@ -737,7 +718,7 @@ def ltos(base_block):
                         "function": "minecraft:set_custom_data",
                         "tag": "{block:'" + base_block + "'}",
                     }
-                ]
+                ],
             }
         ],
     }

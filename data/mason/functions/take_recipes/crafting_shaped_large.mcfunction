@@ -411,6 +411,7 @@ recipe take @s minecraft:waxed_cut_copper_stairs
 recipe take @s minecraft:cut_red_sandstone_slab
 recipe take @s minecraft:light_blue_stained_glass_pane_from_glass_pane
 recipe take @s minecraft:rail
+recipe take @s minecraft:wolf_armor
 recipe take @s minecraft:diamond_boots
 recipe take @s minecraft:warped_stairs
 recipe take @s minecraft:mud_brick_slab
